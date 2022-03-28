@@ -1,0 +1,13 @@
+.yoursinarm{
+	padding:36px;
+	width:1140px;
+	.align{
+		display: grid;
+		grid-template-columns:repeat(4, 1fr);
+		column-gap: 10px;
+		row-gap: 15px;
+		img{
+			width:250px;
+		}
+	}
+}
