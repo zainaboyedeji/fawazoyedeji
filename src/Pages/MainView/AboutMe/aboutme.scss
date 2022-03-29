@@ -1,0 +1,41 @@
+.aboutme {
+  margin-left: 70px;
+  padding: 40px;
+  width: 1140px;
+  .first {
+    .avatar {
+      width: 33%;
+      padding-left: 18px;
+      padding-right: 18px;
+      text-align: center;
+      margin: 0 auto;
+      img {
+        width: 316px;
+        height: 316px;
+      }
+    }
+  }
+  .grants {
+    margin-top: 10rem;
+    span {
+      padding-bottom: 50px;
+      a {
+		margin-left: 5px;
+        color: #aaaaaa;
+        font-style: normal;
+        font-weight: normal;
+        text-decoration: underline;
+      }
+    }
+  }
+  .next {
+    margin-top: 2rem;
+    a {
+      margin-left: 5px;
+      color: #aaaaaa;
+      font-style: normal;
+      font-weight: normal;
+      text-decoration: underline;
+    }
+  }
+}

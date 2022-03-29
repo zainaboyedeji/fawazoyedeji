@@ -1,17 +1,26 @@
-
+import "./contact.scss";
 
 function Contact() {
-	return (
-	  <div >
-	<p>For inquiries regarding availability for commissions,  image licensing, and print purchase, please contact.</p>
+  return (
+    <div className="contact">
+      <div className="line"></div>
+      <div className="arr">
+        <p>
+          For inquiries regarding availability for commissions, image licensing,
+          and print purchase, please contact.
+        </p>
+      </div>
 
-<h5>FAWAZ OYEDEJI.</h5>
-<p>email: fawazoyedeji01@gmail.com</p>
+      <div className="arr">
+        <h1>FAWAZ OYEDEJI.</h1>
+      </div>
+      <div className="arr">
+        <p>email: <a href="mailto:fawazoyedeji01@gmail.com">fawazoyedeji01@gmail.com</a></p>
 
-<p>tel: +234-90-93173219</p>
-	  </div>
-	);
-  }
-  
-  export default Contact;
-  
+        <p>tel: +234-90-93173219</p>
+      </div>
+    </div>
+  );
+}
+
+export default Contact;

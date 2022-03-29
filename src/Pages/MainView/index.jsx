@@ -7,6 +7,7 @@ import About from "./AboutMe";
 import LandingPage from "./LandingPage";
 import Repository from "./Repository";
 import OttoDaily from "./OttoDaily";
+import Footer from "../../Components/Footer";
 import "./mainview.scss";
 
 function MainView() {
@@ -25,6 +26,7 @@ function MainView() {
                      <Route path="/about" element={<About/>} />
                      <Route path="/repository" element={<Repository/>} />
                 </Routes> 
+                <Footer/>
             </div>
         </div>
        </div>

@@ -1,13 +1,25 @@
-.yoursinarm{
-	padding:36px;
-	width:1140px;
-	.align{
-		display: grid;
-		grid-template-columns:repeat(4, 1fr);
-		column-gap: 10px;
-		row-gap: 15px;
-		img{
-			width:250px;
-		}
-	}
+.yoursinarm {
+  margin-left: 70px;
+  padding: 36px;
+  width: 1140px;
+  .first {
+    .diff {
+      line-height: 1.7 !important;
+      font-size: 11px;
+	  color: #777777;
+        i {
+          font-style: italic;
+        };
+    }
+  };
+  .align {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 10px;
+    row-gap: 15px;
+	margin-top: 3rem;
+    img {
+      width: 250px;
+    }
+  }
 }

@@ -1,0 +1,25 @@
+.repository {
+  margin-left: 70px;
+  padding: 36px;
+  width: 1140px;
+  .long-text {
+    a {
+      text-decoration: none;
+      color: white;
+      font-size: 48px !important;
+      &:hover {
+        color: red;
+      }
+    }
+  }
+  p {
+    margin-top: 2rem;
+    color: #777777;
+  }
+  .lineTab {
+    margin-bottom: 60px;
+    border-bottom: 2px solid;
+    margin: 1.5em 0px 2em;
+    color: #777777;
+  }
+}

@@ -15,7 +15,7 @@ import "./awakening.scss";
 function Awakening() {
     return (
         <div className="awakening">
-            <div>
+            <div class="first">
                 <p>
                     After years of experiencing political corruption, human rights violation, and extortion within the SARS [Special Anti Robbery Squad] unit of the police force, young Nigerians are determined to reform the policing system
                     through a series of peaceful nationwide protests until their demands are met.
@@ -41,7 +41,7 @@ function Awakening() {
                     simultaneously expressive and reflective of the political situation.{" "}
                 </p>
 
-                <span>"2020"</span>
+                <p class="diff"><i>"2020"</i></p>
             </div>
 
             <div className="align">
