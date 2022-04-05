@@ -12,9 +12,22 @@ import eight from "../../../image/5repository/ESSAY/008.jpeg";
 import nine from "../../../image/5repository/ESSAY/009.jpeg";
 import ten from "../../../image/5repository/ESSAY/010.jpeg";
 import eleven from "../../../image/5repository/ESSAY/011.jpeg";
+import twelve from "../../../image/5repository/SPOT/001.jpeg";
+import thirteen from "../../../image/5repository/SPOT/002.jpeg";
+import fourteen from "../../../image/5repository/SPOT/003.jpeg";
+import fifteen from "../../../image/5repository/SPOT/004.jpeg";
+import sixteen from "../../../image/5repository/SPOT/005.jpeg";
+import seventeen from "../../../image/5repository/SPOT/006.jpeg";
+import eighteen from "../../../image/5repository/SPOT/007.jpeg";
+import nineteen from "../../../image/5repository/SPOT/008.jpeg";
+import twenty from "../../../image/5repository/SPOT/009.jpeg";
+import twentyone from "../../../image/5repository/SPOT/010.jpeg";
+import twentytwo from "../../../image/5repository/SPOT/011.jpeg";
 
 function Repository() {
-  const [count, setCount] = useState(0);
+  const images = { one, two , three , four , five , six ,seven , eight , nine , ten , eleven, twelve , thirteen , fourteen , fifteen , sixteen, seventeen ,eighteen, nineteen,twenty , twentyone, twentytwo};
+  const [selected, setSelected] = useState(images.one);
+  const [newSelected, setNewSelected] = useState(images.twelve);
   return (
     <div className="repository">
       <div className="first">
@@ -24,20 +37,20 @@ function Repository() {
         <p>July 30,2020</p>
         <div className="second">
           <div className="nuk">
-            <img src={one} alt="one" />
+          <img src={selected} alt='img' />
           </div>
-          <div className="images">
-            <img src={one} alt="one" />
-            <img src={two} alt="two" />
-            <img src={three} alt="three" />
-            <img src={four} alt="four" />
-            <img src={five} alt="five" />
-            <img src={six} alt="six" />
-            <img src={seven} alt="seven" />
-            <img src={eight} alt="eight" />
-            <img src={nine} alt="nine" />
-            <img src={ten} alt="ten" />
-            <img src={eleven} alt="eleven" />
+          <div className="images" role="button">
+            <img src={one} alt="one" onClick={() => setSelected(images.one)}/>
+            <img src={two} alt="two" onClick={() => setSelected(images.two)}/>
+            <img src={three} alt="three" onClick={() => setSelected(images.three)}/>
+            <img src={four} alt="four" onClick={() => setSelected(images.four)}/>
+            <img src={five} alt="five" onClick={() => setSelected(images.five)}/>
+            <img src={six} alt="six" onClick={() => setSelected(images.six)}/>
+            <img src={seven} alt="seven" onClick={() => setSelected(images.seven)}/>
+            <img src={eight} alt="eight" onClick={() => setSelected(images.eight)}/>
+            <img src={nine} alt="nine" onClick={() => setSelected(images.nine)}/>
+            <img src={ten} alt="ten" onClick={() => setSelected(images.ten)}/>
+            <img src={eleven} alt="eleven" onClick={() => setSelected(images.eleven)}/>
           </div>
         </div>
         <div>
@@ -57,11 +70,29 @@ function Repository() {
         </div>
       </div>
       <div className="lineTab"></div>
-      <div>
+      <div className='first'>
         <h1 className="long-text">
           <Link to="/">SPOT : the inferno.</Link>
         </h1>
         <p>February 15,2020</p>
+        <div className="second">
+          <div className="nuk">
+          <img src={newSelected} alt='img' />
+          </div>
+          <div className="images" role="button">
+            <img src={twelve} alt="twelve" onClick={() => setNewSelected(images.twelve)}/>
+            <img src={thirteen} alt="thirteen" onClick={() => setNewSelected(images.thirteen)}/>
+            <img src={fourteen} alt="fourteen" onClick={() => setNewSelected(images.fourteen)}/>
+            <img src={fifteen} alt="fifteen" onClick={() => setNewSelected(images.fifteen)}/>
+            <img src={sixteen} alt="sixteen" onClick={() => setNewSelected(images.sixteen)}/>
+            <img src={seventeen} alt="seventeen" onClick={() => setNewSelected(images.seventeen)}/>
+            <img src={eighteen} alt="eighteen" onClick={() => setNewSelected(images.eighteen)}/>
+            <img src={nineteen} alt="nineteen" onClick={() => setNewSelected(images.nineteen)}/>
+            <img src={twenty} alt="twenty" onClick={() => setNewSelected(images.twenty)}/>
+            <img src={twentyone} alt="twentyone" onClick={() => setNewSelected(images.twentyone)}/>
+            <img src={twentytwo} alt="twentytwo" onClick={() => setNewSelected(images.twentytwo)}/>
+          </div>
+        </div>
         <div>
           <h4>Date: 29/01/2020 - 30/01/2020 </h4>
           <h4>Location: Lagos - Nigeria.</h4>
