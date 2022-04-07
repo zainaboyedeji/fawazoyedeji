@@ -23,6 +23,7 @@ import nineteen from "../../../image/5repository/SPOT/008.jpeg";
 import twenty from "../../../image/5repository/SPOT/009.jpeg";
 import twentyone from "../../../image/5repository/SPOT/010.jpeg";
 import twentytwo from "../../../image/5repository/SPOT/011.jpeg";
+import MobileHead from '../../../Components/MobileHead';
 
 function Repository() {
   const images = { one, two , three , four , five , six ,seven , eight , nine , ten , eleven, twelve , thirteen , fourteen , fifteen , sixteen, seventeen ,eighteen, nineteen,twenty , twentyone, twentytwo};
@@ -30,6 +31,7 @@ function Repository() {
   const [newSelected, setNewSelected] = useState(images.twelve);
   return (
     <div className="repository">
+      <MobileHead/>
       <div className="first">
         <h1 className="long-text">
           <Link to="/">ESSAY : a widespread phase too.</Link>

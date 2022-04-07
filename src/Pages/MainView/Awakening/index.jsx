@@ -10,11 +10,13 @@ import nine from "../../../image/3awakening/FO_The-Awakening_009.jpg";
 import ten from "../../../image/3awakening/FO_The-Awakening_010.jpg";
 import eleven from "../../../image/3awakening/FO_The-Awakening_011.jpg";
 import twelve from "../../../image/3awakening/FO_The-Awakening_012.jpg";
+import MobileHead from "../../../Components/MobileHead";
 import "./awakening.scss";
 
 function Awakening() {
     return (
         <div className="awakening">
+            <MobileHead/>
             <div class="first">
                 <p>
                     After years of experiencing political corruption, human rights violation, and extortion within the SARS [Special Anti Robbery Squad] unit of the police force, young Nigerians are determined to reform the policing system

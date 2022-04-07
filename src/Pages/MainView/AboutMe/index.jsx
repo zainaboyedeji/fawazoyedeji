@@ -1,14 +1,17 @@
 import "./aboutme.scss";
 import fawwaz from "../../../image/6about&contact/fawazoyedeji.png";
+import MobileHead from "../../../Components/MobileHead";
+
 
 function AboutMe() {
   return (
     <div className="aboutme">
+      <MobileHead/>
       <div className="d-flex first">
         <div className="avatar">
           <img src={fawwaz} alt="fawwaz" />
         </div>
-        <div>
+        <div className="next">
           <p>
             Fawaz Oyedeji is a documentary photographer and historian based in
             Lagos, Nigeria

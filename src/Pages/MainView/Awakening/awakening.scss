@@ -1,7 +1,7 @@
 .awakening {
   margin-left: 70px;
   padding: 36px;
-  width: 1140px;
+  width: 100%;
   .diff {
     line-height: 1.7 !important;
     font-size: 11px;
@@ -17,7 +17,15 @@
     row-gap: 15px;
     margin-top: 3rem;
     img {
-      width: 250px;
+      width: 100%;
     }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+	.awakening {
+    margin-left: 0!important;
+    padding: 0!important;
+  
   }
 }

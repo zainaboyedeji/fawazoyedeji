@@ -11,60 +11,13 @@ import nine from "../../../image/1home/009.jpg";
 import ten from "../../../image/1home/010.jpg";
 import eleven from "../../../image/1home/011.jpg";
 import twelve from "../../../image/1home/012.jpg";
-import Box from "@mui/material/Box";
-import Drawer from "@mui/material/Drawer";
-import { Link } from "react-router-dom";
-import Button from "@mui/material/Button";
+import MobileHead from "../../../Components/MobileHead";
 import "./landingpage.scss";
 
 function LandingPage() {
-  const [state, setState] = React.useState({
-    right: false,
-  });
-
-  const toggleDrawer = (anchor, open) => (event) => {
-    if (
-      event.type === "keydown" &&
-      (event.key === "Tab" || event.key === "Shift")
-    ) {
-      return;
-    }
-
-    setState({ ...state, [anchor]: open });
-  };
-
-  const list = (anchor) => (
-    <Box
-      sx={{ width: 250, background: "#242424", height: "100%" }}
-      role="presentation"
-      onClick={toggleDrawer(anchor, false)}
-      onKeyDown={toggleDrawer(anchor, false)}
-    >
-      <div class="textwhite"><Link to="/yours-in-arm">yours in arm</Link></div>
-    </Box>
-  );
-
   return (
     <div className="land">
-      <div className="d-flex min-land">
-        <h1 className="logo long-text">
-          <Link to="/">
-            FAWAZ  OYEDEJI.
-          </Link>
-        </h1>
-        {["right"].map((anchor) => (
-          <React.Fragment key={anchor}>
-            <Button onClick={toggleDrawer(anchor, true)}>{anchor}</Button>
-            <Drawer
-              anchor={anchor}
-              open={state[anchor]}
-              onClose={toggleDrawer(anchor, false)}
-            >
-              {list(anchor)}
-            </Drawer>
-          </React.Fragment>
-        ))}
-      </div>
+      <MobileHead/>
 
       <div className="allImg">
         <img src={one} alt="One" />

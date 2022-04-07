@@ -10,11 +10,13 @@ import nine from "../../../image/4ottodaily/009.jpg";
 import ten from "../../../image/4ottodaily/010.jpg";
 import eleven from "../../../image/4ottodaily/011.jpg";
 import twelve from "../../../image/4ottodaily/012.jpg";
+import MobileHead from "../../../Components/MobileHead";
 import "./ottodaily.scss";
 
 function OttoDaily() {
   return (
     <div className="ottodaily">
+      <MobileHead/>
       <div className="first">
         <p>
           'Otto Daily' explores the complexities around how historical patterns

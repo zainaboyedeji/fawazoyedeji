@@ -14,11 +14,13 @@ import thirteen from "../../../image/2yoursinarms/Fawaz-Oyedeji-Yours-In-Arms-01
 import fourteen from "../../../image/2yoursinarms/Fawaz-Oyedeji-Yours-In-Arms-014.jpg";
 import fifteen from "../../../image/2yoursinarms/Fawaz-Oyedeji-Yours-In-Arms-015.jpg";
 import sixteen from "../../../image/2yoursinarms/Fawaz-Oyedeji-Yours-In-Arms-016.jpg";
+import MobileHead from "../../../Components/MobileHead";
 import "./yoursinarm.scss";
 
 function Yoursinarm() {
   return (
     <div className="yoursinarm">
+      <MobileHead/>
       <div className="first">
         <p>
           'Yours In Arms' highlights how surrounding circumstances have shaped
