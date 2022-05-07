@@ -1,8 +1,10 @@
 import "./contact.scss";
+import MobileHead from "../../../Components/MobileHead";
 
 function Contact() {
   return (
     <div className="contact">
+      <MobileHead/>
       <div className="line"></div>
       <div className="arr">
         <p>
