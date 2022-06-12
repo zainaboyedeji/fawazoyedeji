@@ -1,0 +1,39 @@
+.contact {
+  margin-left: 70px;
+  padding: 36px;
+  width: 100%;
+  .line {
+    margin-bottom: 60px;
+    border-bottom: 2px solid;
+    margin: 1.5em 0px 2em;
+    color: #777777;
+  }
+  .arr {
+    padding-top: 36px;
+    padding-bottom: 36px;
+    p {
+      text-align: center;
+      a {
+        color: #aaaaaa;
+        font-style: normal;
+        font-weight: normal;
+        text-decoration: underline;
+      }
+    }
+  }
+  .arr {
+    padding-top: 36px;
+    padding-bottom: 36px;
+    h1 {
+      text-align: center;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+	.contact {
+    margin-left: 0!important;
+    padding: 0!important;
+  
+  }
+}

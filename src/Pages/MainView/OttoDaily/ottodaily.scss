@@ -1,0 +1,33 @@
+.ottodaily{
+	margin-left: 70px;
+		padding:36px;
+		width:100%;
+	.first{
+		.diff {
+			line-height: 1.7 !important;
+			font-size: 11px;
+			color: #777777;
+			  i {
+				font-style: italic;
+			  };
+		  }
+	}
+	.align{
+		display: grid;
+		grid-template-columns:repeat(4, 1fr);
+		column-gap: 10px;
+		row-gap: 15px;
+		margin-top: 3rem;
+		img{
+			width:100%;
+		}
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.ottodaily {
+    margin-left: 0!important;
+    padding: 0!important;
+  
+  }
+}
