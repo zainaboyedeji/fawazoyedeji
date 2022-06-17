@@ -61,13 +61,13 @@ function MobileNav() {
                         <a href="https://www.instagram.com/fawaz.oyedeji/" target="_blank" rel="noreferrer" title="Instagram">
                             <FaInstagram />
                         </a>
-                        <a href="https://www.instagram.com/fawaz.oyedeji/" target="_blank" rel="noreferrer" title="Twitter">
+                        <a href="https://twitter.com/fawazoyedeji" target="_blank" rel="noreferrer" title="Twitter">
                             <FaTwitter />
                         </a>
-                        <a href="https://www.instagram.com/fawaz.oyedeji/" target="_blank" rel="noreferrer" title="LinkedIn">
+                        <a href="https://www.linkedin.com/in/fawazoyedeji" target="_blank" rel="noreferrer" title="LinkedIn">
                             <FaLinkedin />
                         </a>
-                        <a href="https://www.instagram.com/fawaz.oyedeji/" target="_blank" rel="noreferrer" title="Youtube">
+                        <a href="https://www.youtube.com/channel/UCM_TTJSaVbQlfetUfYvXf_w" target="_blank" rel="noreferrer" title="Youtube">
                             <FaYoutube />
                         </a>
                         <a href="https://www.instagram.com/fawaz.oyedeji/" target="_blank" rel="noreferrer" title="Share">
