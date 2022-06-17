@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Link } from "react-router-dom";
 import "./repository.scss";
 import one from "../../../image/5repository/ESSAY/001.jpeg";
 import two from "../../../image/5repository/ESSAY/002.jpeg";
@@ -34,7 +33,7 @@ function Repository() {
       <MobileHead/>
       <div className="first">
         <h1 className="long-text">
-          <Link to="/">ESSAY : a widespread phase too.</Link>
+         ESSAY : a widespread phase too.
         </h1>
         <p>July 30,2020</p>
         <div className="second">
@@ -74,7 +73,7 @@ function Repository() {
       <div className="lineTab"></div>
       <div className='first'>
         <h1 className="long-text">
-          <Link to="/">SPOT : the inferno.</Link>
+         SPOT : the inferno.
         </h1>
         <p>February 15,2020</p>
         <div className="second">
