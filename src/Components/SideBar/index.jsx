@@ -1,5 +1,5 @@
 import { FaInstagram, FaTwitter, FaLinkedin, FaYoutube, FaShareAlt } from "react-icons/fa";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./sidebar.scss";
 
 function SideBar() {
@@ -7,37 +7,57 @@ function SideBar() {
         <div className="sidebar">
             <div className="sidebar-wrap">
                 <h1 className="logo long-text">
-                    <Link to="/">FAWAZ <br/> OYEDEJI.</Link>
+                    <NavLink to="/" activeClassName="active">
+                        FAWAZ <br /> OYEDEJI.
+                    </NavLink>
                 </h1>
                 <nav>
                     <ul>
                         <li className="category">
-                            <Link to="/">lagos. nigeria</Link>
+                            <NavLink to="/" activeClassName="active">
+                                lagos. nigeria
+                            </NavLink>
                         </li>
 
                         <li className="item">
-                            <Link to="/">home</Link>
+                            <NavLink to="/" activeClassName="active">
+                                home
+                            </NavLink>
                         </li>
                         <li className="item">
-                            <Link to="/yours-in-arm">yours in arm</Link>
+                            <NavLink to="/yours-in-arm" activeClassName="active">
+                                yours in arm
+                            </NavLink>
                         </li>
                         <li className="item">
-                            <Link to="/endsars-awakening">awakening</Link>
+                            <NavLink to="/endsars-awakening" activeClassName="active">
+                                awakening
+                            </NavLink>
                         </li>
                         <li className="item">
-                            <Link to="/otto-daily">otto daily</Link>
+                            <NavLink to="/otto-daily" activeClassName="active">
+                                otto daily
+                            </NavLink>
                         </li>
                         <li className="item">
-                            <Link to="/repository">repository</Link>
+                            <NavLink to="/repository" activeClassName="active">
+                                repository
+                            </NavLink>
                         </li>
                         <li className="item">
-                            <Link to="/">.</Link>
+                            <NavLink to="/" activeClassName="active">
+                                .
+                            </NavLink>
                         </li>
                         <li className="item">
-                            <Link to="/about">about</Link>
+                            <NavLink to="/about" activeClassName="active">
+                                about
+                            </NavLink>
                         </li>
                         <li className="item">
-                            <Link to="/contact">contact</Link>
+                            <NavLink to="/contact" activeClassName="active">
+                                contact
+                            </NavLink>
                         </li>
                     </ul>
 
