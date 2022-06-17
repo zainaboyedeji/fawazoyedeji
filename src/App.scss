@@ -6,4 +6,11 @@ body{
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale!important;
     overflow-x: hidden !important;
+    .css-1e6y48t-MuiButtonBase-root-MuiButton-root{
+        color:white!important;
+        svg{
+            width:2rem;
+            height:2rem;
+        }
+    }
 }
