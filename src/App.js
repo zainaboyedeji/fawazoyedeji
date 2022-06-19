@@ -1,7 +1,7 @@
+import {useEffect} from "react";
 import './App.scss';
 import MainView from './Pages/MainView/index';
 import ReactGA from 'react-ga';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { BrowserRouter } from "react-router-dom";
 
 const TRACKING_ID = "G-TVH8XXJ6F1"; // OUR_TRACKING_ID
