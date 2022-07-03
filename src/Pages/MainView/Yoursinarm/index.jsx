@@ -63,7 +63,7 @@ function Yoursinarm() {
           the truth and fiction of military personnel all over the world.
         </p>
 
-        <p class="diff"><i>"2018-Ongoing"</i></p>
+        <p className="diff"><i>"2018-Ongoing"</i></p>
       </div>
       <div className="align">
         <img src={one} alt="One" />

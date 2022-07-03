@@ -13,29 +13,19 @@ function AboutMe() {
         </div>
         <div className="next">
           <p>
-            Fawaz Oyedeji is a documentary photographer and historian based in
-            Lagos, Nigeria
+          Fawaz Oyedeji is a documentary photographer and historian based in Lagos, Nigeria.
           </p>
 
           <p>
-            With a prior diploma in Mass-Communication at the Yaba College of
-            Technology in 2017, He just concluded a B.A.E degree in
-            History-Education at the University Of Lagos.
+          With a prior diploma in Mass-Communication at the Yaba College of Technology in 2017, He just concluded a B.A.E degree in History-Education at the University Of Lagos.
           </p>
 
           <p>
-            In the past, he has showcased his works at Lagos, Kigali, Oldenburg
-            and he was also a beneficiary of the Eugene Smith Memorial Fund
-            Student Grant (2019), Bronx Documentary Center (2020), Daniele
-            Tamagni Grant (2021) for his work Yours In Arms.
+          In the past, he has showcased his works in Lagos, Kigali, New York, and Oldenburg. He was also a beneficiary of the Eugene Smith Memorial Fund Student Grant (2019), Bronx Documentary Center (2020), and Daniele Tamagni Grant (2021) for his work Yours In Arms.
           </p>
 
           <p>
-            His work largely examines political consciousness within social
-            groups in Africa. Fawaz is very motivated to keep records and
-            believes it’s of importance to record daily life not simply for
-            awareness and understanding of our times, but for individuals in the
-            future to be able to reflect on who they are and how they got there.
+          Fawaz is very motivated to keep records and believes it’s of importance to record daily life not simply for awareness and understanding of our times, but for individuals in the future to be able to reflect on who they are and how they got there.
           </p>
         </div>
       </div>
