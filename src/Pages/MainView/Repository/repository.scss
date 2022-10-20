@@ -1,0 +1,68 @@
+.repository {
+  margin-left: 70px;
+  padding: 36px;
+  width: 100%;
+  .first {
+    .long-text {
+      a {
+        text-decoration: none;
+        color: white;
+        font-size: 48px !important;
+        &:hover {
+          color: red;
+        }
+      }
+    }
+    p {
+      margin-top: 2rem;
+      color: #777777;
+    }
+    .second {
+      .nuk {
+        padding: 2rem;
+        background-color: black;
+        width: 60%;
+        height: 100%;
+        img {
+          width: 100%;
+          height: 50%;
+        }
+      }
+      .images {
+        display:flex;
+        width:60%;
+        overflow-x: scroll;
+        img {
+          display:block;
+          height: 60px;
+        }
+      }
+    }
+  }
+
+  .lineTab {
+    margin-bottom: 60px;
+    border-bottom: 2px solid;
+    margin: 1.5em 0px 2em;
+    color: #777777;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+	.repository {
+    margin-left: 0!important;
+    padding: 0!important;
+    .first{
+      .second{
+        .nuk{
+          width: 100%;
+          height: 100%;
+        }
+        .images{
+          width:100%;
+        }
+      }
+    }
+  
+  }
+}

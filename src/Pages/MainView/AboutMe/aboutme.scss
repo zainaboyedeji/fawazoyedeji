@@ -1,0 +1,64 @@
+.aboutme {
+  margin-left: 70px;
+  padding: 40px;
+  width: 100%;
+  .first {
+    .avatar {
+      width: 40%;
+      
+      text-align: center;
+      margin: 0 auto;
+      img {
+        width: 20rem;
+        height: 20rem;
+      }
+    }
+    .next{
+      width:60%;
+  }
+  }
+  .grants {
+    margin-top: 10rem;
+    span {
+      padding-bottom: 50px;
+      a {
+		margin-left: 5px;
+        color: #aaaaaa;
+        font-style: normal;
+        font-weight: normal;
+        text-decoration: underline;
+      }
+    }
+  }
+  .next {
+    margin-top: 2rem;
+    a {
+      margin-left: 5px;
+      color: #aaaaaa;
+      font-style: normal;
+      font-weight: normal;
+      text-decoration: underline;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+	.aboutme{
+    margin-left: 0!important;
+    padding: 0!important;
+    .first{
+      flex-direction: column;
+      .avatar{
+        width:100%;
+        img{
+          width: 50%;
+          height:50%;
+        }
+      }
+      .next{
+        width:100%;
+      }
+    }
+  
+  }
+}

@@ -1,0 +1,36 @@
+.min-land {
+    display: none;
+
+    .inner {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+
+        h1 {
+            a {
+                text-decoration: none;
+                color: white;
+            }
+        }
+        .MuiButton-root{
+            color:white!important;
+            svg{
+                width:2rem;
+                height:2rem;
+            }
+           
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+		.min-land {
+			display: block;
+
+
+		}
+
+	
+}

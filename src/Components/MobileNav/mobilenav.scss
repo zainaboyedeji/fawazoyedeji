@@ -1,0 +1,68 @@
+.mobilenav {
+  padding: 1rem;
+    .mobilenav-wrap {
+      .long-text {
+        margin-bottom: 42px;
+        color: #eeeeee;
+        font-family: "Telefon Normal", "Telefon Normal", sans-serif;
+        font-weight: normal;
+        font-size: 50px;
+        font-style: normal;
+        line-height: 1.2;
+        a {
+          color: white;
+          text-decoration: none;
+        }
+      }
+      nav {
+        ul {
+          padding: 0;
+          margin: 0;
+          .category {
+            margin: 1.25em 0;
+            list-style: none;
+            a {
+              color: #eeeeee;
+              font-weight: bold;
+              text-decoration: none;
+              font-style: normal;
+              font-size: 17px;
+              &.active{
+                color:#a9a9a9;
+              }
+            }
+          }
+          .item {
+            list-style: none;
+            a {
+              text-decoration: none;
+              color: #a9a9a9;
+              font-weight: normal;
+              margin: 0;
+              padding: 0;
+              &.active{
+                color:white;
+              }
+            }
+          }
+        }
+        .social-links {
+          display: flex;
+          flex-wrap: wrap;
+          margin: 3.5em 0 0.5em;
+          margin-left: -6px;
+          padding-bottom: 10px;
+          a {
+            position: relative;
+            width: 10px;
+            margin: 0 0.2em;
+            color: #777777;
+            font-size: 10px;
+            font-weight: normal;
+          }
+        }
+      }
+    }
+  }
+  
+  
