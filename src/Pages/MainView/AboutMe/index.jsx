@@ -13,7 +13,7 @@ function AboutMe() {
         </div>
         <div className="next">
           <p>
-          Fawaz Oyedeji is a documentary photographer & historian based in Lagos, Nigeria. He studied Mass Communication at the Yaba College of Technology [Nigeria] & he’s currently pursuing a B.A.E in History Education at the University Of Lagos [Nigeria].
+          Fawaz Oyedeji is a documentary photographer & historian based in Lagos, Nigeria. He studied Mass Communication at the Yaba College of Technology [Nigeria] & he just concluded a B.A.E in History Education at the University Of Lagos [Nigeria].
           </p>
 
           <p>

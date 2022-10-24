@@ -195,7 +195,7 @@ function Yoursinarm() {
       <AppModal show={show} handleClose={hideModal}>
         <div className='newModalImage d-flex'>
           <IoIosArrowBack onClick={previousImage} />
-          <img src={currentImage()} alt="newimage" />
+          <div className='imgMain'><img src={currentImage()} alt="newimage" /></div>
           <IoIosArrowForward onClick={nextImage} />
         </div>
       </AppModal>
