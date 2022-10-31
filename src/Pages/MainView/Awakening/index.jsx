@@ -152,13 +152,13 @@ function Awakening() {
           }
             </div>
         </div>
-          <AppModal show={show} handleClose={hideModal}>
-          <div className='newModalImage d-flex'>
-            <IoIosArrowBack onClick={previousImage} />
-            <img src={currentImage()} alt="newimage" />
-            <IoIosArrowForward onClick={nextImage} />
-          </div>
-        </AppModal>
+        <AppModal show={show} handleClose={hideModal}>
+        <div className='newModalImage d-flex'>
+          <IoIosArrowBack onClick={previousImage} />
+          <div className='imgAwake'><img src={currentImage()} alt="newimage" /></div>
+          <IoIosArrowForward onClick={nextImage} />
+        </div>
+      </AppModal>
         </>
     );
 }

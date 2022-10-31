@@ -32,15 +32,25 @@
       }
 
       .imgMain {
-        width: 80%;
+        width:70%;
         height: 40rem;
-        margin-top: 3rem;
-
+        margin-top: 1rem;
         img {
-          width: 100%;
-          height: 100%;
+          width: 100%; 
         }
       }
+
+      .imgAwake {
+        width:40%;
+        height: 45rem;
+        margin-top: 1rem;
+
+        img {
+          width: 100%; 
+          height:100%;
+        }
+      }
+
     }
   }
 
