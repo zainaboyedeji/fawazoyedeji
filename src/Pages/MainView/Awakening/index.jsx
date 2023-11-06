@@ -1,16 +1,10 @@
 import { useState } from 'react';
-import one from "../../../image/3awakening/FO_The-Awakening_001.jpg";
-import two from "../../../image/3awakening/FO_The-Awakening_002.jpg";
-import three from "../../../image/3awakening/FO_The-Awakening_003.jpg";
-import four from "../../../image/3awakening/FO_The-Awakening_004.jpg";
-import five from "../../../image/3awakening/FO_The-Awakening_005.jpg";
-import six from "../../../image/3awakening/FO_The-Awakening_006.jpg";
-import seven from "../../../image/3awakening/FO_The-Awakening_007.jpg";
-import eight from "../../../image/3awakening/FO_The-Awakening_008.jpg";
-import nine from "../../../image/3awakening/FO_The-Awakening_009.jpg";
-import ten from "../../../image/3awakening/FO_The-Awakening_010.jpg";
-import eleven from "../../../image/3awakening/FO_The-Awakening_011.jpg";
-import twelve from "../../../image/3awakening/FO_The-Awakening_012.jpg";
+import one from "../../../image/3awakening/FO_001.jpg";
+import two from "../../../image/3awakening/FO_002.jpg";
+import three from "../../../image/3awakening/FO_003.jpg";
+import four from "../../../image/3awakening/FO_004.jpg";
+import five from "../../../image/3awakening/FO_005.jpg";
+import six from "../../../image/3awakening/FO_006.jpg";
 import AppModal from '../../../Components/AppModal/index';
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import MobileHead from "../../../Components/MobileHead";
@@ -50,36 +44,6 @@ function Awakening() {
         id: "6",
         src: six,
         title: "six",
-      },
-      {
-        id: "7",
-        src: seven,
-        title: "seven",
-      },
-      {
-        id: "8",
-        src: eight,
-        title: "eight",
-      },
-      {
-        id: "9",
-        src: nine,
-        title: "nine",
-      },
-      {
-        id: "10",
-        src: ten,
-        title: "ten",
-      },
-      {
-        id: "11",
-        src: eleven,
-        title: "eleven",
-      },
-      {
-        id: "12",
-        src: twelve,
-        title: "twelve",
       },
     ]
   
