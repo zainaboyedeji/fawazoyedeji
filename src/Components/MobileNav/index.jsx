@@ -36,8 +36,8 @@ function MobileNav() {
                             </NavLink>
                         </li>
                         <li className="item">
-                            <NavLink to="/repository" activeclassname="active">
-                                repository
+                            <NavLink to="/commissions" activeclassname="active">
+                                commissions
                             </NavLink>
                         </li>
                         <li className="item">

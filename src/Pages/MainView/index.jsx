@@ -5,7 +5,7 @@ import SideBar from "../../Components/SideBar";
 import Contact from "./Contact";
 import About from "./AboutMe";
 import LandingPage from "./LandingPage";
-import Repository from "./Repository";
+import Commissions from "./Commissions";
 import OttoDaily from "./OttoDaily";
 import Footer from "../../Components/Footer";
 import "./mainview.scss";
@@ -24,7 +24,7 @@ function MainView() {
                      <Route path="/otto-daily" element={<OttoDaily/>} />
                      <Route path="/contact" element={<Contact />} />
                      <Route path="/about" element={<About/>} />
-                     <Route path="/repository" element={<Repository/>} />
+                     <Route path="/commissions" element={<Commissions/>} />
                 </Routes> 
                 <Footer/>
             </div>
