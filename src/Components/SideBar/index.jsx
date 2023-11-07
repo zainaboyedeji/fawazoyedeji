@@ -8,7 +8,7 @@ function SideBar() {
             <div className="sidebar-wrap">
                 <h1 className="logo long-text">
                     <NavLink to="/" activeclassname="active">
-                        FAWAZ <br /> YEDEJI.
+                        FAWAZ <br /> OYEDEJI.
                     </NavLink>
                 </h1>
                 <nav>
