@@ -1,0 +1,27 @@
+.commissionDetails{
+   
+    margin-left: 70px;
+    padding: 36px;
+    width: 100%;
+ 
+    
+    .second{
+      
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .commissionDetails{
+        margin-left: 0 !important;
+        padding: 0 !important;
+    .details{
+        flex-direction: column;
+        .second{
+            margin: 0!important;
+            padding-top: 2rem;
+        }
+    }
+  
+    }
+  }

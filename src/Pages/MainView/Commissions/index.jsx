@@ -4,6 +4,7 @@ import one from "../../../image/5_commissions/gun_for_hire/001.jpg";
 import two from "../../../image/5_commissions/hidden_flows/001.jpg";
 import three from "../../../image/5_commissions/nigerian_policing_programme/01.jpg";
 import MobileHead from "../../../Components/MobileHead";
+import { Link } from "react-router-dom";
 
 function Commissions() {
     const commissionsPage = [
@@ -23,14 +24,20 @@ function Commissions() {
             src: three,
         },
     ];
+
+ 
     return (
         <div className="commissions">
             <MobileHead />
-            <div className="flex flex-wrap w-full">
+            <div className="flex flex-wrap w-full commissionImage">
                 {commissionsPage.map((page, index) => (
-                    <div className="w-1/4 h-auto pl-7 pr-7 mt-2">
+                   
+                    <div className="w-1/4 h-auto pl-7 pr-7 mt-2 first">
+                        <Link to="/commissions/images">
                         <img src={page.src} alt="GF1" className="h-full" /> <p>{page.text}</p>
+                        </Link>
                     </div>
+                  
                 ))}
             </div>
         </div>

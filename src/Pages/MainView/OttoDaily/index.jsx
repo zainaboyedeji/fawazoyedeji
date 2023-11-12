@@ -151,10 +151,10 @@ function OttoDaily() {
           }
         </div>
       </div>
-      <AppModal show={show} handleClose={hideModal}>
+      <AppModal show={show}>
         <div className='newModalImage d-flex'>
           <IoIosArrowBack onClick={previousImage} />
-          <div className='imgMain'><img src={currentImage()} alt="newimage" /></div>
+          <div className='imgMain mt-5' onClick={hideModal}><img src={currentImage()} alt="newimage" /></div>
           <IoIosArrowForward onClick={nextImage} />
         </div>
       </AppModal>

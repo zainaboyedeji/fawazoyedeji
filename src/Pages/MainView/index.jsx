@@ -9,6 +9,8 @@ import Commissions from "./Commissions";
 import OttoDaily from "./OttoDaily";
 import Footer from "../../Components/Footer";
 import "./mainview.scss";
+import CommissionsImages from "./CommissionsImages";
+import CommissionsDetails from "./commission_details";
 
 function MainView() {
     return (
@@ -25,6 +27,8 @@ function MainView() {
                      <Route path="/contact" element={<Contact />} />
                      <Route path="/about" element={<About/>} />
                      <Route path="/commissions" element={<Commissions/>} />
+                     <Route path="/commissions/images" element={<CommissionsImages/>} />
+                     <Route path="/commissions/details" element={<CommissionsDetails/>} />
                 </Routes> 
                 <Footer/>
             </div>

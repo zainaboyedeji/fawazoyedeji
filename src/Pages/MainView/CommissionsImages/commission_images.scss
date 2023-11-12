@@ -1,0 +1,26 @@
+.commissions_images {
+    margin-left: 70px;
+          padding:36px;
+          width:100%;
+    .first{
+      
+
+        a{
+          text-decoration: none;
+          color: white;
+        }
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .commissions_images{
+      margin-left: 0 !important;
+      padding: 0 !important;
+
+      .first{
+        flex-direction: column;
+        .imgDiv{
+          width:100%;}}
+  
+    }
+  }
