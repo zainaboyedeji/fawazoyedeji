@@ -1,4 +1,4 @@
-import MobileHead from "../../../Components/MobileHead";
+import MobileHead from "../../../components/mobile_head";
 import one from "../../../image/5_commissions/gun_for_hire/001.jpg";
 import "./commission_details.scss"
 

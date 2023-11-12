@@ -1,6 +1,6 @@
 import { FaInstagram, FaTwitter, FaLinkedin, FaYoutube, FaShareAlt } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
-import "./mobilenav.scss";
+import "./mobile_nav.scss";
 
 function MobileNav() {
     return (

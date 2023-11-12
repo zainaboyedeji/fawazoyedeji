@@ -3,9 +3,9 @@ import Box from "@mui/material/Box";
 import Drawer from "@mui/material/Drawer";
 import { Link } from "react-router-dom";
 import Button from "@mui/material/Button";
-import MobileNav from "../MobileNav";
+import MobileNav from "../mobile_nav";
 import {IoReorderThreeSharp} from "react-icons/io5";
-import "./mobilehead.scss";
+import "./mobile_head.scss";
 
 function MobileHead() {
   const [state, setState] = React.useState({

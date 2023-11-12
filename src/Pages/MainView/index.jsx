@@ -1,15 +1,15 @@
 import { Routes, Route } from "react-router-dom";
-import Yoursinarm from "./Yoursinarm";
-import Awakening from "./Awakening";
-import SideBar from "../../Components/SideBar";
-import Contact from "./Contact";
-import About from "./AboutMe";
-import LandingPage from "./LandingPage";
-import Commissions from "./Commissions";
-import OttoDaily from "./OttoDaily";
-import Footer from "../../Components/Footer";
-import "./mainview.scss";
-import CommissionsImages from "./CommissionsImages";
+import Yoursinarm from "./yours_in_arm";
+import Awakening from "./awakening";
+import SideBar from "../../components/sidebar";
+import Contact from "./contact";
+import About from "./about_me";
+import LandingPage from "./landing_page";
+import Commissions from "./commissions";
+import OttoDaily from "./otto_daily";
+import Footer from "../../components/footer";
+import "./main_view.scss";
+import CommissionsImages from "./commissions_images";
 import CommissionsDetails from "./commission_details";
 
 function MainView() {

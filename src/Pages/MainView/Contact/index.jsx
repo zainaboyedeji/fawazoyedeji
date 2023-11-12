@@ -1,5 +1,5 @@
 import "./contact.scss";
-import MobileHead from "../../../Components/MobileHead";
+import MobileHead from "../../../components/mobile_head";
 
 function Contact() {
   return (

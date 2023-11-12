@@ -1,6 +1,6 @@
-import "./aboutme.scss";
-import fawwaz from "../../../image/6about&contact/fawazoyedeji.png";
-import MobileHead from "../../../Components/MobileHead";
+import fawwaz from "../../../image/6_about&contact/fawazoyedeji.png";
+import MobileHead from "../../../components/mobile_head";
+import "./about_me.scss";
 
 
 function AboutMe() {

@@ -1,20 +1,20 @@
 import { useState } from 'react';
-import one from "../../../image/4ottodaily/01.JPG";
-import two from "../../../image/4ottodaily/02.JPG";
-import three from "../../../image/4ottodaily/03.JPG";
-import four from "../../../image/4ottodaily/04.JPG";
-import five from "../../../image/4ottodaily/05.JPG";
-import six from "../../../image/4ottodaily/06.JPG";
-import seven from "../../../image/4ottodaily/07.JPG";
-import eight from "../../../image/4ottodaily/08.JPG";
-import nine from "../../../image/4ottodaily/09.JPG";
-import ten from "../../../image/4ottodaily/10.JPG";
-import eleven from "../../../image/4ottodaily/11.JPG";
-import twelve from "../../../image/4ottodaily/12.JPG";
-import MobileHead from "../../../Components/MobileHead";
-import AppModal from '../../../Components/AppModal/index';
+import one from "../../../image/4_ottodaily/01.JPG";
+import two from "../../../image/4_ottodaily/02.JPG";
+import three from "../../../image/4_ottodaily/03.JPG";
+import four from "../../../image/4_ottodaily/04.JPG";
+import five from "../../../image/4_ottodaily/05.JPG";
+import six from "../../../image/4_ottodaily/06.JPG";
+import seven from "../../../image/4_ottodaily/07.JPG";
+import eight from "../../../image/4_ottodaily/08.JPG";
+import nine from "../../../image/4_ottodaily/09.JPG";
+import ten from "../../../image/4_ottodaily/10.JPG";
+import eleven from "../../../image/4_ottodaily/11.JPG";
+import twelve from "../../../image/4_ottodaily/12.JPG";
+import MobileHead from "../../../components/mobile_head";
+import AppModal from '../../../components/app_modal/index';
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
-import "./ottodaily.scss";
+import "./otto_daily.scss";
 
 function OttoDaily() {
   const [show, setShow] = useState(false);

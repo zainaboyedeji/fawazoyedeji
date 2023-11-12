@@ -1,13 +1,13 @@
 import { useState } from 'react';
-import one from "../../../image/3awakening/FO_001.jpg";
-import two from "../../../image/3awakening/FO_002.jpg";
-import three from "../../../image/3awakening/FO_003.jpg";
-import four from "../../../image/3awakening/FO_004.jpg";
-import five from "../../../image/3awakening/FO_005.jpg";
-import six from "../../../image/3awakening/FO_006.jpg";
-import AppModal from '../../../Components/AppModal/index';
+import one from "../../../image/3_awakening/FO_001.jpg";
+import two from "../../../image/3_awakening/FO_002.jpg";
+import three from "../../../image/3_awakening/FO_003.jpg";
+import four from "../../../image/3_awakening/FO_004.jpg";
+import five from "../../../image/3_awakening/FO_005.jpg";
+import six from "../../../image/3_awakening/FO_006.jpg";
+import AppModal from '../../../components/app_modal/index';
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
-import MobileHead from "../../../Components/MobileHead";
+import MobileHead from "../../../components/mobile_head";
 import "./awakening.scss";
 
 function Awakening() {
