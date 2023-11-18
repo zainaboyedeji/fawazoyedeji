@@ -26,7 +26,7 @@
 
     img {
       width: 100%;
-      cursor:pointer;
+      cursor: pointer;
     }
   }
 }
@@ -36,12 +36,13 @@
     margin-left: 0 !important;
     padding: 0 !important;
   }
-  .newModalImage{
-    .imgMain{
-img{
-  margin-top: 12rem!important;
-height:auto!important;
-}
+
+  .newModalImage {
+    .imgMain {
+      img {
+        margin-top: 12rem !important;
+        height: auto !important;
+      }
     }
   }
 }
