@@ -1,7 +1,7 @@
 import React from "react";
-import one from "../../../image/5_commissions/gun_for_hire/001.jpg";
-import two from "../../../image/5_commissions/gun_for_hire/002.jpg";
-import MobileHead from "../../../components/mobile_head";
+import one from "../../image/5_commissions/gun_for_hire/001.jpg";
+import two from "../../image/5_commissions/gun_for_hire/002.jpg";
+import MobileHead from "../../components/mobile_head";
 import { Link } from "react-router-dom";
 import "./commission_images.scss"
 

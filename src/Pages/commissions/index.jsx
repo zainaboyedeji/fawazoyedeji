@@ -1,9 +1,9 @@
 import React from "react";
 import "./commissions.scss";
-import one from "../../../image/5_commissions/gun_for_hire/001.jpg";
-import two from "../../../image/5_commissions/hidden_flows/001.jpg";
-import three from "../../../image/5_commissions/nigerian_policing_programme/01.jpg";
-import MobileHead from "../../../components/mobile_head";
+import one from "../../image/5_commissions/gun_for_hire/001.jpg";
+import two from "../../image/5_commissions/hidden_flows/001.jpg";
+import three from "../../image/5_commissions/nigerian_policing_programme/01.jpg";
+import MobileHead from "../../components/mobile_head";
 import { Link } from "react-router-dom";
 
 function Commissions() {

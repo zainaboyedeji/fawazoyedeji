@@ -1,14 +1,14 @@
 import { Routes, Route } from "react-router-dom";
 import Yoursinarm from "./yours_in_arm";
 import Awakening from "./awakening";
-import SideBar from "../../components/sidebar";
+import SideBar from "../components/sidebar";
 import Contact from "./contact";
 import About from "./about_me";
 import LandingPage from "./landing_page";
 import Commissions from "./commissions";
 import OttoDaily from "./otto_daily";
-import Footer from "../../components/footer";
-import "./main_view.scss";
+import Footer from "../components/footer";
+import "./pages.scss";
 import CommissionsImages from "./commissions_images";
 import CommissionsDetails from "./commission_details";
 

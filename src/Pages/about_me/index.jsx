@@ -1,5 +1,5 @@
-import fawwaz from "../../../image/6_about&contact/fawazoyedeji.png";
-import MobileHead from "../../../components/mobile_head";
+import fawwaz from "../../image/6_about&contact/fawazoyedeji.png";
+import MobileHead from "../../components/mobile_head";
 import "./about_me.scss";
 
 
