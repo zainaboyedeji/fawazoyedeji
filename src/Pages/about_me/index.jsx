@@ -1,5 +1,6 @@
 import fawwaz from "../../image/6_about&contact/fawazoyedeji.png";
 import MobileHead from "../../components/mobile_head";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import "./about_me.scss";
 
 
@@ -9,7 +10,7 @@ function AboutMe() {
       <MobileHead/>
       <div className="d-flex first">
         <div className="avatar">
-          <img src={fawwaz} alt="fawwaz" />
+          <LazyLoadImage src={fawwaz} alt="fawwaz" />
         </div>
         <div className="next">
           <p>

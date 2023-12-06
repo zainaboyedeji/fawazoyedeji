@@ -1,6 +1,7 @@
 import MobileHead from "../../components/mobile_head";
 import one from "../../image/5_commissions/gun_for_hire/001.jpg";
 import "./commission_details.scss"
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 function CommissionsDetails() {
     return (
@@ -9,7 +10,7 @@ function CommissionsDetails() {
        
 <div className="flex details w-full">
             <div className="">
-                <img src={one} alt="one" className="w-full h-full" />
+                <LazyLoadImage src={one} alt="one" className="w-full h-full" />
             </div>
             <div className="second ml-6">
                 <p>I worked on an assignment for Tetra Tech International Development, contributing to the Nigerian Policing Programme.</p>

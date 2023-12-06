@@ -8,6 +8,7 @@ import six from "../../image/3_awakening/FO_004.jpg";
 import AppModal from '../../components/app_modal/index';
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import MobileHead from "../../components/mobile_head";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import "./awakening.scss";
 
 function Awakening() {
@@ -111,7 +112,7 @@ function Awakening() {
             <div className="align">
             {
             AwakeningImages.map((image, index) =>
-              <img src={image.src} alt={image.title} onClick={() => showModal(index)} />
+              <LazyLoadImage src={image.src} alt={image.title} onClick={() => showModal(index)} />
             )
           }
             </div>
@@ -119,7 +120,7 @@ function Awakening() {
         <AppModal show={show}>
         <div className='newModalImage d-flex'>
           <IoIosArrowBack onClick={previousImage} />
-          <div className='imgAwake mt-5' onClick={hideModal}><img src={currentImage()} alt="newimage" /></div>
+          <div className='imgAwake mt-5' onClick={hideModal}><LazyLoadImage src={currentImage()} alt="newimage" /></div>
           <IoIosArrowForward onClick={nextImage} />
         </div>
       </AppModal>

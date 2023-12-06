@@ -18,6 +18,7 @@ import sixteen from "../../image/2_yoursinarms/Fawaz-Oyedeji-Yours-In-Arms-016.j
 import MobileHead from "../../components/mobile_head";
 import AppModal from '../../components/app_modal/index';
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import "./yours_in_arm.scss";
 
 function Yoursinarm() {
@@ -187,7 +188,7 @@ function Yoursinarm() {
         <div className="align">
           {
             YITImages.map((image, index) =>
-              <img src={image.src} alt={image.title} onClick={() => showModal(index)} />
+              <LazyLoadImage src={image.src} alt={image.title} onClick={() => showModal(index)} />
             )
           }
         </div>
@@ -195,7 +196,7 @@ function Yoursinarm() {
       <AppModal show={show}>
         <div className='newModalImage d-flex'>
           <IoIosArrowBack onClick={previousImage} />
-          <div className='imgMain mt-5' onClick={hideModal}><img src={currentImage()} alt="newimage" /></div>
+          <div className='imgMain mt-5' onClick={hideModal}><LazyLoadImage src={currentImage()} alt="newimage" /></div>
           <IoIosArrowForward onClick={nextImage} />
         </div>
       </AppModal>

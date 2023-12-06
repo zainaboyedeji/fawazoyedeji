@@ -35,7 +35,7 @@ function MobileNav() {
                                 otto daily
                             </NavLink>
                         </li>
-                        <li className="item hidden">
+                        <li className="item">
                             <NavLink to="/commissions" activeclassname="active">
                                 commissions
                             </NavLink>
