@@ -27,73 +27,73 @@ function OttoDaily() {
       id: "1",
       src: one,
       title: "one",
-      placeholderImage:"lowq"
+      placeholderImage:lowq
     },
     {
       id: "2",
       src: two,
       title: "two",
-      placeholderImage:"lowq"
+      placeholderImage:lowq
     },
     {
       id: "3",
       src: three,
       title: "three",
-      placeholderImage:"lowq"
+      placeholderImage:lowq
     },
     {
       id: "4",
       src: four,
       title: "four",
-      placeholderImage:"lowq"
+      placeholderImage:lowq
     },
     {
       id: "5",
       src: five,
       title: "five",
-      placeholderImage:"lowq"
+      placeholderImage:lowq
     },
     {
       id: "6",
       src: six,
       title: "six",
-      placeholderImage:"lowq"
+      placeholderImage:lowq
     },
     {
       id: "7",
       src: seven,
       title: "seven",
-      placeholderImage:"lowq"
+      placeholderImage:lowq
     },
     {
       id: "8",
       src: eight,
       title: "eight",
-      placeholderImage:"lowq"
+      placeholderImage:lowq
     },
     {
       id: "9",
       src: nine,
       title: "nine",
-      placeholderImage:"lowq"
+      placeholderImage:lowq
     },
     {
       id: "10",
       src: ten,
       title: "ten",
-      placeholderImage:"lowq"
+      placeholderImage:lowq
     },
     {
       id: "11",
       src: eleven,
       title: "eleven",
-      placeholderImage:"lowq"
+      placeholderImage:lowq
     },
     {
       id: "12",
       src: twelve,
       title: "twelve",
-      placeholderImage:"lowq"
+      placeholderImage:lowq
     },
   ]
 
@@ -160,7 +160,7 @@ function OttoDaily() {
         <div className="align">
           {
             OttoImages.map((image, index) =>
-              <LazyLoadImage src={image.src} PlaceholderSrc={image.placeholderImage} alt={image.title} onClick={() => showModal(index)} />
+              <LazyLoadImage src={image.src} alt={image.title} onClick={() => showModal(index)} />
             )
           }
         </div>
