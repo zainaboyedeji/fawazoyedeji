@@ -10,16 +10,11 @@
       font-style: italic;
     }
   }
-  .align {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 10px;
-    row-gap: 15px;
-    margin-top: 3rem;
+  .allImg {
 
     img {
+      padding-bottom: 36px;
       width: 100%;
-      cursor:pointer;
     }
   }
 }
@@ -28,10 +23,5 @@
 	.awakening {
     margin-left: 0!important;
     padding: 0!important;
-    .align {
-      display: grid;
-      grid-template-columns: repeat(1, 1fr);
-    }
-  
-  }
+}
 }

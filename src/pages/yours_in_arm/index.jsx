@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import one from "../../image/2_yoursinarms/Fawaz-Oyedeji-Yours-In-Arms-001.jpg";
 import two from "../../image/2_yoursinarms/Fawaz-Oyedeji-Yours-In-Arms-002.jpg";
 import three from "../../image/2_yoursinarms/Fawaz-Oyedeji-Yours-In-Arms-003.jpg";
@@ -16,129 +15,11 @@ import fourteen from "../../image/2_yoursinarms/Fawaz-Oyedeji-Yours-In-Arms-014.
 import fifteen from "../../image/2_yoursinarms/Fawaz-Oyedeji-Yours-In-Arms-015.jpg";
 import sixteen from "../../image/2_yoursinarms/Fawaz-Oyedeji-Yours-In-Arms-016.jpg";
 import MobileHead from "../../components/mobile_head";
-import AppModal from '../../components/app_modal/index';
-import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "./yours_in_arm.scss";
 
 function Yoursinarm() {
-  const [show, setShow] = useState(false);
-  const [selectedIndex, setSelectedIndex] = useState(0);
-
-  const YITImages = [
-    {
-      id: "1",
-      src: one,
-      title: "one",
-    },
-    {
-      id: "2",
-      src: two,
-      title: "two",
-    },
-    {
-      id: "3",
-      src: three,
-      title: "three",
-    },
-    {
-      id: "4",
-      src: four,
-      title: "four",
-    },
-    {
-      id: "5",
-      src: five,
-      title: "five",
-    },
-    {
-      id: "6",
-      src: six,
-      title: "six",
-    },
-    {
-      id: "7",
-      src: seven,
-      title: "seven",
-    },
-    {
-      id: "8",
-      src: eight,
-      title: "eight",
-    },
-    {
-      id: "9",
-      src: nine,
-      title: "nine",
-    },
-    {
-      id: "10",
-      src: ten,
-      title: "ten",
-    },
-    {
-      id: "11",
-      src: eleven,
-      title: "eleven",
-    },
-    {
-      id: "12",
-      src: twelve,
-      title: "twelve",
-    },
-    {
-      id: "13",
-      src: thirteen,
-      title: "thirteen",
-    },
-    {
-      id: "14",
-      src: fourteen,
-      title: "fourteen",
-    },
-    {
-      id: "15",
-      src: fifteen,
-      title: "fifteen",
-    },
-    {
-      id: "16",
-      src: sixteen,
-      title: "sixteen",
-    },
-  ]
-
-  const showModal = (index) => {
-    setShow(true);
-    // setImage(img)
-    setSelectedIndex(index)
-  };
-
-  const currentImage = () => {
-    const find = YITImages.find((obj, index) => {
-      return index === selectedIndex
-    });
-    return find.src
-  }
-
-  const hideModal = () => {
-    setShow(false);
-  }
-  const nextImage = () => {
-    if (selectedIndex >= 15) {
-      return
-    }
-    setSelectedIndex(selectedIndex + 1)
-
-  }
-  const previousImage = () => {
-    if (selectedIndex <= 0) {
-      return
-    }
-    setSelectedIndex(selectedIndex - 1)
-  }
   return (
-    <>
       <div className="yoursinarm">
         <MobileHead />
         <div className="first">
@@ -185,22 +66,34 @@ function Yoursinarm() {
 
           <p className="diff"><i>"2018-Ongoing"</i></p>
         </div>
-        <div className="align">
-          {
-            YITImages.map((image, index) =>
-              <LazyLoadImage src={image.src} alt={image.title} onClick={() => showModal(index)} />
-            )
-          }
+
+
+        <div className='allImg'>
+       
+        <LazyLoadImage src={one} alt="One" />
+        <LazyLoadImage src={two} alt="Two" />
+        <LazyLoadImage src={three} alt="Three" />
+
+        <LazyLoadImage src={four} alt="Four" />
+        <LazyLoadImage src={five} alt="Five" />
+        <LazyLoadImage src={six} alt="Six" />
+        <LazyLoadImage src={seven} alt="Seven" />
+        <LazyLoadImage src={eight} alt="Eight" />
+        <LazyLoadImage src={nine} alt="Nine" />
+        <LazyLoadImage src={ten} alt="Ten" />
+        <LazyLoadImage src={eleven} alt="Eleven" />
+        <LazyLoadImage src={twelve} alt="Twelve" />
+        <LazyLoadImage src={thirteen} alt="Thirteen" />
+        <LazyLoadImage src={fourteen} alt="Fourteen" />
+
+        <LazyLoadImage src={fifteen} alt="Fifteen" />
+        <LazyLoadImage src={sixteen} alt="Sixteen" />
+       
+     
         </div>
+       
       </div>
-      <AppModal show={show}>
-        <div className='newModalImage d-flex'>
-          <IoIosArrowBack onClick={previousImage} />
-          <div className='imgMain mt-5' onClick={hideModal}><LazyLoadImage src={currentImage()} alt="newimage" /></div>
-          <IoIosArrowForward onClick={nextImage} />
-        </div>
-      </AppModal>
-    </>
+ 
   );
 }
 

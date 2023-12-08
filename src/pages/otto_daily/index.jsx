@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import one from "../../image/4_ottodaily/01.jpeg";
 import two from "../../image/4_ottodaily/02.jpeg";
 import three from "../../image/4_ottodaily/03.jpeg";
@@ -12,121 +11,12 @@ import ten from "../../image/4_ottodaily/10.jpeg";
 import eleven from "../../image/4_ottodaily/11.jpeg";
 import twelve from "../../image/4_ottodaily/12.jpeg";
 import MobileHead from "../../components/mobile_head";
-import AppModal from '../../components/app_modal/index';
-import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import { LazyLoadImage } from "react-lazy-load-image-component";
-import lowq from "../../image/4_ottodaily/lowq.jpg";
 import "./otto_daily.scss";
 
 function OttoDaily() {
-  const [show, setShow] = useState(false);
-  const [selectedIndex, setSelectedIndex] = useState(0);
-
-  const OttoImages = [
-    {
-      id: "1",
-      src: one,
-      title: "one",
-      placeholderImage:lowq
-    },
-    {
-      id: "2",
-      src: two,
-      title: "two",
-      placeholderImage:lowq
-    },
-    {
-      id: "3",
-      src: three,
-      title: "three",
-      placeholderImage:lowq
-    },
-    {
-      id: "4",
-      src: four,
-      title: "four",
-      placeholderImage:lowq
-    },
-    {
-      id: "5",
-      src: five,
-      title: "five",
-      placeholderImage:lowq
-    },
-    {
-      id: "6",
-      src: six,
-      title: "six",
-      placeholderImage:lowq
-    },
-    {
-      id: "7",
-      src: seven,
-      title: "seven",
-      placeholderImage:lowq
-    },
-    {
-      id: "8",
-      src: eight,
-      title: "eight",
-      placeholderImage:lowq
-    },
-    {
-      id: "9",
-      src: nine,
-      title: "nine",
-      placeholderImage:lowq
-    },
-    {
-      id: "10",
-      src: ten,
-      title: "ten",
-      placeholderImage:lowq
-    },
-    {
-      id: "11",
-      src: eleven,
-      title: "eleven",
-      placeholderImage:lowq
-    },
-    {
-      id: "12",
-      src: twelve,
-      title: "twelve",
-      placeholderImage:lowq
-    },
-  ]
-
-  const showModal = (index) => {
-    setShow(true);
-    setSelectedIndex(index)
-  };
-
-  const currentImage = () => {
-    const find = OttoImages.find((obj, index) => {
-      return index === selectedIndex
-    });
-    return find.src
-  }
-
-  const hideModal = () => {
-    setShow(false);
-  }
-  const nextImage = () => {
-    if (selectedIndex >= 11) {
-      return
-    }
-    setSelectedIndex(selectedIndex + 1)
-
-  }
-  const previousImage = () => {
-    if (selectedIndex <= 0) {
-      return
-    }
-    setSelectedIndex(selectedIndex - 1)
-  }
   return (
-    <>
+
       <div className="ottodaily">
         <MobileHead />
         <div className="first">
@@ -157,22 +47,24 @@ function OttoDaily() {
 
           <p className="diff"><i>"2018"</i></p>
         </div>
-        <div className="align">
-          {
-            OttoImages.map((image, index) =>
-              <LazyLoadImage src={image.src} alt={image.title} onClick={() => showModal(index)} />
-            )
-          }
+        <div className="allImg">
+        <LazyLoadImage src={one} alt="One" />
+        <LazyLoadImage src={two} alt="Two" />
+        <LazyLoadImage src={three} alt="Three" />
+
+        <LazyLoadImage src={four} alt="Four" />
+        <LazyLoadImage src={five} alt="Five" />
+        <LazyLoadImage src={six} alt="Six" />
+        <LazyLoadImage src={seven} alt="Seven" />
+        <LazyLoadImage src={eight} alt="Eight" />
+        <LazyLoadImage src={nine} alt="Nine" />
+        <LazyLoadImage src={ten} alt="Ten" />
+        <LazyLoadImage src={eleven} alt="Eleven" />
+        <LazyLoadImage src={twelve} alt="Twelve" />
+       
         </div>
       </div>
-      <AppModal show={show}>
-        <div className='newModalImage d-flex'>
-          <IoIosArrowBack onClick={previousImage} />
-          <div className='imgMain mt-5' onClick={hideModal}><LazyLoadImage src={currentImage()} alt="newimage" /></div>
-          <IoIosArrowForward onClick={nextImage} />
-        </div>
-      </AppModal>
-    </>
+     
   );
 }
 

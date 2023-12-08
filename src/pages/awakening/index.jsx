@@ -1,83 +1,15 @@
-import { useState } from 'react';
 import one from "../../image/3_awakening/FO_001.jpg";
 import two from "../../image/3_awakening/FO_002.jpg";
 import three from "../../image/3_awakening/FO_003.jpg";
 import five from "../../image/3_awakening/FO_005.jpg";
 import four from "../../image/3_awakening/FO_006.jpg";
 import six from "../../image/3_awakening/FO_004.jpg";
-import AppModal from '../../components/app_modal/index';
-import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import MobileHead from "../../components/mobile_head";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "./awakening.scss";
 
 function Awakening() {
-    const [show, setShow] = useState(false);
-    const [selectedIndex, setSelectedIndex] = useState(0);
-  
-    const AwakeningImages = [
-      {
-        id: "1",
-        src: one,
-        title: "one",
-      },
-      {
-        id: "2",
-        src: two,
-        title: "two",
-      },
-      {
-        id: "3",
-        src: three,
-        title: "three",
-      },
-      {
-        id: "4",
-        src: four,
-        title: "four",
-      },
-      {
-        id: "5",
-        src: five,
-        title: "five",
-      },
-      {
-        id: "6",
-        src: six,
-        title: "six",
-      },
-    ]
-  
-    const showModal = (index) => {
-      setShow(true);
-      setSelectedIndex(index)
-    };
-  
-    const currentImage = () => {
-      const find = AwakeningImages.find((obj, index) => {
-        return index === selectedIndex
-      });
-      return find.src
-    }
-  
-    const hideModal = () => {
-      setShow(false);
-    }
-    const nextImage = () => {
-      if (selectedIndex >= 11) {
-        return
-      }
-      setSelectedIndex(selectedIndex + 1)
-  
-    }
-    const previousImage = () => {
-      if (selectedIndex <= 0) {
-        return
-      }
-      setSelectedIndex(selectedIndex - 1)
-    }
     return (
-        <>
         <div className="awakening">
             <MobileHead/>
             <div className="first">
@@ -109,22 +41,17 @@ function Awakening() {
                 <p className="diff"><i>"2020"</i></p>
             </div>
 
-            <div className="align">
-            {
-            AwakeningImages.map((image, index) =>
-              <LazyLoadImage src={image.src} alt={image.title} onClick={() => showModal(index)} />
-            )
-          }
+            <div className="allImg">
+        <LazyLoadImage src={one} alt="One" />
+        <LazyLoadImage src={two} alt="Two" />
+        <LazyLoadImage src={three} alt="Three" />
+        <LazyLoadImage src={four} alt="Four" />
+        <LazyLoadImage src={five} alt="Five" />
+        <LazyLoadImage src={six} alt="Six" />
+     
             </div>
         </div>
-        <AppModal show={show}>
-        <div className='newModalImage d-flex'>
-          <IoIosArrowBack onClick={previousImage} />
-          <div className='imgAwake mt-5' onClick={hideModal}><LazyLoadImage src={currentImage()} alt="newimage" /></div>
-          <IoIosArrowForward onClick={nextImage} />
-        </div>
-      </AppModal>
-        </>
+      
     );
 }
 

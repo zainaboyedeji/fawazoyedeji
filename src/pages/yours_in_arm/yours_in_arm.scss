@@ -14,20 +14,11 @@
       }
     }
   }
-
-  ;
-
-  .align {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    column-gap: 10px;
-    row-gap: 15px;
-    margin-top: 3rem;
-
-    img {
-      width: 100%;
-      cursor: pointer;
-    }
+  .allImg {
+   img{
+		padding-bottom: 36px;
+		width: 100%;
+   }
   }
 }
 
@@ -37,12 +28,4 @@
     padding: 0 !important;
   }
 
-  .newModalImage {
-    .imgMain {
-      img {
-        margin-top: 12rem !important;
-        height: auto !important;
-      }
-    }
-  }
 }
