@@ -11,6 +11,7 @@ import Footer from "../components/footer";
 import "./pages.scss";
 import CommissionsImages from "./commissions_images";
 import CommissionsDetails from "./commission_details";
+import CVPage from "./cv_page";
 
 function MainView() {
     return (
@@ -26,6 +27,7 @@ function MainView() {
                      <Route path="/otto-daily" element={<OttoDaily/>} />
                      <Route path="/contact" element={<Contact />} />
                      <Route path="/about" element={<About/>} />
+                     <Route path="/cv" element={<CVPage/>} />
                      <Route path="/commissions" element={<Commissions/>} />
                      <Route path="/commissions/images" element={<CommissionsImages/>} />
                      <Route path="/commissions/details" element={<CommissionsDetails/>} />
