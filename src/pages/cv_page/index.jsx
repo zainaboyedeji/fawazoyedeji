@@ -1,8 +1,10 @@
+import MobileHead from "../../components/mobile_head";
 import "./cv_page.scss";
 
 function CVPage() {
     return (
         <div className="grants">
+             <MobileHead />
             <div>
                 <h6 className="mb-5 text-3xl">Education</h6>
                 <p>2023, Photojournalism and Documentary Photography, Market Photo Workshop, Newtown, Johannesburg.</p>
