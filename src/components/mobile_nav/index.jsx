@@ -21,6 +21,11 @@ function MobileNav() {
                             </NavLink>
                         </li>
                         <li className="item">
+                            <NavLink to="/projects" activeclassname="active">
+                                projects
+                            </NavLink>
+                        </li>
+                        <li className="item">
                             <NavLink to="/yoursinarms" activeclassname="active">
                                 yours in arms
                             </NavLink>
@@ -35,7 +40,7 @@ function MobileNav() {
                                 otto daily
                             </NavLink>
                         </li>
-                        <li className="item hidden">
+                        <li className="item">
                             <NavLink to="/commissions" activeclassname="active">
                                 commissions
                             </NavLink>

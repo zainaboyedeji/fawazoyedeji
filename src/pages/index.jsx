@@ -5,13 +5,14 @@ import SideBar from "../components/sidebar";
 import Contact from "./contact";
 import About from "./about_me";
 import LandingPage from "./landing_page";
-import Commissions from "./commissions";
+import Commissions from "./commisi/commissions";
 import OttoDaily from "./otto_daily";
 import Footer from "../components/footer";
 import "./pages.scss";
-import CommissionsImages from "./commissions_images";
-import CommissionsDetails from "./commission_details";
+import CommissionsImages from "./commisi/commissions_images";
+import CommissionsDetails from "./commisi/commission_details";
 import CVPage from "./cv_page";
+import Projects from "./projects";
 
 function MainView() {
     return (
@@ -22,6 +23,7 @@ function MainView() {
                  <Routes>
                      <Route path="/" element={<LandingPage/>} />
                      <Route path="/home" element={<LandingPage/>} />
+                     <Route path="/projects" element={<Projects/>} />
                      <Route path="/yoursinarms" element={<Yoursinarm />} />
                      <Route path="/endsars-awakening" element={<Awakening />} />
                      <Route path="/otto-daily" element={<OttoDaily/>} />
@@ -29,8 +31,8 @@ function MainView() {
                      <Route path="/about" element={<About/>} />
                      <Route path="/cv" element={<CVPage/>} />
                      <Route path="/commissions" element={<Commissions/>} />
-                     <Route path="/commissions/images" element={<CommissionsImages/>} />
-                     <Route path="/commissions/details" element={<CommissionsDetails/>} />
+                     <Route path="/commissions/images/:id" element={<CommissionsImages/>} />
+                     <Route path="/commissions/details/:id/:inner" element={<CommissionsDetails/>} />
                 </Routes> 
                 <Footer/>
             </div>
