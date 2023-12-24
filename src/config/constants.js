@@ -7,8 +7,8 @@ import hf_four from "../image/5_commissions/hidden_flows/004.JPG";
 import hf_five from "../image/5_commissions/hidden_flows/005.JPG";
 import hf_six from "../image/5_commissions/hidden_flows/006.JPG";
 import npp_one from "../image/5_commissions/nigerian_policing_programme/01.jpg";
-import npp_two from "../image/5_commissions/nigerian_policing_programme/02.jpg";
-import npp_three from "../image/5_commissions/nigerian_policing_programme/03.jpg";
+import npp_two from "../image/5_commissions/nigerian_policing_programme/02.JPG";
+import npp_three from "../image/5_commissions/nigerian_policing_programme/03.JPG";
 
 
 export const commissionsPage = [
