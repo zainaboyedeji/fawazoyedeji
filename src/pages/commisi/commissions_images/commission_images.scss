@@ -1,16 +1,14 @@
-.commissions_images {
-    margin-left: 70px;
-          padding:36px;
-          width:100%;
-    .first{
-      
+.commissionImages {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
 
-        a{
-          text-decoration: none;
-          color: white;
-        }
-    }
+  .img{
+    flex: 0 0 auto;
+    
   }
+}
+
   
   @media only screen and (max-width: 768px) {
     .commissions_images{

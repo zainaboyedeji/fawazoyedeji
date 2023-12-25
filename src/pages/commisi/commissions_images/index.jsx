@@ -14,27 +14,17 @@ function CommissionsImages() {
         <div className="commissions_images">
             <MobileHead />
            
-            <div className="flex flex-wrap w-full commissionImage">
             <div>
-                {found.description}
-            </div>
-                {found.items.map((page, index) => (
-                    <div className="">
-                        <div>
-                        <LazyLoadImage src={page.src} alt="GF1" className="h-full" /> <p>{page.text}</p>
-                        </div>
+                <div className="projectDetails">
+                    <div className="desc">
+                        {found?.description}
                     </div>
-                ))}
+                    {found?.items.map((page, index) => (
+                        <LazyLoadImage src={page.src} alt="GF1" />
+                    ))}
+                </div>
+
             </div>
-            {/* <div className="flex flex-wrap w-full first">
-            {found.items.map((page, index) => (
-                    <div className="w-1/4 h-auto pl-7 pr-7 mt-2 first">
-                        <Link to={`/commissions/details/${id}/${page.id}`}>
-                       <p>{page.text}</p>
-                       </Link>
-                    </div>
-                ))}
-            </div> */}
         </div>
     );
 }
