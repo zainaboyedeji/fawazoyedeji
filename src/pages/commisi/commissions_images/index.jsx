@@ -13,12 +13,13 @@ function CommissionsImages() {
     return (
         <div className="commissions_images">
             <MobileHead />
+           
+            <div className="flex flex-wrap w-full commissionImage">
             <div>
                 {found.description}
             </div>
-            <div className="flex flex-wrap w-full commissionImage">
                 {found.items.map((page, index) => (
-                    <div className="w-1/4 h-auto pl-7 pr-7 mt-2 first">
+                    <div className="">
                         <div>
                         <LazyLoadImage src={page.src} alt="GF1" className="h-full" /> <p>{page.text}</p>
                         </div>

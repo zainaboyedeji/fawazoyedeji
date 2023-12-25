@@ -12,7 +12,7 @@ function Projects() {
                 {projectsPage.map((page, index) => (
                     <div className="w-1/4 h-auto pl-7 pr-7 mt-2 first">
                         <Link to={`/projects/${page.id}`}>
-                        <LazyLoadImage src={page.src} alt="GF1" className="h-full" /> <p>{page.text}</p>
+                        <LazyLoadImage src={page.src} alt="GF1" /> <p>{page.text}</p>
                         </Link>
                     </div>
                 ))}
