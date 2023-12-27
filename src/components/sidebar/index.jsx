@@ -29,17 +29,17 @@ function SideBar() {
                                 projects
                             </NavLink>
                         </li>
-                        <li className="item">
+                        <li className="item hidden">
                             <NavLink to="/yoursinarms" activeclassname="active">
                                 yours in arms
                             </NavLink>
                         </li>
-                        <li className="item">
+                        <li className="item hidden">
                             <NavLink to="/endsars-awakening" activeclassname="active">
                                 awakening
                             </NavLink>
                         </li>
-                        <li className="item">
+                        <li className="item hidden">
                             <NavLink to="/otto-daily" activeclassname="active">
                                 otto daily
                             </NavLink>
