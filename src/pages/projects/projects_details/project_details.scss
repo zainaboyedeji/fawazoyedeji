@@ -2,9 +2,33 @@
     display: flex;
     flex-wrap: nowrap;
     overflow-x: auto;
-  
-    .img{
+    gap: 10%;
+
+  .desc{
+    flex: 0 0 auto;
+    width:50%;
+
+  }
+    img{
       flex: 0 0 auto;
+      width:100%;
+      height:100%;
     }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .projectDetails {
+   
+        display: block;
+        width:100%;
+        .desc{
+          width:100%;
+        }
+        img{
+          margin-bottom: 1rem;
+        }
+     
+    }
+  
   }
   

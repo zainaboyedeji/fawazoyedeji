@@ -4,31 +4,39 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 import { Link } from "react-router-dom";
 import "./about_me.scss";
 
-
 function AboutMe() {
-  return (
-    <div className="aboutme">
-      <MobileHead />
-      <div className="d-flex first">
-        <div className="avatar">
-          <LazyLoadImage src={fawwaz} alt="fawwaz" />
-        </div>
-        <div className="next">
-          <p>
-            Fawaz Oyedeji is a documentary photographer and historian based in Lagos, Nigeria. He has a background in Mass Communication, having studied at the Yaba College of Technology in Nigeria. He recently completed a B.A.E in History Education at the University of Lagos in Nigeria. Currently, he is furthering his skills in the field of photojournalism and documentary photography through the Photojournalism and Documentary Photograph Program at the Market Photo Workshop in South Africa.
-          </p>
-          <p>
-            As a photojournalist, Fawaz is very motivated to keep records. He believes it’s extremely significant to record daily life and even now and then, the seemingly mundane, not just for a superior awareness and understanding of our times, but for individuals in the future to be able to reflect on who they are and how they got there.
-          </p>
-          <p>
-            Fawaz's outstanding photography has secured commissions from prominent publications and organizations like The Financial Times, Sahelein.com, ICLEI – Local Governments for Sustainability, and the World Food Programme. His work has been exhibited in global locations, including Lagos, New York, Kigali, and Germany. Recognized for his exceptional talent and dedication, Fawaz has received multiple grants and awards, including the Eugene Smith Memorial Fund Student Grant in 2019, the Bronx Documentary Center/DC Grant in 2020, and the Daniele Tamagni Grant in 2021 for his project "Yours In Arms." In 2023, he was honored with the Prince Claus Fund Seed Awards.
-          </p>
+    return (
+        <div className="aboutme">
+            <MobileHead />
+            <div className="d-flex first">
+                <div className="avatar">
+                    <LazyLoadImage src={fawwaz} alt="fawwaz" />
+                </div>
+                <div className="next">
+                    <p>
+                        Fawaz Oyedeji is a documentary photographer and historian based in Lagos, Nigeria. He holds a background in Mass Communication from Yaba College of Technology and a B.A.E in History Education from the University of
+                        Lagos. Recently, he graduated from the Market Photo Workshop in South Africa.
+                    </p>
 
-          <p>View full CV <Link to="/cv">here</Link></p>
+                    <p>
+                        Fawaz's primary focus in his artistic work revolves around exploring political expression in Africa. In broader terms, he examines how people interact with power. Fawaz believes that in a cultural society, power is
+                        not just a repressive force but an active one that operates at different levels and instances within social structures—such as political power, social class, institutions, and events. He believes that power shapes
+                        reality by assigning roles to individuals and, in a sense, molds certain types of people. It also constructs narratives for people, influencing how they engage with and fit into those narratives.
+                    </p>
+
+                    <p>
+                        Fawaz’s work has been commissioned by notable publications and organizations such as The Financial Times, Sahelein.com, ICLEI – Local Governments for Sustainability, and the UN World Food Programme. His photography
+                        has been exhibited globally, with showings in Lagos, New York, Kigali, and Germany. He has been the recipient of grants and awards, including the Eugene Smith Memorial Fund Student Grant in 2019, the Bronx
+                        Documentary Center/DC Grant in 2020, and the Daniele Tamagni Grant in 2021 for his project "Yours In Arms." In 2023, he was honored with the Prince Claus Fund Seed Awards.
+                    </p>
+
+                    <p>
+                        View full CV <Link to="/cv">here</Link>
+                    </p>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  );
+    );
 }
 
 export default AboutMe;

@@ -3,18 +3,20 @@ import MobileHead from "../../components/mobile_head";
 import { Link } from "react-router-dom";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import { projectsPage } from "../../config/constants";
+import "./projects.scss";
 
-function Projects() { 
+function Projects() {
     return (
-        <div className="commissions">
+        <div className="projects">
             <MobileHead />
-            <div className="flex flex-wrap w-full commissionImage">
+            <div className="flex flex-wrap w-full next">
                 {projectsPage.map((page, index) => (
-                    <div className="w-1/4 h-auto pl-7 pr-7 mt-2 first">
-                        <Link to={`/projects/${page.id}`}>
-                        <LazyLoadImage src={page.src} alt="GF1" /> <p>{page.text}</p>
-                        </Link>
-                    </div>
+                    <Link to={`/projects/${page.id}`} className="w-1/4 pr-5">
+                            <div>
+                                <LazyLoadImage src={page.src} alt="GF1"/>
+                            </div>
+                            <p className="text-center pt-2">{page.text}</p>
+                    </Link>
                 ))}
             </div>
         </div>

@@ -8,17 +8,18 @@ import { commissionsPage } from "../../../config/constants";
 function Commissions() { 
     return (
         <div className="commissions">
-            <MobileHead />
-            <div className="flex flex-wrap w-full commissionImage">
-                {commissionsPage.map((page, index) => (
-                    <div className="w-1/4 h-auto pl-7 pr-7 mt-2 first">
-                        <Link to={`/commissions/${page.id}`}>
-                        <LazyLoadImage src={page.src} alt="GF1" className="" /> <p>{page.text}</p>
-                        </Link>
-                    </div>
-                ))}
-            </div>
+        <MobileHead />
+        <div className="flex flex-wrap w-full next">
+            {commissionsPage.map((page, index) => (
+                <Link to={`/commissions/${page.id}`} className="w-1/4 pr-5">
+                        <div>
+                            <LazyLoadImage src={page.src} alt="GF1"/>
+                        </div>
+                        <p className="text-center pt-2">{page.text}</p>
+                </Link>
+            ))}
         </div>
+    </div>
     );
 }
 

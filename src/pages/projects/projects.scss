@@ -1,0 +1,21 @@
+.projects {
+    margin-left: 70px;
+  padding: 36px;
+  width: 100%;
+    a {
+        color: red;
+        text-decoration: none;
+        color: #777777;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .projects {
+      margin-left: 0 !important;
+      padding: 0 !important;
+     .next{
+        display: block;
+     }
+    }
+  
+  }
