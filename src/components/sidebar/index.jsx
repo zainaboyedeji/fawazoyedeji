@@ -24,7 +24,7 @@ function SideBar() {
                                 home
                             </NavLink>
                         </li>
-                        <li className="item hidden">
+                        <li className="item">
                             <NavLink to="/projects" activeclassname="active">
                                 projects
                             </NavLink>
@@ -44,7 +44,7 @@ function SideBar() {
                                 otto daily
                             </NavLink>
                         </li>
-                        <li className="item hidden">
+                        <li className="item">
                             <NavLink to="/commissions" activeclassname="active">
                                 commissions
                             </NavLink>
