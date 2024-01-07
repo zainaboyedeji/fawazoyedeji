@@ -13,7 +13,6 @@ function CommissionsImages() {
     return (
         <div className="commissions_images">
             <MobileHead />
-           
             <div>
                 <div className="projectDetails">
                     <div className="desc">

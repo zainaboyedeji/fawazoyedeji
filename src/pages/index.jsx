@@ -1,15 +1,12 @@
 import { Routes, Route } from "react-router-dom";
-import Yoursinarm from "./yours_in_arm";
-import Awakening from "./awakening";
 import SideBar from "../components/sidebar";
 import Contact from "./contact";
 import About from "./about_me";
 import LandingPage from "./landing_page";
-import Commissions from "./commisi/commissions";
-import OttoDaily from "./otto_daily";
+import Commissions from "./commissions";
 import Footer from "../components/footer";
-import CommissionsImages from "./commisi/commissions_images";
-import CommissionsDetails from "./commisi/commission_details";
+import CommissionsImages from "./commissions/commissions_images";
+import CommissionsDetails from "./commissions/commission_details";
 import CVPage from "./cv_page";
 import Projects from "./projects";
 import ProjectsDetails from "./projects/projects_details/index";
@@ -26,9 +23,6 @@ function MainView() {
                      <Route path="/home" element={<LandingPage/>} />
                      <Route path="/projects" element={<Projects/>} />
                      <Route path="/projects/:id" element={<ProjectsDetails/>} />
-                     <Route path="/yoursinarms" element={<Yoursinarm />} />
-                     <Route path="/endsars-awakening" element={<Awakening />} />
-                     <Route path="/otto-daily" element={<OttoDaily/>} />
                      <Route path="/contact" element={<Contact />} />
                      <Route path="/about" element={<About/>} />
                      <Route path="/cv" element={<CVPage/>} />

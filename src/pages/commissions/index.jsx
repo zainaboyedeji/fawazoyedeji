@@ -1,9 +1,9 @@
 import React from "react";
 import "./commissions.scss";
-import MobileHead from "../../../components/mobile_head";
+import MobileHead from "../../components/mobile_head";
 import { Link } from "react-router-dom";
 import { LazyLoadImage } from "react-lazy-load-image-component";
-import { commissionsPage } from "../../../config/constants";
+import { commissionsPage } from "../../config/constants";
 
 function Commissions() { 
     return (
