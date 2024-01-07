@@ -1,19 +1,19 @@
-import one from "../../image/2_yoursinarms/Fawaz-Oyedeji-Yours-In-Arms-001.jpg";
-import two from "../../image/2_yoursinarms/Fawaz-Oyedeji-Yours-In-Arms-002.jpg";
-import three from "../../image/2_yoursinarms/Fawaz-Oyedeji-Yours-In-Arms-003.jpg";
-import four from "../../image/2_yoursinarms/Fawaz-Oyedeji-Yours-In-Arms-004.jpg";
-import five from "../../image/2_yoursinarms/Fawaz-Oyedeji-Yours-In-Arms-005.jpg";
-import six from "../../image/2_yoursinarms/Fawaz-Oyedeji-Yours-In-Arms-006.jpg";
-import seven from "../../image/2_yoursinarms/Fawaz-Oyedeji-Yours-In-Arms-007.jpg";
-import eight from "../../image/2_yoursinarms/Fawaz-Oyedeji-Yours-In-Arms-008.jpg";
-import nine from "../../image/2_yoursinarms/Fawaz-Oyedeji-Yours-In-Arms-009.jpg";
-import ten from "../../image/2_yoursinarms/Fawaz-Oyedeji-Yours-In-Arms-010.jpg";
-import eleven from "../../image/2_yoursinarms/Fawaz-Oyedeji-Yours-In-Arms-011.jpg";
-import twelve from "../../image/2_yoursinarms/Fawaz-Oyedeji-Yours-In-Arms-012.jpg";
-import thirteen from "../../image/2_yoursinarms/Fawaz-Oyedeji-Yours-In-Arms-013.jpg";
-import fourteen from "../../image/2_yoursinarms/Fawaz-Oyedeji-Yours-In-Arms-014.jpg";
-import fifteen from "../../image/2_yoursinarms/Fawaz-Oyedeji-Yours-In-Arms-015.jpg";
-import sixteen from "../../image/2_yoursinarms/Fawaz-Oyedeji-Yours-In-Arms-016.jpg";
+import one from "../../image/projects/01_yours_in_arms/Fawaz-Oyedeji-Yours-In-Arms-001.jpg";
+import two from "../../image/projects/01_yours_in_arms/Fawaz-Oyedeji-Yours-In-Arms-002.jpg";
+import three from "../../image/projects/01_yours_in_arms/Fawaz-Oyedeji-Yours-In-Arms-003.jpg";
+import four from "../../image/projects/01_yours_in_arms/Fawaz-Oyedeji-Yours-In-Arms-004.jpg";
+import five from "../../image/projects/01_yours_in_arms/Fawaz-Oyedeji-Yours-In-Arms-005.jpg";
+import six from "../../image/projects/01_yours_in_arms/Fawaz-Oyedeji-Yours-In-Arms-006.jpg";
+import seven from "../../image/projects/01_yours_in_arms/Fawaz-Oyedeji-Yours-In-Arms-007.jpg";
+import eight from "../../image/projects/01_yours_in_arms/Fawaz-Oyedeji-Yours-In-Arms-008.jpg";
+import nine from "../../image/projects/01_yours_in_arms/Fawaz-Oyedeji-Yours-In-Arms-009.jpg";
+import ten from "../../image/projects/01_yours_in_arms/Fawaz-Oyedeji-Yours-In-Arms-010.jpg";
+import eleven from "../../image/projects/01_yours_in_arms/Fawaz-Oyedeji-Yours-In-Arms-011.jpg";
+import twelve from "../../image/projects/01_yours_in_arms/Fawaz-Oyedeji-Yours-In-Arms-012.jpg";
+import thirteen from "../../image/projects/01_yours_in_arms/Fawaz-Oyedeji-Yours-In-Arms-013.jpg";
+import fourteen from "../../image/projects/01_yours_in_arms/Fawaz-Oyedeji-Yours-In-Arms-014.jpg";
+import fifteen from "../../image/projects/01_yours_in_arms/Fawaz-Oyedeji-Yours-In-Arms-015.jpg";
+import sixteen from "../../image/projects/01_yours_in_arms/Fawaz-Oyedeji-Yours-In-Arms-016.jpg";
 import MobileHead from "../../components/mobile_head";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "./yours_in_arm.scss";
@@ -69,11 +69,9 @@ function Yoursinarm() {
 
 
         <div className='allImg'>
-       
         <LazyLoadImage src={one} alt="One" />
         <LazyLoadImage src={two} alt="Two" />
         <LazyLoadImage src={three} alt="Three" />
-
         <LazyLoadImage src={four} alt="Four" />
         <LazyLoadImage src={five} alt="Five" />
         <LazyLoadImage src={six} alt="Six" />

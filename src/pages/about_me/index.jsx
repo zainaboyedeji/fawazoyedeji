@@ -1,4 +1,4 @@
-import fawwaz from "../../image/6_about&contact/fawazoyedeji.png";
+import fawwaz from "../../image/about/fawaz_oyedeji.jpg";
 import MobileHead from "../../components/mobile_head";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import { Link } from "react-router-dom";

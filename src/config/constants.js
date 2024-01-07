@@ -1,75 +1,68 @@
-import gfh_one from "../image/5_commissions/gun_for_hire/001.jpg";
-import gfh_two from "../image/5_commissions/gun_for_hire/002.jpg";
-import hf_one from "../image/5_commissions/hidden_flows/001.jpg";
-import hf_two from "../image/5_commissions/hidden_flows/002.jpg";
-import hf_three from "../image/5_commissions/hidden_flows/003.jpg";
-import hf_four from "../image/5_commissions/hidden_flows/004.jpg";
-import hf_five from "../image/5_commissions/hidden_flows/005.jpg";
-import hf_six from "../image/5_commissions/hidden_flows/006.jpg";
-import npp_one from "../image/5_commissions/nigerian_policing_programme/01.jpg";
-import npp_two from "../image/5_commissions/nigerian_policing_programme/02.jpg";
-import npp_three from "../image/5_commissions/nigerian_policing_programme/03.jpg";
-import yia_one from "../image/2_yoursinarms/Fawaz-Oyedeji-Yours-In-Arms-001.jpg";
-import yia_two from "../image/2_yoursinarms/Fawaz-Oyedeji-Yours-In-Arms-002.jpg";
-import yia_three from "../image/2_yoursinarms/Fawaz-Oyedeji-Yours-In-Arms-003.jpg";
-import yia_four from "../image/2_yoursinarms/Fawaz-Oyedeji-Yours-In-Arms-004.jpg";
-import yia_five from "../image/2_yoursinarms/Fawaz-Oyedeji-Yours-In-Arms-005.jpg";
-import yia_six from "../image/2_yoursinarms/Fawaz-Oyedeji-Yours-In-Arms-006.jpg";
-import yia_seven from "../image/2_yoursinarms/Fawaz-Oyedeji-Yours-In-Arms-007.jpg";
-import yia_eight from "../image/2_yoursinarms/Fawaz-Oyedeji-Yours-In-Arms-008.jpg";
-import yia_nine from "../image/2_yoursinarms/Fawaz-Oyedeji-Yours-In-Arms-009.jpg";
-import yia_ten from "../image/2_yoursinarms/Fawaz-Oyedeji-Yours-In-Arms-010.jpg";
-import yia_eleven from "../image/2_yoursinarms/Fawaz-Oyedeji-Yours-In-Arms-011.jpg";
-import yia_twelve from "../image/2_yoursinarms/Fawaz-Oyedeji-Yours-In-Arms-012.jpg";
-import yia_thirteen from "../image/2_yoursinarms/Fawaz-Oyedeji-Yours-In-Arms-013.jpg";
-import yia_fourteen from "../image/2_yoursinarms/Fawaz-Oyedeji-Yours-In-Arms-014.jpg";
-import yia_fifteen from "../image/2_yoursinarms/Fawaz-Oyedeji-Yours-In-Arms-015.jpg";
-import yia_sixteen from "../image/2_yoursinarms/Fawaz-Oyedeji-Yours-In-Arms-016.jpg";
-import awakening_one from "../image/3_awakening/FO_001.jpg";
-import awakening_two from "../image/3_awakening/FO_002.jpg";
-import awakening_three from "../image/3_awakening/FO_003.jpg";
-import awakening_four from "../image/3_awakening/FO_004.jpg";
-import awakening_five from "../image/3_awakening/FO_005.jpg";
-import awakening_six from "../image/3_awakening/FO_006.jpg";
-import mamp_one from "../image/mo_advert_mo_power/FawazOyedeji_MAMP_01.jpg";
-import mamp_two from "../image/mo_advert_mo_power/FawazOyedeji_MAMP_02.jpg";
-import mamp_three from "../image/mo_advert_mo_power/FawazOyedeji_MAMP_03.jpg";
-import mamp_four from "../image/mo_advert_mo_power/FawazOyedeji_MAMP_04.jpg";
-import mamp_five from "../image/mo_advert_mo_power/FawazOyedeji_MAMP_05.jpg";
-import mamp_six from "../image/mo_advert_mo_power/FawazOyedeji_MAMP_06.jpg";
-import mamp_seven from "../image/mo_advert_mo_power/FawazOyedeji_MAMP_07.jpg";
-import mamp_eight from "../image/mo_advert_mo_power/FawazOyedeji_MAMP_08.jpg";
-import mamp_nine from "../image/mo_advert_mo_power/FawazOyedeji_MAMP_09.jpg";
-import mamp_ten from "../image/mo_advert_mo_power/FawazOyedeji_MAMP_10.jpg"
-import mamp_eleven from "../image/mo_advert_mo_power/FawazOyedeji_MAMP_11.jpg";
-import mamp_twelve from "../image/mo_advert_mo_power/FawazOyedeji_MAMP_12.jpg";
-import mamp_thirteen from "../image/mo_advert_mo_power/FawazOyedeji_MAMP_13.jpg";
-import mamp_fourteen from "../image/mo_advert_mo_power/FawazOyedeji_MAMP_14.jpg";
-import mamp_fifteen from "../image/mo_advert_mo_power/FawazOyedeji_MAMP_15.jpg";
-import mamp_sixteen from "../image/mo_advert_mo_power/FawazOyedeji_MAMP_16.jpg";
-import ot_one from "../image/4_ottodaily/01.jpeg";
-import ot_two from "../image/4_ottodaily/02.jpeg";
-import ot_three from "../image/4_ottodaily/03.jpeg";
-import ot_four from "../image/4_ottodaily/04.jpeg";
-import ot_five from "../image/4_ottodaily/05.jpeg";
-import ot_six from "../image/4_ottodaily/06.jpeg";
-import ot_seven from "../image/4_ottodaily/07.jpeg";
-import ot_eight from "../image/4_ottodaily/08.jpeg";
-import ot_nine from "../image/4_ottodaily/09.jpeg";
-import ot_ten from "../image/4_ottodaily/10.jpeg";
-import ot_eleven from "../image/4_ottodaily/11.jpeg";
-import ot_twelve from "../image/4_ottodaily/12.jpeg";
-import res_one from "../image/resale/FawazOyedeji_RESALE-01.jpg";
-import res_two from "../image/resale/FawazOyedeji_RESALE-02.jpg";
-import res_three from "../image/resale/FawazOyedeji_RESALE-03.jpg";
-import res_four from "../image/resale/FawazOyedeji_RESALE-04.jpg";
-import res_five from "../image/resale/FawazOyedeji_RESALE-05.jpg";
-import res_six from "../image/resale/FawazOyedeji_RESALE-06.jpg";
-import res_seven from "../image/resale/FawazOyedeji_RESALE-07.jpg";
-import res_eight from "../image/resale/FawazOyedeji_RESALE-08.jpg";
-import res_nine from "../image/resale/FawazOyedeji_RESALE-09.jpg";
-import res_ten from "../image/resale/FawazOyedeji_RESALE-10.jpg";
-import res_eleven from "../image/resale/FawazOyedeji_RESALE-11.jpg";
+import gfh_one from "../image/assignment/gun_for_hire/001.jpg";
+import gfh_two from "../image/assignment/gun_for_hire/002.jpg";
+import hf_one from "../image/assignment/hidden_flows/FawazOyedeji_Hidden Flows_001.jpg";
+import hf_two from "../image/assignment/hidden_flows/FawazOyedeji_Hidden Flows_002.jpg";
+import hf_three from "../image/assignment/hidden_flows/FawazOyedeji_Hidden Flows_003.jpg";
+import hf_four from "../image/assignment/hidden_flows/FawazOyedeji_Hidden Flows_004.jpg";
+import hf_five from "../image/assignment/hidden_flows/FawazOyedeji_Hidden Flows_005.jpg";
+import hf_six from "../image/assignment/hidden_flows/FawazOyedeji_Hidden Flows_006.jpg";
+import npp_one from "../image/assignment/nigerian_policing_programme/01.jpg";
+import npp_two from "../image/assignment/nigerian_policing_programme/02.jpg";
+import npp_three from "../image/assignment/nigerian_policing_programme/03.jpg";
+import yia_one from "../image/projects/01_yours_in_arms/Fawaz-Oyedeji-Yours-In-Arms-001.jpg";
+import yia_two from "../image/projects/01_yours_in_arms/Fawaz-Oyedeji-Yours-In-Arms-002.jpg";
+import yia_three from "../image/projects/01_yours_in_arms/Fawaz-Oyedeji-Yours-In-Arms-003.jpg";
+import yia_four from "../image/projects/01_yours_in_arms/Fawaz-Oyedeji-Yours-In-Arms-004.jpg";
+import yia_five from "../image/projects/01_yours_in_arms/Fawaz-Oyedeji-Yours-In-Arms-005.jpg";
+import yia_six from "../image/projects/01_yours_in_arms/Fawaz-Oyedeji-Yours-In-Arms-006.jpg";
+import yia_seven from "../image/projects/01_yours_in_arms/Fawaz-Oyedeji-Yours-In-Arms-007.jpg";
+import yia_eight from "../image/projects/01_yours_in_arms/Fawaz-Oyedeji-Yours-In-Arms-008.jpg";
+import yia_nine from "../image/projects/01_yours_in_arms/Fawaz-Oyedeji-Yours-In-Arms-009.jpg";
+import yia_ten from "../image/projects/01_yours_in_arms/Fawaz-Oyedeji-Yours-In-Arms-010.jpg";
+import yia_eleven from "../image/projects/01_yours_in_arms/Fawaz-Oyedeji-Yours-In-Arms-011.jpg";
+import yia_twelve from "../image/projects/01_yours_in_arms/Fawaz-Oyedeji-Yours-In-Arms-012.jpg";
+import yia_thirteen from "../image/projects/01_yours_in_arms/Fawaz-Oyedeji-Yours-In-Arms-013.jpg";
+import yia_fourteen from "../image/projects/01_yours_in_arms/Fawaz-Oyedeji-Yours-In-Arms-014.jpg";
+import yia_fifteen from "../image/projects/01_yours_in_arms/Fawaz-Oyedeji-Yours-In-Arms-015.jpg";
+import yia_sixteen from "../image/projects/01_yours_in_arms/Fawaz-Oyedeji-Yours-In-Arms-016.jpg";
+import awakening_one from "../image/projects/02_awakening/FO_001.jpg"
+import awakening_two from "../image/projects/02_awakening/FO_002.jpg";
+import awakening_three from "../image/projects/02_awakening/FO_003.jpg";
+import awakening_four from "../image/projects/02_awakening/FO_004.jpg";
+import awakening_five from "../image/projects/02_awakening/FO_005.jpg";
+import awakening_six from "../image/projects/02_awakening/FO_006.jpg";
+import mamp_one from "../image/projects/03_mo_advert_mo_power/Fawaz_Oyedeji_MAMP001.jpg";
+import mamp_two from "../image/projects/03_mo_advert_mo_power/Fawaz_Oyedeji_MAMP002.jpg";
+import mamp_three from "../image/projects/03_mo_advert_mo_power/Fawaz_Oyedeji_MAMP003.jpg";
+import mamp_four from "../image/projects/03_mo_advert_mo_power/Fawaz_Oyedeji_MAMP004.jpg";
+import mamp_five from "../image/projects/03_mo_advert_mo_power/Fawaz_Oyedeji_MAMP005.jpg";
+import mamp_six from "../image/projects/03_mo_advert_mo_power/Fawaz_Oyedeji_MAMP006.jpg";
+import mamp_seven from "../image/projects/03_mo_advert_mo_power/Fawaz_Oyedeji_MAMP007.jpg";
+import mamp_eight from "../image/projects/03_mo_advert_mo_power/Fawaz_Oyedeji_MAMP008.jpg";
+import mamp_nine from "../image/projects/03_mo_advert_mo_power/Fawaz_Oyedeji_MAMP009.jpg";
+import mamp_ten from "../image/projects/03_mo_advert_mo_power//Fawaz_Oyedeji_MAMP010.jpg"
+import ot_one from "../image/projects/04_otto daily/01.jpg";
+import ot_two from "../image/projects/04_otto daily/02.jpg";
+import ot_three from "../image/projects/04_otto daily/03.jpg";
+import ot_four from "../image/projects/04_otto daily/04.jpg";
+import ot_five from "../image/projects/04_otto daily/05.jpg";
+import ot_six from "../image/projects/04_otto daily/06.jpg";
+import ot_seven from "../image/projects/04_otto daily/07.jpg";
+import ot_eight from "../image/projects/04_otto daily/08.jpg";
+import ot_nine from "../image/projects/04_otto daily/09.jpg";
+import ot_ten from "../image/projects/04_otto daily/10.jpg";
+import ot_eleven from "../image/projects/04_otto daily/11.jpg";
+import res_one from "../image/projects/05_resale/FawazOyedeji_RESALE-1.jpg";
+import res_two from "../image/projects/05_resale/FawazOyedeji_RESALE-2.jpg";
+import res_three from "../image/projects/05_resale/FawazOyedeji_RESALE-3.jpg";
+import res_four from "../image/projects/05_resale/FawazOyedeji_RESALE-4.jpg";
+import res_five from "../image/projects/05_resale/FawazOyedeji_RESALE-5.jpg";
+import res_six from "../image/projects/05_resale/FawazOyedeji_RESALE-6.jpg";
+import res_seven from "../image/projects/05_resale/FawazOyedeji_RESALE-7.jpg";
+import res_eight from "../image/projects/05_resale/FawazOyedeji_RESALE-8.jpg";
+import res_nine from "../image/projects/05_resale/FawazOyedeji_RESALE-9.jpg";
+import res_ten from "../image/projects/05_resale/FawazOyedeji_RESALE-10.jpg"
+import res_eleven from "../image/projects/05_resale/FawazOyedeji_RESALE-11.jpg";
 
 
 export const commissionsPage = [
@@ -325,87 +318,48 @@ export const projectsPage = [
                 description: "another one our description 2",
             },
             {
-                id: "1",
-
+                id: "3",
                 src: mamp_three,
                 description: "all our description 1",
             },
             {
-                id: "2",
+                id: "4",
 
                 src: mamp_four,
                 description: "another one our description 2",
             },
             {
-                id: "1",
-
+                id: "5",
                 src: mamp_five,
                 description: "all our description 1",
             },
             {
-                id: "2",
-
+                id: "6",
                 src: mamp_six,
                 description: "another one our description 2",
             },
             {
-                id: "1",
+                id: "7",
 
                 src: mamp_seven,
                 description: "all our description 1",
             },
             {
-                id: "2",
+                id: "8",
 
                 src: mamp_eight,
                 description: "another one our description 2",
             },
             {
-                id: "1",
+                id: "9",
 
                 src: mamp_nine,
                 description: "all our description 1",
             },
             {
-                id: "2",
+                id: "10",
 
                 src: mamp_ten,
-                description: "another one our description 2",
-            },
-            {
-                id: "1",
-
-                src: mamp_eleven,
-                description: "all our description 1",
-            },
-            {
-                id: "2",
-
-                src: mamp_twelve,
-                description: "another one our description 2",
-            },
-            {
-                id: "2",
-
-                src: mamp_thirteen,
-                description: "another one our description 2",
-            },
-            {
-                id: "2",
-
-                src: mamp_fourteen,
-                description: "another one our description 2",
-            },
-            {
-                id: "2",
-
-                src: mamp_fifteen,
-                description: "another one our description 2",
-            },
-            {
-                id: "2",
-
-                src: mamp_sixteen,
                 description: "another one our description 2",
             },
         ],
@@ -419,63 +373,58 @@ export const projectsPage = [
         items: [
             {
                 id: "1",
-
+                text: "Otto Daily2",
                 src: ot_one,
             },
             {
                 id: "2",
-
+                text: "Otto Daily2",
                 src: ot_two,
             },
             {
                 id: "3",
-
+                text: "Otto Daily2",
                 src: ot_three,
             },
             {
-                id: "1",
-
+                id: "4",
+                text: "Otto Daily2",
                 src: ot_four,
             },
             {
-                id: "2",
-                text: "Otto Daily2",
+                id: "5",
+                text: "Otto Daily",
                 src: ot_five,
             },
             {
-                id: "3",
-
+                id: "6",
+                text: "Otto Daily2",
                 src: ot_six,
             },
             {
-                id: "1",
-
+                id: "7",
+                text: "Otto Daily2",
                 src: ot_seven,
             },
             {
-                id: "2",
-
+                id: "8",
+                text: "Otto Daily2",
                 src: ot_eight,
             },
             {
-                id: "3",
-
+                id: "9",
+                text: "Otto Daily2",
                 src: ot_nine,
             },
             {
-                id: "1",
-
+                id: "10",
+                text: "Otto Daily2",
                 src: ot_ten,
             },
             {
-                id: "2",
-
+                id: "11",
+                text: "Otto Daily2",
                 src: ot_eleven,
-            },
-            {
-                id: "3",
-
-                src: ot_twelve,
             },
         ],
     },

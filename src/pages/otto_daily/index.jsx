@@ -1,15 +1,14 @@
-import one from "../../image/4_ottodaily/01.jpeg";
-import two from "../../image/4_ottodaily/02.jpeg";
-import three from "../../image/4_ottodaily/03.jpeg";
-import four from "../../image/4_ottodaily/04.jpeg";
-import five from "../../image/4_ottodaily/05.jpeg";
-import six from "../../image/4_ottodaily/06.jpeg";
-import seven from "../../image/4_ottodaily/07.jpeg";
-import eight from "../../image/4_ottodaily/08.jpeg";
-import nine from "../../image/4_ottodaily/09.jpeg";
-import ten from "../../image/4_ottodaily/10.jpeg";
-import eleven from "../../image/4_ottodaily/11.jpeg";
-import twelve from "../../image/4_ottodaily/12.jpeg";
+import one from "../../image/projects/04_otto daily/01.jpg";
+import two from "../../image/projects/04_otto daily/02.jpg";
+import three from "../../image/projects/04_otto daily/03.jpg";
+import four from "../../image/projects/04_otto daily/04.jpg";
+import five from "../../image/projects/04_otto daily/05.jpg";
+import six from "../../image/projects/04_otto daily/06.jpg";
+import seven from "../../image/projects/04_otto daily/07.jpg";
+import eight from "../../image/projects/04_otto daily/08.jpg";
+import nine from "../../image/projects/04_otto daily/09.jpg";
+import ten from "../../image/projects/04_otto daily/10.jpg";
+import eleven from "../../image/projects/04_otto daily/11.jpg";
 import MobileHead from "../../components/mobile_head";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "./otto_daily.scss";
@@ -51,7 +50,6 @@ function OttoDaily() {
         <LazyLoadImage src={one} alt="One" />
         <LazyLoadImage src={two} alt="Two" />
         <LazyLoadImage src={three} alt="Three" />
-
         <LazyLoadImage src={four} alt="Four" />
         <LazyLoadImage src={five} alt="Five" />
         <LazyLoadImage src={six} alt="Six" />
@@ -60,8 +58,6 @@ function OttoDaily() {
         <LazyLoadImage src={nine} alt="Nine" />
         <LazyLoadImage src={ten} alt="Ten" />
         <LazyLoadImage src={eleven} alt="Eleven" />
-        <LazyLoadImage src={twelve} alt="Twelve" />
-       
         </div>
       </div>
      

@@ -1,9 +1,9 @@
-import one from "../../image/3_awakening/FO_001.jpg";
-import two from "../../image/3_awakening/FO_002.jpg";
-import three from "../../image/3_awakening/FO_003.jpg";
-import five from "../../image/3_awakening/FO_005.jpg";
-import four from "../../image/3_awakening/FO_006.jpg";
-import six from "../../image/3_awakening/FO_004.jpg";
+import one from "../../image/projects/02_awakening/FO_001.jpg";
+import two from "../../image/projects/02_awakening/FO_002.jpg";
+import three from "../../image/projects/02_awakening/FO_003.jpg";
+import five from "../../image/projects/02_awakening/FO_005.jpg";
+import four from "../../image/projects/02_awakening/FO_006.jpg";
+import six from "../../image/projects/02_awakening/FO_004.jpg";
 import MobileHead from "../../components/mobile_head";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "./awakening.scss";
