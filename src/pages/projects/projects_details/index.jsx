@@ -13,7 +13,6 @@ function ProjectsDetails() {
     return (
         <div>
             <MobileHead />
-            <div>
                 <div className="projectDetails">
                     <div className="desc">
                         {found?.description}
@@ -22,9 +21,6 @@ function ProjectsDetails() {
                         <LazyLoadImage src={page.src} alt="GF1" />
                     ))}
                 </div>
-
-            </div>
-
         </div>
     );
 }

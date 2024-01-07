@@ -2,11 +2,12 @@
   margin-left: 70px;
   padding: 36px;
   width: 100%;
-
   a {
-    color: red;
     text-decoration: none;
     color: #777777;
+    &:hover{
+      color:white;
+    }
   }
 }
 

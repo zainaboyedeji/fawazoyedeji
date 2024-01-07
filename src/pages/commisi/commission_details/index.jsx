@@ -1,8 +1,7 @@
 import React from "react";
 import MobileHead from "../../../components/mobile_head";
 import "./commission_details.scss";
-import { LazyLoadImage } from "react-lazy-load-image-component";
-import { Routes, Route, useParams } from 'react-router-dom';
+import {  useParams } from 'react-router-dom';
 import { commissionsPage } from "../../../config/constants";
 
 function CommissionsDetails() {
