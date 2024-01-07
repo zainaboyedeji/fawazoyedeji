@@ -30,7 +30,6 @@ function MainView() {
                      <Route path="/commissions/:id" element={<CommissionsImages/>} />
                      <Route path="/commissions/details/:id/:inner" element={<CommissionsDetails/>} />
                 </Routes> 
-                <Footer/>
             </div>
         </div>
        </div>

@@ -1,8 +1,10 @@
 import "./contact.scss";
 import MobileHead from "../../components/mobile_head";
+import Footer from "../../components/footer";
 
 function Contact() {
   return (
+    <>
     <div className="contact">
       <MobileHead />
       <div className="line"></div>
@@ -21,6 +23,8 @@ function Contact() {
         <p>whatsapp: +234-90-93173219</p>
       </div>
     </div>
+    <Footer/>
+    </>
   );
 }
 

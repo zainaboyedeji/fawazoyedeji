@@ -4,6 +4,7 @@ import { useParams } from 'react-router-dom';
 import { projectsPage } from "../../../config/constants";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "./project_details.scss"
+import Footer from "../../../components/footer";
 
 function ProjectsDetails() {
     let { id } = useParams();
@@ -11,6 +12,7 @@ function ProjectsDetails() {
         return item.id === id
     });
     return (
+        <>
         <div>
             <MobileHead />
                 <div className="projectDetails">
@@ -22,6 +24,8 @@ function ProjectsDetails() {
                     ))}
                 </div>
         </div>
+        <Footer/>
+        </>
     );
 }
 

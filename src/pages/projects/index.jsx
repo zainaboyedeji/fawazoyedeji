@@ -4,9 +4,11 @@ import { Link } from "react-router-dom";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import { projectsPage } from "../../config/constants";
 import "./projects.scss";
+import Footer from "../../components/footer";
 
 function Projects() {
     return (
+        <>
         <div className="projects">
             <MobileHead />
             <div className="flex flex-wrap w-full next">
@@ -20,6 +22,8 @@ function Projects() {
                 ))}
             </div>
         </div>
+        <Footer/>
+        </>
     );
 }
 

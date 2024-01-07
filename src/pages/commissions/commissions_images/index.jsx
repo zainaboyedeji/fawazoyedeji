@@ -4,6 +4,7 @@ import { useParams } from 'react-router-dom';
 import { commissionsPage } from "../../../config/constants";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "./commission_images.scss"
+import Footer from "../../../components/footer";
 
 function CommissionsImages() {
     let { id } = useParams();
@@ -11,6 +12,7 @@ function CommissionsImages() {
         return item.id === id
       });
     return (
+        <>
         <div className="commissions_images">
             <MobileHead />
             <div>
@@ -22,9 +24,10 @@ function CommissionsImages() {
                         <LazyLoadImage src={page.src} alt="GF1" />
                     ))}
                 </div>
-
             </div>
         </div>
+        <Footer/>
+        </>
     );
 }
 
