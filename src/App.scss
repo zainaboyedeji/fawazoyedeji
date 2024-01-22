@@ -6,13 +6,17 @@ body{
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale!important;
     overflow-x: hidden !important;
+    overscroll-behavior: none;
     cursor:pointer;
 }
-// ::-webkit-scrollbar {
-//     width: 0;  /* Remove scrollbar space */
-//     background: transparent;  /* Optional: just make scrollbar invisible */
-// }
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
 
 .display-block {
     display: block!important;
   }
+
+
+    

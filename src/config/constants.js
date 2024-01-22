@@ -172,85 +172,85 @@ export const projectsPage = [
                 description: "another one our description 2",
             },
             {
-                id: "1",
+                id: "3",
 
                 src: yia_three,
                 description: "all our description 1",
             },
             {
-                id: "2",
+                id: "4",
 
                 src: yia_four,
                 description: "another one our description 2",
             },
             {
-                id: "1",
+                id: "5",
 
                 src: yia_five,
                 description: "all our description 1",
             },
             {
-                id: "2",
+                id: "6",
 
                 src: yia_six,
                 description: "another one our description 2",
             },
             {
-                id: "1",
+                id: "7",
 
                 src: yia_seven,
                 description: "all our description 1",
             },
             {
-                id: "2",
+                id: "8",
 
                 src: yia_eight,
                 description: "another one our description 2",
             },
             {
-                id: "1",
+                id: "9",
 
                 src: yia_nine,
                 description: "all our description 1",
             },
             {
-                id: "2",
+                id: "10",
 
                 src: yia_ten,
                 description: "another one our description 2",
             },
             {
-                id: "1",
+                id: "11",
 
                 src: yia_eleven,
                 description: "all our description 1",
             },
             {
-                id: "2",
+                id: "12",
 
                 src: yia_twelve,
                 description: "another one our description 2",
             },
             {
-                id: "2",
+                id: "13",
 
                 src: yia_thirteen,
                 description: "another one our description 2",
             },
             {
-                id: "2",
+                id: "14",
 
                 src: yia_fourteen,
                 description: "another one our description 2",
             },
             {
-                id: "2",
+                id: "15",
 
                 src: yia_fifteen,
                 description: "another one our description 2",
             },
             {
-                id: "2",
+                id: "15",
 
                 src: yia_sixteen,
                 description: "another one our description 2",
@@ -268,32 +268,32 @@ export const projectsPage = [
         items: [
             {
                 id: "1",
-
+                description: "another one our description 2",
                 src: awakening_one,
             },
             {
                 id: "2",
-
+                description: "another one our description 2",
                 src: awakening_two,
             },
             {
                 id: "3",
-
+                description: "another one our description 2",
                 src: awakening_three,
             },
             {
                 id: "4",
-
+                description: "another one our description 2",
                 src: awakening_four,
             },
             {
                 id: "5",
-
+                description: "another one our description 2",
                 src: awakening_five,
             },
             {
                 id: "6",
-
+                description: "another one our description 2",
                 src: awakening_six,
             },
         ],
