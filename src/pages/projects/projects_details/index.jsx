@@ -5,7 +5,7 @@ import { projectsPage } from "../../../config/constants";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "./project_details.scss";
 import Footer from "../../../components/footer";
-import sample_image from "../../../image/about/fawaz_oyedeji.jpg";
+import sample_image from "../../../image/about/fawaz-oyedeji.jpg";
 
 function ProjectsDetails() {
   let { id } = useParams();
