@@ -50,11 +50,6 @@ function SideBar() {
                             </NavLink>
                         </li>
                         <li className="item">
-                            <NavLink to="/" activeclassname="active">
-                                .
-                            </NavLink>
-                        </li>
-                        <li className="item">
                             <NavLink to="/about" activeclassname="active">
                                 about
                             </NavLink>
