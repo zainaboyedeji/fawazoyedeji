@@ -22,7 +22,7 @@ function ProjectsDetails() {
             <LazyLoadImage src={page.src} alt="GF1" />
           ))}
 
-          <LazyLoadImage src={sample_image} alt="GF1" className="hidden" />
+          {/* <LazyLoadImage src={sample_image} alt="GF1" className="hidden" /> */}
         </div>
       </div>
       <Footer />
