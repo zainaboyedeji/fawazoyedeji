@@ -1,7 +1,12 @@
+import React,{useEffect} from 'react';
 import MobileHead from "../../components/mobile_head";
 import "./cv_page.scss";
 
 function CVPage() {
+    useEffect(() => {
+        document.body.classList.toggle('overflow-hidden', false);
+        return () => {document.body.classList.toggle('overflow-hidden', true);}
+      },[]);
     return (
         <div className="grants">
              <MobileHead />
