@@ -1,4 +1,4 @@
-import * as React from "react";
+import React,{useEffect} from "react";
 import one from "../../image/home/001.jpg";
 import two from "../../image/home/002.jpg";
 import three from "../../image/home/003.jpg";
@@ -16,6 +16,11 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 import "./landing_page.scss";
 
 function LandingPage() {
+
+  useEffect(() => {
+    document.body.classList.toggle('overflow-hidden', false);
+    return () => {document.body.classList.toggle('overflow-hidden', true);}
+  },[]);
   return (
     <div className="land">
       <MobileHead/>

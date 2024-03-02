@@ -1,26 +1,23 @@
-html, body {
-    // overflow: hidden;
-}
-
-body{
-	background: #242424!important;
-    color: #eeeeee!important;
-    font-family: "Telefon Normal", "Telefon Normal", sans-serif!important;
-    font-size: 16px!important;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale!important;
-    overflow-x: hidden !important;
-    overscroll-behavior: none;
-    cursor:pointer;
+body {
+  background: #242424 !important;
+  color: #eeeeee !important;
+  font-family: "Telefon Normal", "Telefon Normal", sans-serif !important;
+  font-size: 16px !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale !important;
+  overflow-x: hidden !important;
+  overscroll-behavior: none;
+  cursor: pointer;
 }
 ::-webkit-scrollbar {
-    width: 0;  /* Remove scrollbar space */
-    background: transparent;  /* Optional: just make scrollbar invisible */
+  width: 0; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
 }
 
 .display-block {
-    display: block!important;
-  }
+  display: block !important;
+}
 
-
-    
+.overflow-hidden {
+  overflow: hidden;
+}
