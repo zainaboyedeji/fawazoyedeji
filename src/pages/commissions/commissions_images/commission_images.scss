@@ -3,22 +3,21 @@
   flex-wrap: nowrap;
   overflow-x: auto;
 
-  .img{
+  .img {
     flex: 0 0 auto;
-    
   }
 }
 
-  
-  @media only screen and (max-width: 768px) {
-    .commissions_images{
-      margin-left: 0 !important;
-      padding: 0 !important;
+@media only screen and (max-width: 768px) {
+  .commissions_images {
+    margin-left: 0 !important;
+    padding: 0 !important;
 
-      .first{
-        flex-direction: column;
-        .imgDiv{
-          width:100%;}}
-  
+    .first {
+      flex-direction: column;
+      .imgDiv {
+        width: 100%;
+      }
     }
   }
+}
