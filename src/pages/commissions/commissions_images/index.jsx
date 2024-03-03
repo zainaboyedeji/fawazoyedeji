@@ -16,7 +16,7 @@ function CommissionsImages() {
       <div>
         <MobileHead />
         <div className="commissionsDetails mt-3">
-          <div className="desc mt-3">{found?.description}</div>
+          <div className="desc mt-3 mb-5">{found?.description}</div>
           {found?.items.map((page, index) => (
             <LazyLoadImage src={page.src} alt="GF1" />
           ))}
