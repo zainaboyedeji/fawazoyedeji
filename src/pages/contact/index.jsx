@@ -23,7 +23,7 @@ function Contact() {
         <p>whatsapp: +234-90-93173219</p>
       </div>
     </div>
-    {/* <Footer/> */}
+    <Footer/>
     </>
   );
 }

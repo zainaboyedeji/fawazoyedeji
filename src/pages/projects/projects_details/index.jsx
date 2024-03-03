@@ -22,7 +22,7 @@ function ProjectsDetails() {
           ))}
         </div>
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }

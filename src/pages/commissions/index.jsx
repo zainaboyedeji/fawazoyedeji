@@ -26,7 +26,7 @@ function Commissions() {
             ))}
         </div>
     </div>
-    {/* <Footer/> */}
+    <Footer/>
     </>
     );
 }

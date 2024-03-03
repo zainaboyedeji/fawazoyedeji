@@ -39,7 +39,7 @@ function AboutMe() {
                     </div>
                 </div>
             </div>
-            {/* <Footer /> */}
+            <Footer />
         </>
     );
 }

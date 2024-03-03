@@ -26,7 +26,7 @@ function CommissionsImages() {
                 </div>
             </div>
         </div>
-        {/* <Footer/> */}
+        <Footer/>
         </>
     );
 }
