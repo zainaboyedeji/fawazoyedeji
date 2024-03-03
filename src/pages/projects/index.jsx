@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 import MobileHead from "../../components/mobile_head";
 import { Link } from "react-router-dom";
 import { LazyLoadImage } from "react-lazy-load-image-component";
@@ -7,6 +7,10 @@ import "./projects.scss";
 import Footer from "../../components/footer";
 
 function Projects() {
+    useEffect(() => {
+        document.body.classList.toggle('overflow-hidden', false);
+        return () => {document.body.classList.toggle('overflow-hidden', true);}
+      },[]);
     return (
         <>
         <div className="projects">
