@@ -5,25 +5,33 @@ import Footer from "../../components/footer";
 function Contact() {
   return (
     <>
-    <div className="contact">
-      <MobileHead />
-      <div className="line"></div>
-      <div className="arr">
-        <p>
-          For inquiries regarding availability for commissions, image licensing, and print purchase, please contact.
-        </p>
-      </div>
+      <div className="contact">
+        <MobileHead />
+        <div className="line"></div>
+        <div className="arr">
+          <p>
+            For inquiries regarding availability for commissions, image
+            licensing, and print purchase, please contact.
+          </p>
+        </div>
 
-      <div className="arr">
-        <h1>FAWAZ OYEDEJI.</h1>
-      </div>
-      <div className="arr">
-        <p>email: <a href="mailto:contactfawazoyedeji@gmail.com">contactfawazoyedeji@gmail.com</a></p>
+        <div className="arr">
+          <h1>FAWAZ OYEDEJI.</h1>
+        </div>
+        <div className="arr">
+          <p>
+            email:
+            <a href="mailto:contactfawazoyedeji@gmail.com">
+              contactfawazoyedeji@gmail.com
+            </a>
+          </p>
 
-        <p>whatsapp: +234-90-93173219</p>
+          <p>whatsapp: +234-90-93173219</p>
+        </div>
       </div>
-    </div>
-    <Footer/>
+      <div className="contactFooter">
+        <Footer />
+      </div>
     </>
   );
 }

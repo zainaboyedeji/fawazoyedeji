@@ -27,7 +27,9 @@ function Projects() {
             </div>
            
         </div>
-        <Footer />
+       <div className="projectsFooter">
+       <Footer />
+       </div>
         </>
     );
 }

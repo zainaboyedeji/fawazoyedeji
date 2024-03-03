@@ -39,7 +39,9 @@ function AboutMe() {
                     </div>
                 </div>
             </div>
-            <Footer />
+           <div className="aboutFooter">
+           <Footer />
+           </div>
         </>
     );
 }

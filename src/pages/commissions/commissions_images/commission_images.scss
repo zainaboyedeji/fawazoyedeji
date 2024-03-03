@@ -1,22 +1,40 @@
-.commissionImages {
+.commissionsDetails {
   display: flex;
   flex-wrap: nowrap;
   overflow-x: auto;
-
-  .img {
+  gap: 10px;
+  height: 40rem;
+  .desc {
     flex: 0 0 auto;
+    width: 50%;
+  }
+  img {
+    flex: 0 0 auto;
+    height: 100%;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .commissions_images {
-    margin-left: 0 !important;
-    padding: 0 !important;
+  .commissionsDetails {
+    display: block;
+    height: 100vh;
+ 
+    .desc {
+      width: 100%;
+    }
+    img {
+      margin-bottom: 1rem;
+      height: auto;
+    }
+  }
+  .projectD {
+    display: none !important;
+    .footer {
+      left: 0px;
+      
 
-    .first {
-      flex-direction: column;
-      .imgDiv {
-        width: 100%;
+      p {
+        text-align: center;
       }
     }
   }

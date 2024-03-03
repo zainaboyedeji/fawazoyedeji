@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 import MobileHead from "../../../components/mobile_head";
 import { useParams } from "react-router-dom";
 import { projectsPage } from "../../../config/constants";
@@ -11,6 +11,10 @@ function ProjectsDetails() {
   const found = projectsPage.find(function (item) {
     return item.id === id;
   });
+  useEffect(() => {
+    document.body.classList.toggle('overflow-hidden', false);
+    return () => {document.body.classList.toggle('overflow-hidden', true);}
+  },[]);
   return (
     <>
       <div>

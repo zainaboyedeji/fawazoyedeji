@@ -31,9 +31,17 @@
 }
 
 @media only screen and (max-width: 768px) {
-	.contact {
-    margin-left: 0!important;
-    padding: 0!important;
-  
+  .contact {
+    margin-left: 0 !important;
+    padding: 0 !important;
+  }
+  .contactFooter {
+    .footer {
+      left: 0px;
+
+      p {
+        text-align: center;
+      }
+    }
   }
 }

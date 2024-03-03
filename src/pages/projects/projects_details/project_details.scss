@@ -17,9 +17,8 @@
 @media only screen and (max-width: 768px) {
   .projectDetails {
     display: block;
-    width: 100%;
-    overflow-x: hidden;
-
+    height: 100vh;
+ 
     .desc {
       width: 100%;
     }
@@ -29,9 +28,10 @@
     }
   }
   .projectD {
+    display: none !important;
     .footer {
       left: 0px;
-      // bottom: -100px;
+      
 
       p {
         text-align: center;
