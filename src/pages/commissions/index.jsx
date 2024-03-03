@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 import "./commissions.scss";
 import MobileHead from "../../components/mobile_head";
 import { Link } from "react-router-dom";
@@ -7,6 +7,10 @@ import { commissionsPage } from "../../config/constants";
 import Footer from "../../components/footer";
 
 function Commissions() { 
+    useEffect(() => {
+        document.body.classList.toggle('overflow-hidden', false);
+        return () => {document.body.classList.toggle('overflow-hidden', true);}
+      },[]);
     return (
         <>
         <div className="commissions">
@@ -22,7 +26,7 @@ function Commissions() {
             ))}
         </div>
     </div>
-    <Footer/>
+    {/* <Footer/> */}
     </>
     );
 }

@@ -1,3 +1,4 @@
+import React,{useEffect} from "react";
 import fawwaz from "../../image/about/fawaz-oyedeji.jpg";
 import MobileHead from "../../components/mobile_head";
 import { LazyLoadImage } from "react-lazy-load-image-component";
@@ -6,11 +7,15 @@ import "./about_me.scss";
 import Footer from "../../components/footer";
 
 function AboutMe() {
+    useEffect(() => {
+        document.body.classList.toggle('overflow-hidden', false);
+        return () => {document.body.classList.toggle('overflow-hidden', true);}
+      },[]);
     return (
         <>
             <div className="aboutme">
                 <MobileHead />
-                <div className="d-flex first">
+                <div className="flex first">
                     <div className="avatar">
                         <LazyLoadImage src={fawwaz} alt="fawwaz" />
                     </div>
@@ -34,7 +39,7 @@ function AboutMe() {
                     </div>
                 </div>
             </div>
-            <Footer />
+            {/* <Footer /> */}
         </>
     );
 }

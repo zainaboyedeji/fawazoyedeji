@@ -15,7 +15,7 @@ import "./pages.scss";
 function MainView() {
     return (
        <div className="wrap">
-        <div className="d-flex head">
+        <div className="flex head">
            <SideBar />
             <div className="routes">
                  <Routes>

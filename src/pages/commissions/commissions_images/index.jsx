@@ -16,7 +16,7 @@ function CommissionsImages() {
         <div className="commissions_images">
             <MobileHead />
             <div>
-                <div className="projectDetails">
+                <div className="projectDetails mt-3">
                     <div className="desc">
                         {found?.description}
                     </div>
@@ -26,7 +26,7 @@ function CommissionsImages() {
                 </div>
             </div>
         </div>
-        <Footer/>
+        {/* <Footer/> */}
         </>
     );
 }

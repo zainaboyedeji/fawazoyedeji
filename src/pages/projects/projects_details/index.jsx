@@ -15,14 +15,14 @@ function ProjectsDetails() {
     <>
       <div>
         <MobileHead />
-        <div className="projectDetails">
+        <div className="projectDetails mt-3">
           <div className="desc">{found?.description}</div>
           {found?.items.map((page, index) => (
             <LazyLoadImage src={page.src} alt="GF1" />
           ))}
         </div>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

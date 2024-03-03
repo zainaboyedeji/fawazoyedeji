@@ -17,7 +17,7 @@ function Projects() {
             <MobileHead />
             <div className="flex flex-wrap w-full next">
                 {projectsPage.map((page, index) => (
-                    <Link to={`/projects/${page.id}`} className="w-1/4 pr-5">
+                    <Link to={`/projects/${page.id}`} className="w-1/4 pr-5 mt-5">
                             <div>
                                 <LazyLoadImage src={page.src} alt="GF1"/>
                             </div>
@@ -25,8 +25,9 @@ function Projects() {
                     </Link>
                 ))}
             </div>
+           
         </div>
-        <Footer/>
+       
         </>
     );
 }
