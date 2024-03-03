@@ -8,8 +8,8 @@ import Footer from "../../components/footer";
 
 function Projects() {
     useEffect(() => {
-        document.body.classList.toggle('overflow-hidden', false);
-        return () => {document.body.classList.toggle('overflow-hidden', true);}
+        document.body.classList.toggle('overflow-hidden', true);
+        return () => {document.body.classList.toggle('overflow-hidden', false);}
       },[]);
     return (
         <>
