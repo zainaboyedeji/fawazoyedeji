@@ -12,7 +12,7 @@ import ten from "../../image/home/010.jpg";
 import eleven from "../../image/home/011.jpg";
 import twelve from "../../image/home/012.jpg";
 import MobileHead from "../../components/mobile_head";
-import { LazyLoadImage } from "react-lazy-load-image-component";
+ 
 import Footer from "../../components/footer/index";
 import "./landing_page.scss";
 
@@ -29,40 +29,40 @@ function LandingPage() {
         <MobileHead />
 
         <div className="allImg">
-          <LazyLoadImage src={one} alt="One" />
+          <img src={one} alt="One" />
         </div>
         <div className="allImg">
-          <LazyLoadImage src={two} alt="Two" />
+          <img src={two} alt="Two" />
         </div>
         <div className="allImg">
-          <LazyLoadImage src={three} alt="Three" />
+          <img src={three} alt="Three" />
         </div>
         <div className="allImg">
-          <LazyLoadImage src={four} alt="Four" />
+          <img src={four} alt="Four" />
         </div>
         <div className="allImg">
-          <LazyLoadImage src={five} alt="Five" />
+          <img src={five} alt="Five" />
         </div>
         <div className="allImg">
-          <LazyLoadImage src={six} alt="Six" />
+          <img src={six} alt="Six" />
         </div>
         <div className="allImg">
-          <LazyLoadImage src={seven} alt="Seven" />
+          <img src={seven} alt="Seven" />
         </div>
         <div className="allImg">
-          <LazyLoadImage src={eight} alt="Eight" />
+          <img src={eight} alt="Eight" />
         </div>
         <div className="allImg">
-          <LazyLoadImage src={nine} alt="Nine" />
+          <img src={nine} alt="Nine" />
         </div>
         <div className="allImg">
-          <LazyLoadImage src={ten} alt="Ten" />
+          <img src={ten} alt="Ten" />
         </div>
         <div className="allImg">
-          <LazyLoadImage src={eleven} alt="Eleven" />
+          <img src={eleven} alt="Eleven" />
         </div>
         <div className="allImg">
-          <LazyLoadImage src={twelve} alt="Twelve" />
+          <img src={twelve} alt="Twelve" />
         </div>
       </div>
       <div className="landPage">

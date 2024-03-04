@@ -93,6 +93,7 @@ export const commissionsPage = [
             target="_blank"
             rel="noreferrer"
             title="Gun For Hire"
+            className="ml-2"
           >
             Gun for hire.
           </a>
