@@ -20,13 +20,13 @@ function Contact() {
         </div>
         <div className="arr">
           <p>
-            email:
-            <a href="mailto:contactfawazoyedeji@gmail.com">
-              contactfawazoyedeji@gmail.com
+            email: 
+            <a className="ml-1" href="mailto:contactfawazoyedeji@gmail.com">
+                 contactfawazoyedeji@gmail.com
             </a>
           </p>
 
-          <p>whatsapp: +234-90-93173219</p>
+          <p>telephone: +234-90-93173219</p>
         </div>
       </div>
       <div className="contactFooter">
