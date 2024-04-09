@@ -21,7 +21,7 @@ function ProjectsDetails() {
         <div className="projectDetails mt-3">
           <div className="desc mr-5">{found?.description}</div>
           {found?.items.map((page, index) => (
-            <img src={page.src} alt="GF1" className="mr-20" />
+            <img src={page.src} alt="GF1" className="ml-16 mr-16" />
           ))}
         </div>
       </div>
