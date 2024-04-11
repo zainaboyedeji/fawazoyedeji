@@ -333,19 +333,6 @@ export const projectsPage = [
           decisionand chose to combine this extracurricular activity with school
           work and personal life.
         </div>
-        <div className="mt-4">
-          My project examines the diverse realities of life as a student cadet
-          through a proper account oftheir in-group activities and the socio-
-          political roles these youths play within the Nigerian context.I was
-          inspired to start this story because I was once a member of this
-          organization.After finishingmy service, It became clear how much I’ve
-          been disconnected from their conventions over theyears, rather than
-          embrace them.Mostly because I found it extremely hard to bear this
-          militia journey while managing other drastic social changes in my
-          personal life.By reconnecting withthese cadets and photographing their
-          realities both vigorous and vulnerable phases, I amexploring the truth
-          and fiction of military personnel all over the world.
-        </div>
         <div className="mt-4 mb-4">'2018-Ongoing'"</div>
       </div>
     ),
