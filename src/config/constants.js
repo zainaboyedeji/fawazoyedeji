@@ -240,7 +240,7 @@ export const commissionsPage = [
   {
     id: "new_culture_studios_ibadan",
     text: " New Culture Studios in Ibadan, Nigeria | Architectural Review ",
-    src: ncs_one,
+    src: ncs_three,
     description: (
       <div>
         <div>
