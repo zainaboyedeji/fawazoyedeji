@@ -245,9 +245,7 @@ export const commissionsPage = [
       <div>
         <div>
           Demas Nwoko’s ever‑evolving arts and culture centre in Ibadan, Nigeria. Photographs for the Architectural Review #February 2024 #repair issue.
-          <div className="mt-5">The first parts of the complex were built in 1967 and remain in evolution today. In the 1980s, a golden generation of Nigerian writers – including Wole Soyinka, Chinua Achebe and Mabel Segun – would meet in its entrance hall. Today, Nwoko’s son Rufus lives in the former offices of his father’s arts practice, directing theatre shows that draw crowds far larger than the site‘s theatre was designed for.</div>
-          Purchase Architectural Review’s Revisit; February 2024 issue on Repair here or view publicly accessible material here.
-          guide for hyperlinks -
+          <div className="mt-5 mb-5">The first parts of the complex were built in 1967 and remain in evolution today. In the 1980s, a golden generation of Nigerian writers – including Wole Soyinka, Chinua Achebe and Mabel Segun – would meet in its entrance hall. Today, Nwoko’s son Rufus lives in the former offices of his father’s arts practice, directing theatre shows that draw crowds far larger than the site‘s theatre was designed for.</div>
         </div>
         <div className="mt-4 mb-4">
           Purchase Abba's Revisit in the February 2024 issue on Repair 
@@ -260,7 +258,7 @@ export const commissionsPage = [
           >
              here: 
           </a>
-          or view publicly accessible images
+          or view online images
 
           <a
             href="https://www.architectural-review.com/essays/revisit/revisit-new-culture-studios-in-ibadan-nigeria-by-demas-nwoko"
