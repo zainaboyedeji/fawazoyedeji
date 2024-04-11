@@ -1,5 +1,6 @@
 import gfh_one from "../image/assignment/gun_for_hire/001.jpg";
 import gfh_two from "../image/assignment/gun_for_hire/002.jpg";
+import hf_preview from "../image/assignment/hidden_flows/FawazOyedeji_Hidden Flows_preview.jpg"
 import hf_one from "../image/assignment/hidden_flows/FawazOyedeji_Hidden Flows_001.jpg";
 import hf_two from "../image/assignment/hidden_flows/FawazOyedeji_Hidden Flows_002.jpg";
 import hf_three from "../image/assignment/hidden_flows/FawazOyedeji_Hidden Flows_003.jpg";
@@ -63,6 +64,11 @@ import res_eight from "../image/projects/05_resale/FawazOyedeji_RESALE-8.jpg";
 import res_nine from "../image/projects/05_resale/FawazOyedeji_RESALE-9.jpg";
 import res_ten from "../image/projects/05_resale/FawazOyedeji_RESALE-10.jpg";
 import res_eleven from "../image/projects/05_resale/FawazOyedeji_RESALE-11.jpg";
+import ncs_one from "../image/assignment/new_culture_studios/01_FawazOyedeji_Revisit.jpg";
+import ncs_two from "../image/assignment/new_culture_studios/02_FawazOyedeji_Revisit.jpg";
+import ncs_three from "../image/assignment/new_culture_studios/03_FawazOyedeji_Revisit.jpg";
+import ncs_four from "../image/assignment/new_culture_studios/04_FawazOyedeji_Revisit.jpg";
+import ncs_five from "../image/assignment/new_culture_studios/05_FawazOyedeji_Revisit.jpg";
 
 export const commissionsPage = [
   {
@@ -118,7 +124,7 @@ export const commissionsPage = [
   {
     id: "hidden_flows",
     text: "Hidden Flows",
-    src: hf_one,
+    src: hf_preview,
     description: (
       <div>
         <div>
@@ -131,7 +137,7 @@ export const commissionsPage = [
           challenges faced in African contexts, where resources follow
           decentralized systems and involve informal networks.
           <div className="mt-5">
-            
+
             The images featured in the exhibition have been captured under the
             commission from ICLEI Local Government For Sustainability.
           </div>
@@ -228,6 +234,69 @@ export const commissionsPage = [
         id: "3",
 
         src: npp_three,
+      },
+    ],
+  },
+  {
+    id: "new_culture_studios_ibadan",
+    text: " New Culture Studios in Ibadan, Nigeria | Architectural Review ",
+    src: ncs_one,
+    description: (
+      <div>
+        <div>
+          Demas Nwoko’s ever‑evolving arts and culture centre in Ibadan, Nigeria. Photographs for the Architectural Review #February 2024 #repair issue.
+          <div className="mt-5">The first parts of the complex were built in 1967 and remain in evolution today. In the 1980s, a golden generation of Nigerian writers – including Wole Soyinka, Chinua Achebe and Mabel Segun – would meet in its entrance hall. Today, Nwoko’s son Rufus lives in the former offices of his father’s arts practice, directing theatre shows that draw crowds far larger than the site‘s theatre was designed for.</div>
+          Purchase Architectural Review’s Revisit; February 2024 issue on Repair here or view publicly accessible material here.
+          guide for hyperlinks -
+        </div>
+        <div className="mt-4 mb-4">
+          Purchase Abba's Revisit in the February 2024 issue on Repair 
+          <a
+            href="https://www.linkedin.com/feed/update/urn:li:activity:7163207247722921984/"
+            target="_blank"
+            rel="noreferrer"
+            title="Nigerian Policing Programme"
+            className="mr-1 ml-1"
+          >
+             here: 
+          </a>
+          or view publicly accessible images
+
+          <a
+            href="https://www.architectural-review.com/essays/revisit/revisit-new-culture-studios-in-ibadan-nigeria-by-demas-nwoko"
+            target="_blank"
+            rel="noreferrer"
+            title="Nigerian Policing Programme"
+            className="mr-1 ml-1"
+          >here.</a>
+        </div>
+      </div>
+    ),
+    items: [
+      {
+        id: "1",
+
+        src: ncs_one,
+      },
+      {
+        id: "2",
+
+        src: ncs_two,
+      },
+      {
+        id: "3",
+
+        src: ncs_three,
+      },
+      {
+        id: "4",
+
+        src: ncs_four,
+      },
+      {
+        id: "5",
+
+        src: ncs_five,
       },
     ],
   },
@@ -457,7 +526,7 @@ export const projectsPage = [
         <div className="mt-4">
           In this work, I delve into the role of political posters in everyday
           party politicking in Nigeria, where they have become an almost normal
-          or naturalized habitual repertoire of political action. 
+          or naturalized habitual repertoire of political action.
         </div>
         <div className="mt-4">
           Printing in Nigeria is a growing industry that is becoming
@@ -466,7 +535,7 @@ export const projectsPage = [
           banners, and billboards are never big enough for politicians to
           impregnate our minds with their electoral ambition. Campaign after
           campaign, the posters are twice as large, twice as tall, and always
-          more dominant than the previous one. 
+          more dominant than the previous one.
         </div>
         <div className="mt-4 mb-4">
           The candidates want to convince voters that they would be the best
@@ -482,13 +551,11 @@ export const projectsPage = [
     items: [
       {
         id: "1",
-
         src: mamp_one,
         description: "all our description 1",
       },
       {
         id: "2",
-
         src: mamp_two,
         description: "another one our description 2",
       },
@@ -499,7 +566,6 @@ export const projectsPage = [
       },
       {
         id: "4",
-
         src: mamp_four,
         description: "another one our description 2",
       },
@@ -515,8 +581,7 @@ export const projectsPage = [
       },
       {
         id: "7",
-
-        src: mamp_seven,
+        src: mamp_ten,
         description: "all our description 1",
       },
       {
@@ -534,7 +599,7 @@ export const projectsPage = [
       {
         id: "10",
 
-        src: mamp_ten,
+        src: mamp_seven,
         description: "another one our description 2",
       },
     ],

@@ -20,8 +20,8 @@ function Commissions() {
         <div className="flex flex-wrap w-full next">
           {commissionsPage.map((page, index) => (
             <Link to={`/commissions/${page.id}`} className="w-1/4 pr-5">
-              <div>
-                <img src={page.src} alt="GF1" />
+              <div className="w-26 h-26">
+                <img src={page.src} alt="GF1" className="w-full h-full"/>
               </div>
               <p className="text-center pt-2">{page.text}</p>
             </Link>
