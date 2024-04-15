@@ -65,9 +65,12 @@ function LandingPage() {
           <img src={twelve} alt="Twelve" />
         </div>
       </div>
-      <div className="landPage">
-        <Footer />
-      </div>
+
+
+      <div className="flex justify-end">
+      <p className="footerParagraph">2023 Fawaz Oyedeji by Zainab Oyedeji</p>
+    </div>
+     
     </>
   );
 }
