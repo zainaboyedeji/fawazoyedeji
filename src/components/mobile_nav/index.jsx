@@ -9,12 +9,6 @@ function MobileNav() {
                
                 <nav>
                     <ul>
-                        <li className="category">
-                            <NavLink to="/" activeclassname="active">
-                                lagos. nigeria
-                            </NavLink>
-                        </li>
-
                         <li className="item">
                             <NavLink to="/" activeclassname="active">
                                 home

@@ -122,6 +122,114 @@ export const commissionsPage = [
     ],
   },
   {
+    id: "new_culture_studios_ibadan",
+    text: " New Culture Studios by Demas Nwoko ",
+    src: ncs_three,
+    description: (
+      <div>
+        <div>
+          Demas Nwoko’s ever‑evolving arts and culture centre in Ibadan, Nigeria. Photographs for the Architectural Review #February 2024 #repair issue.
+          <div className="mt-5 mb-5">The first parts of the complex were built in 1967 and remain in evolution today. In the 1980s, a golden generation of Nigerian writers – including Wole Soyinka, Chinua Achebe and Mabel Segun – would meet in its entrance hall. Today, Nwoko’s son Rufus lives in the former offices of his father’s arts practice, directing theatre shows that draw crowds far larger than the site‘s theatre was designed for.</div>
+        </div>
+        <div className="mt-4 mb-4">
+        Purchase Architectural Review February issue about  Repair
+          <a
+            href="https://www.linkedin.com/feed/update/urn:li:activity:7163207247722921984/"
+            target="_blank"
+            rel="noreferrer"
+            title="Nigerian Policing Programme"
+            className="mr-1 ml-1"
+          >
+             here: 
+          </a>
+          or view online images
+
+          <a
+            href="https://www.architectural-review.com/essays/revisit/revisit-new-culture-studios-in-ibadan-nigeria-by-demas-nwoko"
+            target="_blank"
+            rel="noreferrer"
+            title="Nigerian Policing Programme"
+            className="mr-1 ml-1"
+          >here.</a>
+        </div>
+      </div>
+    ),
+    items: [
+      {
+        id: "1",
+
+        src: ncs_one,
+      },
+      {
+        id: "2",
+
+        src: ncs_two,
+      },
+      {
+        id: "3",
+
+        src: ncs_three,
+      },
+      {
+        id: "4",
+
+        src: ncs_four,
+      },
+      {
+        id: "5",
+
+        src: ncs_five,
+      },
+    ],
+  },
+  {
+    id: "nigerian_policing_programme",
+    text: "Nigerian Policing Programme",
+    src: npp_one,
+    description: (
+      <div>
+        <div>
+          I worked on an assignment for Tetra Tech International Development,
+          contributing to the Nigerian Policing Programme. This program is
+          designed to enhance the delivery of policing services in Nigeria,
+          extending its impact beyond just the Nigerian Police Force. Our
+          mission encompassed collaboration with a broad spectrum of
+          institutions, administrative functions, community groups, and security
+          actors who collectively shape the national security environment in
+          Nigeria.
+        </div>
+        <div className="mt-4 mb-4">
+          Learn more about the programme and its impact:{" "}
+          <a
+            href="https://intdev.tetratecheurope.com/projects/nigeria-policing-programme/"
+            target="_blank"
+            rel="noreferrer"
+            title="Nigerian Policing Programme"
+          >
+            Nigerian Policing Programme
+          </a>
+        </div>
+      </div>
+    ),
+    items: [
+      {
+        id: "1",
+
+        src: npp_one,
+      },
+      {
+        id: "2",
+
+        src: npp_two,
+      },
+      {
+        id: "3",
+
+        src: npp_three,
+      },
+    ],
+  },
+  {
     id: "hidden_flows",
     text: "Hidden Flows",
     src: hf_preview,
@@ -190,117 +298,181 @@ export const commissionsPage = [
       },
     ],
   },
-  {
-    id: "nigerian_policing_programme",
-    text: "Nigerian Policing Programme",
-    src: npp_one,
-    description: (
-      <div>
-        <div>
-          I worked on an assignment for Tetra Tech International Development,
-          contributing to the Nigerian Policing Programme. This program is
-          designed to enhance the delivery of policing services in Nigeria,
-          extending its impact beyond just the Nigerian Police Force. Our
-          mission encompassed collaboration with a broad spectrum of
-          institutions, administrative functions, community groups, and security
-          actors who collectively shape the national security environment in
-          Nigeria.
-        </div>
-        <div className="mt-4 mb-4">
-          Learn more about the programme and its impact:{" "}
-          <a
-            href="https://intdev.tetratecheurope.com/projects/nigeria-policing-programme/"
-            target="_blank"
-            rel="noreferrer"
-            title="Nigerian Policing Programme"
-          >
-            Nigerian Policing Programme
-          </a>
-        </div>
-      </div>
-    ),
-    items: [
-      {
-        id: "1",
-
-        src: npp_one,
-      },
-      {
-        id: "2",
-
-        src: npp_two,
-      },
-      {
-        id: "3",
-
-        src: npp_three,
-      },
-    ],
-  },
-  {
-    id: "new_culture_studios_ibadan",
-    text: " New Culture Studios in Ibadan, Nigeria | Architectural Review ",
-    src: ncs_three,
-    description: (
-      <div>
-        <div>
-          Demas Nwoko’s ever‑evolving arts and culture centre in Ibadan, Nigeria. Photographs for the Architectural Review #February 2024 #repair issue.
-          <div className="mt-5 mb-5">The first parts of the complex were built in 1967 and remain in evolution today. In the 1980s, a golden generation of Nigerian writers – including Wole Soyinka, Chinua Achebe and Mabel Segun – would meet in its entrance hall. Today, Nwoko’s son Rufus lives in the former offices of his father’s arts practice, directing theatre shows that draw crowds far larger than the site‘s theatre was designed for.</div>
-        </div>
-        <div className="mt-4 mb-4">
-          Purchase Abba's Revisit in the February 2024 issue on Repair 
-          <a
-            href="https://www.linkedin.com/feed/update/urn:li:activity:7163207247722921984/"
-            target="_blank"
-            rel="noreferrer"
-            title="Nigerian Policing Programme"
-            className="mr-1 ml-1"
-          >
-             here: 
-          </a>
-          or view online images
-
-          <a
-            href="https://www.architectural-review.com/essays/revisit/revisit-new-culture-studios-in-ibadan-nigeria-by-demas-nwoko"
-            target="_blank"
-            rel="noreferrer"
-            title="Nigerian Policing Programme"
-            className="mr-1 ml-1"
-          >here.</a>
-        </div>
-      </div>
-    ),
-    items: [
-      {
-        id: "1",
-
-        src: ncs_one,
-      },
-      {
-        id: "2",
-
-        src: ncs_two,
-      },
-      {
-        id: "3",
-
-        src: ncs_three,
-      },
-      {
-        id: "4",
-
-        src: ncs_four,
-      },
-      {
-        id: "5",
-
-        src: ncs_five,
-      },
-    ],
-  },
 ];
 
 export const projectsPage = [
+  {
+    id: "mo_advert_mo_power",
+    text: "Mo Advert Mo Power",
+    src: mamp_one,
+    description: (
+      <div>
+        <div>
+          Every four years, when elections are approaching, thousands and
+          thousands of party-political posters start to invade our cityscape.
+          This has become almost a campaign weapon for parties" rivalries over
+          urban space and for politicians to demonstrate their power and
+          demarcate their territories. It is a visual performance of power.
+        </div>
+        <div className="mt-4">
+          In this work, I delve into the role of political posters in everyday
+          party politicking in Nigeria, where they have become an almost normal
+          or naturalized habitual repertoire of political action.
+        </div>
+        <div className="mt-4">
+          Printing in Nigeria is a growing industry that is becoming
+          increasingly important to political culture. It is worth millions,
+          despite still using artisanal methods in most places.  Posters,
+          banners, and billboards are never big enough for politicians to
+          impregnate our minds with their electoral ambition. Campaign after
+          campaign, the posters are twice as large, twice as tall, and always
+          more dominant than the previous one.
+        </div>
+        <div className="mt-4 mb-4">
+          The candidates want to convince voters that they would be the best
+          choice to run their life, through portraits that mimic historical and
+          reassuring political leaders, either smiling or with emotionless
+          faces. For the few months of the campaign, they are everywhere, on
+          every corner, every street or bridge, and major road. We, as citizens,
+          experience the hyper-visibility of politics before the images tarnish
+          and the promises fade.
+        </div>
+      </div>
+    ),
+    items: [
+      {
+        id: "1",
+        src: mamp_one,
+        description: "all our description 1",
+      },
+      {
+        id: "2",
+        src: mamp_two,
+        description: "another one our description 2",
+      },
+      {
+        id: "3",
+        src: mamp_three,
+        description: "all our description 1",
+      },
+      {
+        id: "4",
+        src: mamp_four,
+        description: "another one our description 2",
+      },
+      {
+        id: "5",
+        src: mamp_five,
+        description: "all our description 1",
+      },
+      {
+        id: "6",
+        src: mamp_six,
+        description: "another one our description 2",
+      },
+      {
+        id: "7",
+        src: mamp_ten,
+        description: "all our description 1",
+      },
+      {
+        id: "8",
+
+        src: mamp_eight,
+        description: "another one our description 2",
+      },
+      {
+        id: "9",
+
+        src: mamp_nine,
+        description: "all our description 1",
+      },
+      {
+        id: "10",
+
+        src: mamp_seven,
+        description: "another one our description 2",
+      },
+    ],
+  },
+  {
+    id: "awakening",
+    text: "Awakening",
+    src: awakening_one,
+    description: (
+      <div>
+        <div>
+          After years of experiencing political corruption, human rights
+          violation, and extortion within the SARS [Special Anti Robbery Squad]
+          unit of the police force, young Nigerians are determined toreform the
+          policing system through a series of peaceful nationwide protests until
+          their demandsare met.
+        </div>
+        <div className="mt-4">
+          Despite a system that has been unresponsive to their need, the youth
+          of Nigeria have spoken up.There is poetry to the fact that the protest
+          erupted in October 2020; Oct. 1, 1960, marked theofficial date of
+          Nigeria’s independence from British rule. Sixty years later, young
+          Nigerians are stilldemanding freedom from repression.
+        </div>
+        <div className="mt-4">
+          The pattern of assembling policing forces to protect government over
+          the people, to prey on localcommunities, and suppress dissent
+          continued well into the 20th century. The Aba Women’s Warof 1929, the
+          General Strike of 1945, and the Enugu Colliery Strike of 1949 were
+          instances whereanti-colonial resistance was met with a quasi-military
+          policing force deployed to subjugate citizens.
+        </div>
+        <div className="mt-4">
+          The #EndSARS protest which started as a peaceful demonstration by
+          thousands of youthsquickly degenerated into chaos as security forces,
+          mostly police began to use live ammunitionand tear gas on protesters
+          leading to an estimated death of at least 100 individuals. 48 of
+          whomwere killed on October 20, 2020, alone.
+        </div>
+        <div className="mt-4">
+          Here, I visualize my experience at four demonstrations I partook in at
+          Lagos, Nigeria. Everything is captured in the spontaneous as we
+          citizens mobilize collectively across the city. Each figure’s physical
+          struggle is simultaneously expressive and reflective of the political
+          situation.
+        </div>
+        <div className="mt-4 mb-4">"2020"</div>{" "}
+      </div>
+    ),
+    items: [
+      {
+        id: "1",
+        description: "another one our description 2",
+        src: awakening_one,
+      },
+      {
+        id: "2",
+        description: "another one our description 2",
+        src: awakening_two,
+      },
+      {
+        id: "3",
+        description: "another one our description 2",
+        src: awakening_three,
+      },
+      {
+        id: "4",
+        description: "another one our description 2",
+        src: awakening_four,
+      },
+      {
+        id: "5",
+        description: "another one our description 2",
+        src: awakening_five,
+      },
+      {
+        id: "6",
+        description: "another one our description 2",
+        src: awakening_six,
+      },
+    ],
+  },
   {
     id: "yours_in_arms",
     text: "Yours In Arms",
@@ -418,266 +590,6 @@ export const projectsPage = [
     ],
   },
   {
-    id: "awakening",
-    text: "Awakening",
-    src: awakening_one,
-    description: (
-      <div>
-        <div>
-          After years of experiencing political corruption, human rights
-          violation, and extortion within the SARS [Special Anti Robbery Squad]
-          unit of the police force, young Nigerians are determined toreform the
-          policing system through a series of peaceful nationwide protests until
-          their demandsare met.
-        </div>
-        <div className="mt-4">
-          Despite a system that has been unresponsive to their need, the youth
-          of Nigeria have spoken up.There is poetry to the fact that the protest
-          erupted in October 2020; Oct. 1, 1960, marked theofficial date of
-          Nigeria’s independence from British rule. Sixty years later, young
-          Nigerians are stilldemanding freedom from repression.
-        </div>
-        <div className="mt-4">
-          The pattern of assembling policing forces to protect government over
-          the people, to prey on localcommunities, and suppress dissent
-          continued well into the 20th century. The Aba Women’s Warof 1929, the
-          General Strike of 1945, and the Enugu Colliery Strike of 1949 were
-          instances whereanti-colonial resistance was met with a quasi-military
-          policing force deployed to subjugate citizens.
-        </div>
-        <div className="mt-4">
-          The #EndSARS protest which started as a peaceful demonstration by
-          thousands of youthsquickly degenerated into chaos as security forces,
-          mostly police began to use live ammunitionand tear gas on protesters
-          leading to an estimated death of at least 100 individuals. 48 of
-          whomwere killed on October 20, 2020, alone.
-        </div>
-        <div className="mt-4">
-          Here, I visualize my experience at four demonstrations I partook in at
-          Lagos, Nigeria. Everything is captured in the spontaneous as we
-          citizens mobilize collectively across the city. Each figure’s physical
-          struggle is simultaneously expressive and reflective of the political
-          situation.
-        </div>
-        <div className="mt-4 mb-4">"2020"</div>{" "}
-      </div>
-    ),
-    items: [
-      {
-        id: "1",
-        description: "another one our description 2",
-        src: awakening_one,
-      },
-      {
-        id: "2",
-        description: "another one our description 2",
-        src: awakening_two,
-      },
-      {
-        id: "3",
-        description: "another one our description 2",
-        src: awakening_three,
-      },
-      {
-        id: "4",
-        description: "another one our description 2",
-        src: awakening_four,
-      },
-      {
-        id: "5",
-        description: "another one our description 2",
-        src: awakening_five,
-      },
-      {
-        id: "6",
-        description: "another one our description 2",
-        src: awakening_six,
-      },
-    ],
-  },
-  {
-    id: "mo_advert_mo_power",
-    text: "Mo Advert Mo Power",
-    src: mamp_one,
-    description: (
-      <div>
-        <div>
-          Every four years, when elections are approaching, thousands and
-          thousands of party-political posters start to invade our cityscape.
-          This has become almost a campaign weapon for parties" rivalries over
-          urban space and for politicians to demonstrate their power and
-          demarcate their territories. It is a visual performance of power.
-        </div>
-        <div className="mt-4">
-          In this work, I delve into the role of political posters in everyday
-          party politicking in Nigeria, where they have become an almost normal
-          or naturalized habitual repertoire of political action.
-        </div>
-        <div className="mt-4">
-          Printing in Nigeria is a growing industry that is becoming
-          increasingly important to political culture. It is worth millions,
-          despite still using artisanal methods in most places.  Posters,
-          banners, and billboards are never big enough for politicians to
-          impregnate our minds with their electoral ambition. Campaign after
-          campaign, the posters are twice as large, twice as tall, and always
-          more dominant than the previous one.
-        </div>
-        <div className="mt-4 mb-4">
-          The candidates want to convince voters that they would be the best
-          choice to run their life, through portraits that mimic historical and
-          reassuring political leaders, either smiling or with emotionless
-          faces. For the few months of the campaign, they are everywhere, on
-          every corner, every street or bridge, and major road. We, as citizens,
-          experience the hyper-visibility of politics before the images tarnish
-          and the promises fade.
-        </div>
-      </div>
-    ),
-    items: [
-      {
-        id: "1",
-        src: mamp_one,
-        description: "all our description 1",
-      },
-      {
-        id: "2",
-        src: mamp_two,
-        description: "another one our description 2",
-      },
-      {
-        id: "3",
-        src: mamp_three,
-        description: "all our description 1",
-      },
-      {
-        id: "4",
-        src: mamp_four,
-        description: "another one our description 2",
-      },
-      {
-        id: "5",
-        src: mamp_five,
-        description: "all our description 1",
-      },
-      {
-        id: "6",
-        src: mamp_six,
-        description: "another one our description 2",
-      },
-      {
-        id: "7",
-        src: mamp_ten,
-        description: "all our description 1",
-      },
-      {
-        id: "8",
-
-        src: mamp_eight,
-        description: "another one our description 2",
-      },
-      {
-        id: "9",
-
-        src: mamp_nine,
-        description: "all our description 1",
-      },
-      {
-        id: "10",
-
-        src: mamp_seven,
-        description: "another one our description 2",
-      },
-    ],
-  },
-  {
-    id: "otto_daily",
-    text: "Otto Daily",
-    src: ot_one,
-    description: (
-      <div>
-        <div>
-          "Otto Daily" explores the complexities around how historical patterns
-          like migration and religion, have reconfigured the identity of the
-          indigenous Otto community in Lagos, Nigeria.
-        </div>
-        <div className="mt-4">
-          Otto is located in the south of Oyingbo, Lagos. Prior to the sixteenth
-          century a number of Awori,the southernmost of the Yoruba speaking
-          people dispersed from Isheri, a village twelve miles upthe Ogun River,
-          seeking refuge from conflict. A group of them settled in modern-day
-          Lagos. Therethey established three main settlements, Iddo, Lagos
-          Island, and Otto. Overtime, Iddo and LagosIsland both expanded into a
-          major international metropolitan trading centers.
-        </div>
-        <div className="mt-4 mb-4">
-          However, the Otto settlement still retains much of its and communal
-          identity and domestic form of trade. This settlement has a tradition
-          of origin that has been kept alive till today. Although mainly
-          occupied by Yorubas, their customs and traditions have been redefined
-          with distinct customsthrough the influx of people from neighboring
-          states and the Nigerian hinterland.<div className="mt-4">"2018"</div>
-        </div>
-      </div>
-    ),
-    items: [
-      {
-        id: "1",
-        text: "Otto Daily2",
-        src: ot_one,
-      },
-      {
-        id: "2",
-        text: "Otto Daily2",
-        src: ot_two,
-      },
-      {
-        id: "3",
-        text: "Otto Daily2",
-        src: ot_three,
-      },
-      {
-        id: "4",
-        text: "Otto Daily2",
-        src: ot_four,
-      },
-      {
-        id: "5",
-        text: "Otto Daily",
-        src: ot_five,
-      },
-      {
-        id: "6",
-        text: "Otto Daily2",
-        src: ot_six,
-      },
-      {
-        id: "7",
-        text: "Otto Daily2",
-        src: ot_seven,
-      },
-      {
-        id: "8",
-        text: "Otto Daily2",
-        src: ot_eight,
-      },
-      {
-        id: "9",
-        text: "Otto Daily2",
-        src: ot_nine,
-      },
-      {
-        id: "10",
-        text: "Otto Daily2",
-        src: ot_ten,
-      },
-      {
-        id: "11",
-        text: "Otto Daily2",
-        src: ot_eleven,
-      },
-    ],
-  },
-  {
     id: "resale",
     text: "Resale",
     src: res_one,
@@ -772,6 +684,94 @@ export const projectsPage = [
         id: "2",
 
         src: res_eleven,
+      },
+    ],
+  },
+  {
+    id: "otto_daily",
+    text: "Otto Daily",
+    src: ot_one,
+    description: (
+      <div>
+        <div>
+          "Otto Daily" explores the complexities around how historical patterns
+          like migration and religion, have reconfigured the identity of the
+          indigenous Otto community in Lagos, Nigeria.
+        </div>
+        <div className="mt-4">
+          Otto is located in the south of Oyingbo, Lagos. Prior to the sixteenth
+          century a number of Awori,the southernmost of the Yoruba speaking
+          people dispersed from Isheri, a village twelve miles upthe Ogun River,
+          seeking refuge from conflict. A group of them settled in modern-day
+          Lagos. Therethey established three main settlements, Iddo, Lagos
+          Island, and Otto. Overtime, Iddo and LagosIsland both expanded into a
+          major international metropolitan trading centers.
+        </div>
+        <div className="mt-4 mb-4">
+          However, the Otto settlement still retains much of its and communal
+          identity and domestic form of trade. This settlement has a tradition
+          of origin that has been kept alive till today. Although mainly
+          occupied by Yorubas, their customs and traditions have been redefined
+          with distinct customsthrough the influx of people from neighboring
+          states and the Nigerian hinterland.<div className="mt-4">"2018"</div>
+        </div>
+      </div>
+    ),
+    items: [
+      {
+        id: "1",
+        text: "Otto Daily2",
+        src: ot_one,
+      },
+      {
+        id: "2",
+        text: "Otto Daily2",
+        src: ot_two,
+      },
+      {
+        id: "3",
+        text: "Otto Daily2",
+        src: ot_three,
+      },
+      {
+        id: "4",
+        text: "Otto Daily2",
+        src: ot_four,
+      },
+      {
+        id: "5",
+        text: "Otto Daily",
+        src: ot_five,
+      },
+      {
+        id: "6",
+        text: "Otto Daily2",
+        src: ot_six,
+      },
+      {
+        id: "7",
+        text: "Otto Daily2",
+        src: ot_seven,
+      },
+      {
+        id: "8",
+        text: "Otto Daily2",
+        src: ot_eight,
+      },
+      {
+        id: "9",
+        text: "Otto Daily2",
+        src: ot_nine,
+      },
+      {
+        id: "10",
+        text: "Otto Daily2",
+        src: ot_ten,
+      },
+      {
+        id: "11",
+        text: "Otto Daily2",
+        src: ot_eleven,
       },
     ],
   },
