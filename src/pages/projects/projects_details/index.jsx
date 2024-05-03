@@ -18,8 +18,8 @@ function ProjectsDetails() {
     <>
       <div>
         <MobileHead />
-        <div className="projectDetails mt-3">
-          <div className="desc mr-5 mt-20">{found?.description}</div>
+        <div className="projectDetails mt-3 ml-20">
+          <div className="desc mr-5">{found?.description}</div>
           {found?.items.map((page, index) => (
             <img src={page.src} alt="GF1" className="ml-20 mr-20"/>
           ))}

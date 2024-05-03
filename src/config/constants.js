@@ -132,7 +132,7 @@ export const commissionsPage = [
           <div className="mt-5 mb-5">The first parts of the complex were built in 1967 and remain in evolution today. In the 1980s, a golden generation of Nigerian writers – including Wole Soyinka, Chinua Achebe and Mabel Segun – would meet in its entrance hall. Today, Nwoko’s son Rufus lives in the former offices of his father’s arts practice, directing theatre shows that draw crowds far larger than the site‘s theatre was designed for.</div>
         </div>
         <div className="mt-4 mb-4">
-        Purchase Architectural Review February issue about  Repair
+          Purchase Architectural Review February issue about  Repair
           <a
             href="https://www.linkedin.com/feed/update/urn:li:activity:7163207247722921984/"
             target="_blank"
@@ -140,7 +140,7 @@ export const commissionsPage = [
             title="Nigerian Policing Programme"
             className="mr-1 ml-1"
           >
-             here: 
+            here:
           </a>
           or view online images
 
@@ -402,42 +402,20 @@ export const projectsPage = [
     description: (
       <div>
         <div>
-          After years of experiencing political corruption, human rights
-          violation, and extortion within the SARS [Special Anti Robbery Squad]
-          unit of the police force, young Nigerians are determined toreform the
-          policing system through a series of peaceful nationwide protests until
-          their demandsare met.
+          After years of experiencing political corruption, human rights violation, and extortion within the SARS [Special Anti Robbery Squad] unit of the police force, young Nigerians are determined to reform the policing system through a series of peaceful nationwide protests until their demands are met.
+
+
         </div>
         <div className="mt-4">
-          Despite a system that has been unresponsive to their need, the youth
-          of Nigeria have spoken up.There is poetry to the fact that the protest
-          erupted in October 2020; Oct. 1, 1960, marked theofficial date of
-          Nigeria’s independence from British rule. Sixty years later, young
-          Nigerians are stilldemanding freedom from repression.
+          The #EndSARS protest which started as a peaceful demonstration by thousands of youths quickly degenerated into chaos as security forces, mostly police began to use live ammunition and tear gas on protesters leading to an estimated death of at least 100 individuals. 48 of whom were killed on October 20, 2020, alone.
+
         </div>
         <div className="mt-4">
-          The pattern of assembling policing forces to protect government over
-          the people, to prey on localcommunities, and suppress dissent
-          continued well into the 20th century. The Aba Women’s Warof 1929, the
-          General Strike of 1945, and the Enugu Colliery Strike of 1949 were
-          instances whereanti-colonial resistance was met with a quasi-military
-          policing force deployed to subjugate citizens.
+          Despite a system that has been unresponsive to their need, the youth of Nigeria have spoken up. There is poetry to the fact that the protest erupted in October 2020. Oct. 1, 1960, marked the official date of Nigeria’s independence from British rule. Sixty years later, Nigerians are still demanding freedom from repression.
+
         </div>
-        <div className="mt-4">
-          The #EndSARS protest which started as a peaceful demonstration by
-          thousands of youthsquickly degenerated into chaos as security forces,
-          mostly police began to use live ammunitionand tear gas on protesters
-          leading to an estimated death of at least 100 individuals. 48 of
-          whomwere killed on October 20, 2020, alone.
-        </div>
-        <div className="mt-4">
-          Here, I visualize my experience at four demonstrations I partook in at
-          Lagos, Nigeria. Everything is captured in the spontaneous as we
-          citizens mobilize collectively across the city. Each figure’s physical
-          struggle is simultaneously expressive and reflective of the political
-          situation.
-        </div>
-        <div className="mt-4 mb-4">"2020"</div>{" "}
+
+        <div className="mt-4 mb-4">"2020"</div>
       </div>
     ),
     items: [
@@ -503,7 +481,7 @@ export const projectsPage = [
           decisionand chose to combine this extracurricular activity with school
           work and personal life.
         </div>
-        <div className="mt-4 mb-4">'2018-Ongoing'"</div>
+        <div className="mt-4 mb-4">"2018"</div>
       </div>
     ),
     items: [

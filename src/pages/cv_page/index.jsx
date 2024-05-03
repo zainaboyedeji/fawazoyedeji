@@ -1,15 +1,15 @@
-import React,{useEffect} from 'react';
+import React, { useEffect } from 'react';
 import MobileHead from "../../components/mobile_head";
 import "./cv_page.scss";
 
 function CVPage() {
     useEffect(() => {
         document.body.classList.toggle('overflow-hidden', false);
-        return () => {document.body.classList.toggle('overflow-hidden', true);}
-      },[]);
+        return () => { document.body.classList.toggle('overflow-hidden', true); }
+    }, []);
     return (
         <div className="grants">
-             <MobileHead />
+            <MobileHead />
             <div>
                 <h6 className="mb-5 text-3xl">Education</h6>
                 <p>2023, Photojournalism and Documentary Photography, Market Photo Workshop, Newtown, Johannesburg.</p>
@@ -32,6 +32,8 @@ function CVPage() {
                 <p>2020, Photo Narration in Oyo - ICLEI Africa’s RISE Africa</p>
                 <p>2020, Photo Reportage in Lagos - Coffey. International Development, Ltd</p>
                 <p>2020, Yours In Arms - No Wahala Magazine</p>
+                <p>2024, Photo Reportage in Lagos - Agence France-Presse (AFP)</p>
+                <p>2024, Revisit: New Culture Studios in Oyo - The Architectural Review</p>
             </div>
 
             <div className="mt-5">

@@ -15,8 +15,8 @@ function CommissionsImages() {
     <>
       <div>
         <MobileHead />
-        <div className="commissionsDetails mt-3">
-          <div className="desc mt-3 mb-5 mr-5">{found?.description}</div>
+        <div className="commissionsDetails ml-20">
+          <div className="desc mb-5 mr-5">{found?.description}</div>
           {found?.items.map((page, index) => (
             <img src={page.src} alt="GF1" className="mr-20 ml-20"/>
           ))}
