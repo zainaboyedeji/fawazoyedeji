@@ -18,12 +18,17 @@
     padding: 0 !important;
     .next {
       display: block;
+      overflow: scroll;
+      height: 100vh;
+     
+        margin-bottom: 10rem;
+      
     }
   }
   .projectsFooter {
     .footer {
       left: 0px;
-      bottom: -1000px;
+      bottom: -200px;
 
       p {
         text-align: center;

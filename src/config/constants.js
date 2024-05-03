@@ -595,7 +595,7 @@ export const projectsPage = [
           pieces. Recent figures from the UN show that an estimated 80% of
           Africans wear secondhand clothing.
         </div>
-        <div className="mt-4">
+        <div className="mt-4 mb-4">
           With the undeniable effects of fast fashion on global warming, it has
           become paramount to engage the masses about employing sustainable
           homegrown solutions to bypass the challenges of cloth production

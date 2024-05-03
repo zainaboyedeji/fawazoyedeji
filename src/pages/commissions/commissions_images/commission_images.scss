@@ -17,13 +17,15 @@
 @media only screen and (max-width: 768px) {
   .commissionsDetails {
     display: block;
+    overflow: scroll!important;
     height: 100vh;
- 
+    margin: 0;
     .desc {
       width: 100%;
     }
     img {
-      margin-bottom: 1rem;
+      margin: 0;
+      padding-bottom: 1rem;
       height: auto;
     }
   }
