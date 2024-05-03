@@ -68,7 +68,7 @@ function LandingPage() {
 
 
       <div className="flex justify-end">
-      <p className="footerParagraph">2023 Fawaz Oyedeji by Zainab Oyedeji</p>
+      <p className="footerParagraph">2024 Fawaz Oyedeji by Zainab Oyedeji</p>
     </div>
      
     </>
