@@ -560,11 +560,6 @@ export const projectsPage = [
         src: yia_fifteen,
         description: "another one our description 2",
       },
-      {
-        id: "16",
-        src: yia_sixteen,
-        description: "another one our description 2",
-      },
     ],
   },
   {
