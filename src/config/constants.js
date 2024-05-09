@@ -501,11 +501,6 @@ export const projectsPage = [
         description: "all our description 1",
       },
       {
-        id: "4",
-        src: yia_four,
-        description: "another one our description 2",
-      },
-      {
         id: "5",
         src: yia_five,
         description: "all our description 1",
@@ -558,6 +553,11 @@ export const projectsPage = [
       {
         id: "15",
         src: yia_fifteen,
+        description: "another one our description 2",
+      },
+      {
+        id: "16",
+        src: yia_sixteen,
         description: "another one our description 2",
       },
     ],
