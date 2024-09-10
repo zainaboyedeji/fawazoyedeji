@@ -13,7 +13,6 @@ import npp_three from "../image/assignment/nigerian_policing_programme/03.jpg";
 import yia_one from "../image/projects/01_yours_in_arms/Fawaz-Oyedeji-Yours-In-Arms-001.jpg";
 import yia_two from "../image/projects/01_yours_in_arms/Fawaz-Oyedeji-Yours-In-Arms-002.jpg";
 import yia_three from "../image/projects/01_yours_in_arms/Fawaz-Oyedeji-Yours-In-Arms-003.jpg";
-import yia_four from "../image/projects/01_yours_in_arms/Fawaz-Oyedeji-Yours-In-Arms-004.jpg";
 import yia_five from "../image/projects/01_yours_in_arms/Fawaz-Oyedeji-Yours-In-Arms-005.jpg";
 import yia_six from "../image/projects/01_yours_in_arms/Fawaz-Oyedeji-Yours-In-Arms-006.jpg";
 import yia_seven from "../image/projects/01_yours_in_arms/Fawaz-Oyedeji-Yours-In-Arms-007.jpg";

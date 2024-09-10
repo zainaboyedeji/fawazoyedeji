@@ -12,9 +12,7 @@ import ten from "../../image/home/010.jpg";
 import eleven from "../../image/home/011.jpg";
 import twelve from "../../image/home/012.jpg";
 import MobileHead from "../../components/mobile_head";
- 
-import Footer from "../../components/footer/index";
-import "./landing_page.scss";
+ import "./landing_page.scss";
 
 function LandingPage() {
   useEffect(() => {

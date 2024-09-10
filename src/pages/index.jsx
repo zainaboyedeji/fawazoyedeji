@@ -4,7 +4,6 @@ import Contact from "./contact";
 import About from "./about_me";
 import LandingPage from "./landing_page";
 import Commissions from "./commissions";
-import Footer from "../components/footer";
 import CommissionsImages from "./commissions/commissions_images";
 import CommissionsDetails from "./commissions/commission_details";
 import CVPage from "./cv_page";
