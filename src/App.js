@@ -12,6 +12,43 @@ function App() {
     ReactGA.send(window.location.pathname + window.location.search);
   }, []); 
 
+  useEffect(() => {
+    // Disable click, right-click, and drag for all images in the app
+    const images = document.querySelectorAll('img');
+
+    images.forEach((img) => {
+      img.addEventListener('click', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+      });
+      img.addEventListener('contextmenu', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+      });
+      img.addEventListener('dragstart', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+      });
+    });
+
+    // Clean up event listeners when component unmounts
+    return () => {
+      images.forEach((img) => {
+        img.removeEventListener('click', (e) => {
+          e.preventDefault();
+          e.stopPropagation();
+        });
+        img.removeEventListener('contextmenu', (e) => {
+          e.preventDefault();
+          e.stopPropagation();
+        });
+        img.removeEventListener('dragstart', (e) => {
+          e.preventDefault();
+          e.stopPropagation();
+        });
+      });
+    };
+  }, []);
 
 //   useEffect(() => {
 //     const handleContextmenu = e => {
