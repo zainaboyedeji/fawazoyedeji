@@ -66,7 +66,7 @@ function AboutMe() {
             </p>
 
             <p>
-              View full CV <Link to="/cv">here</Link>
+              View CV <Link to="/cv">here</Link>
             </p>
           </div>
         </div>
