@@ -5,28 +5,33 @@
   a {
     text-decoration: none;
     color: #777777;
-    &:hover{
-      color:white;
+    &:hover {
+      color: white;
     }
   }
 }
 
 @media only screen and (max-width: 768px) {
   .commissions {
+    overflow: hidden;
     margin-left: 0 !important;
     padding: 0 !important;
-   .next{
+    .next {
       display: block;
-   }
+      overflow: scroll;
+      height: 100vh;
+     margin-bottom: 10rem;
+      
+    }
   }
-  .commissionsFooter{
+  .commissionsFooter {
     .footer {
       left: 0px;
-      bottom: -500px;
+      bottom: -200px;
+
       p {
         text-align: center;
       }
     }
   }
-
 }

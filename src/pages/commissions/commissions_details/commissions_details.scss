@@ -1,13 +1,15 @@
-.commissionsDetails {
+.commissionDetails {
   display: flex;
   flex-wrap: nowrap;
   overflow-x: auto;
   gap: 10px;
   height: 40rem;
+
   .desc {
     flex: 0 0 auto;
     width: 50%;
   }
+
   img {
     flex: 0 0 auto;
     height: 100%;
@@ -15,24 +17,28 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .commissionsDetails {
+  .commissionDetails {
     display: block;
-    overflow: scroll!important;
     height: 100vh;
-    margin: 0;
+    margin: 0 !important;
+
     .desc {
       width: 100%;
     }
+
     img {
-      margin: 0;
+      margin: 0 !important;
       padding-bottom: 1rem;
       height: auto;
     }
   }
-  .commissions_imagesFooter {
+
+  .commissionD {
     display: none !important;
+
     .footer {
       left: 0px;
+
 
       p {
         text-align: center;
