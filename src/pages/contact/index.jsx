@@ -1,8 +1,15 @@
+import React, { useEffect } from "react";
 import "./contact.scss";
 import MobileHead from "../../components/mobile_head";
 import Footer from "../../components/footer";
 
 function Contact() {
+  useEffect(() => {
+    document.body.classList.toggle("overflow-hidden", true);
+    return () => {
+      document.body.classList.toggle("overflow-hidden", false);
+    };
+  }, []);
   return (
     <>
       <div className="contact">

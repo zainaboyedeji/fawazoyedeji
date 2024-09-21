@@ -8,9 +8,9 @@ import Footer from "../../components/footer";
 
 function AboutMe() {
   useEffect(() => {
-    document.body.classList.toggle("overflow-hidden", false);
+    document.body.classList.toggle("overflow-hidden", true);
     return () => {
-      document.body.classList.toggle("overflow-hidden", true);
+      document.body.classList.toggle("overflow-hidden", false);
     };
   }, []);
   return (
