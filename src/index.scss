@@ -4,80 +4,123 @@
 
 @import "./config/variables.scss";
 
-
-//Telefon
+//Jost Font
 @font-face {
   font-family: $font-black;
-  src: url("./fonts/TelefonTrial-Black.otf") format("opentype");
+  src: url("./fonts/Jost-Black.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: $font-blackitalic;
-  src: url("./fonts/TelefonTrial-BlackItalic.otf") format("opentype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: $font-blond;
-  src: url("./fonts/TelefonTrial-Blond.otf") format("opentype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: $font-blonditalic;
-  src: url("./fonts/TelefonTrial-BlondItalic.otf") format("opentype");
+  src: url("./fonts/Jost-BlackItalic.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: $font-bold;
-  src: url("./fonts/TelefonTrial-Bold.otf") format("opentype");
+  src: url("./fonts/Jost-Bold.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: $font-bolditalic;
-  src: url("./fonts/TelefonTrial-BoldItalic.otf") format("opentype");
+  src: url("./fonts/Jost-BoldItalic.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
+  font-family: $font-extrabold;
+  src: url("./fonts/Jost-ExtraBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: $font-extrabolditalic;
+  src: url("./fonts/Jost-ExtraBoldItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: $font-extralight;
+  src: url("./fonts/Jost-ExtraLight.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: $font-extralightitalic;
+  src: url("./fonts/Jost-ExtraLightItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: $font-italic;
+  src: url("./fonts/Jost-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: $font-light;
-  src: url("./fonts/TelefonTrial-Light.otf") format("opentype");
+  src: url("./fonts/Jost-Light.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: $font-lightitalic;
-  src: url("./fonts/TelefonTrial-LightItalic.otf") format("opentype");
+  src: url("./fonts/Jost-LightItalic.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: $font-medium;
-  src: url("./fonts/TelefonTrial-Medium.otf") format("opentype");
+  src: url("./fonts/Jost-Medium.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: $font-mediumitalic;
-  src: url("./fonts/TelefonTrial-MediumItalic.otf") format("opentype");
+  src: url("./fonts/Jost-MediumItalic.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: $font-normal;
-  src: url("./fonts/TelefonTrial-Normal.otf") format("opentype");
+  font-family: $font-regular;
+  src: url("./fonts/Jost-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: $font-semibold;
+  src: url("./fonts/Jost-SemiBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: $font-semibolditalic;
+  src: url("./fonts/Jost-SemiBoldItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: $font-thin;
+  src: url("./fonts/Jost-Thin.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: $font-thinitalic;
+  src: url("./fonts/Jost-ThinItalic.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
