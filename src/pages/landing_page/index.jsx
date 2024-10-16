@@ -12,7 +12,7 @@ import ten from "../../image/home/010.jpg";
 import eleven from "../../image/home/011.jpg";
 import twelve from "../../image/home/012.jpg";
 import MobileHead from "../../components/mobile_head";
- import "./landing_page.scss";
+import "./landing_page.scss";
 
 function LandingPage() {
   useEffect(() => {
@@ -62,12 +62,13 @@ function LandingPage() {
         <div className="allImg">
           <img src={twelve} alt="Twelve" />
         </div>
+        <div className="allImg flex justify-end">
+        <p className="footerParagraph">
+          &copy; 2024 Fawaz Oyedeji. All rights reserved.
+        </p>
+      </div>
       </div>
 
-
-      <div className="flex justify-end">
-      <p className="footerParagraph">2024 Fawaz Oyedeji by Zainab Oyedeji</p>
-    </div>
      
     </>
   );

@@ -5,6 +5,8 @@ import About from "./about_me";
 import LandingPage from "./landing_page";
 import CVPage from "./cv_page";
 import Projects from "./projects";
+import Multimedia from "./multimedia";
+import TearSheet from "./tearsheet";
 import ProjectsDetails from "./projects/projects_details/index";
 import Commissions from "./commissions";
 import CommissionsDetails from "./commissions/commissions_details/index";
@@ -25,6 +27,8 @@ function MainView() {
                      <Route path="/commissions/:id" element={<CommissionsDetails/>} />
                      <Route path="/contact" element={<Contact />} />
                      <Route path="/about" element={<About/>} />
+                     <Route path="/multimedia" element={<Multimedia/>} />
+                     <Route path="/tearsheet" element={<TearSheet/>} />
                      <Route path="/cv" element={<CVPage/>} />
 \
                 </Routes> 

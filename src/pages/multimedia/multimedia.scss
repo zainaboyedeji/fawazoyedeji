@@ -1,0 +1,39 @@
+.projects {
+    margin-left: 70px;
+    padding: 36px;
+    width: 100%;
+    a {
+      text-decoration: none;
+      color: #777777;
+      &:hover {
+        color: white;
+      }
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .projects {
+      overflow: hidden;
+      margin-left: 0 !important;
+      padding: 0 !important;
+      .next {
+        display: block;
+        overflow: scroll;
+        height: 100vh;
+       
+          margin-bottom: 10rem;
+        
+      }
+    }
+    .projectsFooter {
+      .footer {
+        left: 0px;
+        bottom: -200px;
+  
+        p {
+          text-align: center;
+        }
+      }
+    }
+  }
+  

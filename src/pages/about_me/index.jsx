@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import fawwaz from "../../image/about/fawaz-oyedeji.jpg";
 import MobileHead from "../../components/mobile_head";
-
 import { Link } from "react-router-dom";
 import "./about_me.scss";
 import Footer from "../../components/footer";

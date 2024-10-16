@@ -44,6 +44,16 @@ function SideBar() {
                             </NavLink>
                         </li>
                         <li className="item">
+                            <NavLink to="/tearsheet" activeclassname="active">
+                                tearsheet
+                            </NavLink>
+                        </li>
+                        <li className="item">
+                            <NavLink to="/multimedia" activeclassname="active">
+                                multimedia
+                            </NavLink>
+                        </li>
+                        <li className="item">
                             <NavLink to="/about" activeclassname="active">
                                 about
                             </NavLink>

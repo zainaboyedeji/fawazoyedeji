@@ -68,6 +68,7 @@ import ncs_two from "../image/assignment/new_culture_studios/02_FawazOyedeji_Rev
 import ncs_three from "../image/assignment/new_culture_studios/03_FawazOyedeji_Revisit.jpg";
 import ncs_four from "../image/assignment/new_culture_studios/04_FawazOyedeji_Revisit.jpg";
 import ncs_five from "../image/assignment/new_culture_studios/05_FawazOyedeji_Revisit.jpg";
+import ts_one from "../image/tearsheet/001.jpg";
 
 export const commissionsPage = [
   {
@@ -746,5 +747,13 @@ export const projectsPage = [
         src: ot_eleven,
       },
     ],
+  },
+];
+
+export const tearsheetPage = [
+  {
+    id: "tearsheet",
+    text: "Tear Sheet",
+    src: ts_one,
   },
 ];
