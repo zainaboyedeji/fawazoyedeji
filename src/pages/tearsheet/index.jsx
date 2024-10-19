@@ -1,7 +1,6 @@
-import React, { useEffect } from "react";
+import React from "react";
 import MobileHead from "../../components/mobile_head";
 import { tearsheetPage } from "../../config/constants";
-import "./tearsheet.scss";
 import Footer from "../../components/footer";
 
 function TearSheet() {
@@ -20,7 +19,7 @@ function TearSheet() {
                     </>
                 </div>
             </div>
-            <div className="projectsFooter">
+            <div className="appFooter">
                 <Footer />
             </div>
         </>

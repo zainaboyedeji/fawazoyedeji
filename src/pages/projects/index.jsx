@@ -3,7 +3,6 @@ import MobileHead from "../../components/mobile_head";
 import { Link } from "react-router-dom";
 
 import { projectsPage } from "../../config/constants";
-import "./projects.scss";
 import Footer from "../../components/footer";
 
 function Projects() {
@@ -13,7 +12,7 @@ function Projects() {
     }, []);
     return (
         <>
-            <div className="projects">
+            <div className="apps">
                 <MobileHead />
                 <div className="flex flex-wrap w-full next">
                     {projectsPage.map((page, index) => (
@@ -27,7 +26,7 @@ function Projects() {
                 </div>
 
             </div>
-            <div className="projectsFooter">
+            <div className="appFooter">
                 <Footer />
             </div>
         </>
