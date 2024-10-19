@@ -21,7 +21,6 @@ function Contact() {
             you can just email me to say hi.
           </p>
           <div className="flex flex-col md:flex-row mt-20">
-            {/* Left side: Contact details */}
             <div className="md:w-1/2 mb-8 md:mb-0">
               <p className="mb-5">
                 <strong>Email:</strong> contactfawazoyedeji@gmail.com
@@ -34,7 +33,6 @@ function Contact() {
               </p>
             </div>
 
-            {/* Right side: Form */}
             <div className="md:w-1/2">
               <form className="space-y-4">
                 <div>
