@@ -1,6 +1,6 @@
 import gfh_one from "../image/assignment/gun_for_hire/001.jpg";
 import gfh_two from "../image/assignment/gun_for_hire/002.jpg";
-import hf_preview from "../image/assignment/hidden_flows/FawazOyedeji_Hidden Flows_preview.jpg"
+import hf_preview from "../image/assignment/hidden_flows/FawazOyedeji_Hidden Flows_preview.jpg";
 import hf_one from "../image/assignment/hidden_flows/FawazOyedeji_Hidden Flows_001.jpg";
 import hf_two from "../image/assignment/hidden_flows/FawazOyedeji_Hidden Flows_002.jpg";
 import hf_three from "../image/assignment/hidden_flows/FawazOyedeji_Hidden Flows_003.jpg";
@@ -69,6 +69,10 @@ import ncs_three from "../image/assignment/new_culture_studios/03_FawazOyedeji_R
 import ncs_four from "../image/assignment/new_culture_studios/04_FawazOyedeji_Revisit.jpg";
 import ncs_five from "../image/assignment/new_culture_studios/05_FawazOyedeji_Revisit.jpg";
 import ts_one from "../image/tearsheet/001.jpg";
+import ts_two from "../image/tearsheet/002.jpg";
+import ts_three from "../image/tearsheet/003.jpg";
+import ts_four from "../image/tearsheet/004.jpg";
+import ts_five from "../image/tearsheet/005.jpg";
 
 export const commissionsPage = [
   {
@@ -128,11 +132,21 @@ export const commissionsPage = [
     description: (
       <div>
         <div>
-          Demas Nwoko’s ever‑evolving arts and culture centre in Ibadan, Nigeria. Photographs for the Architectural Review #February 2024 #repair issue.
-          <div className="mt-5 mb-5">The first parts of the complex were built in 1967 and remain in evolution today. In the 1980s, a golden generation of Nigerian writers – including Wole Soyinka, Chinua Achebe and Mabel Segun – would meet in its entrance hall. Today, Nwoko’s son Rufus lives in the former offices of his father’s arts practice, directing theatre shows that draw crowds far larger than the site‘s theatre was designed for.</div>
+          Demas Nwoko’s ever‑evolving arts and culture centre in Ibadan,
+          Nigeria. Photographs for the Architectural Review #February 2024
+          #repair issue.
+          <div className="mt-5 mb-5">
+            The first parts of the complex were built in 1967 and remain in
+            evolution today. In the 1980s, a golden generation of Nigerian
+            writers – including Wole Soyinka, Chinua Achebe and Mabel Segun –
+            would meet in its entrance hall. Today, Nwoko’s son Rufus lives in
+            the former offices of his father’s arts practice, directing theatre
+            shows that draw crowds far larger than the site‘s theatre was
+            designed for.
+          </div>
         </div>
         <div className="mt-4 mb-4">
-          Purchase Architectural Review February issue about  Repair
+          Purchase Architectural Review February issue about Repair
           <a
             href="https://www.linkedin.com/feed/update/urn:li:activity:7163207247722921984/"
             target="_blank"
@@ -143,14 +157,15 @@ export const commissionsPage = [
             here:
           </a>
           or view online images
-
           <a
             href="https://www.architectural-review.com/essays/revisit/revisit-new-culture-studios-in-ibadan-nigeria-by-demas-nwoko"
             target="_blank"
             rel="noreferrer"
             title="Nigerian Policing Programme"
             className="mr-1 ml-1"
-          >here.</a>
+          >
+            here.
+          </a>
         </div>
       </div>
     ),
@@ -245,7 +260,6 @@ export const commissionsPage = [
           challenges faced in African contexts, where resources follow
           decentralized systems and involve informal networks.
           <div className="mt-5">
-
             The images featured in the exhibition have been captured under the
             commission from ICLEI Local Government For Sustainability.
           </div>
@@ -402,17 +416,25 @@ export const projectsPage = [
     description: (
       <div>
         <div>
-          After years of experiencing political corruption, human rights violation, and extortion within the SARS [Special Anti Robbery Squad] unit of the police force, young Nigerians are determined to reform the policing system through a series of peaceful nationwide protests until their demands are met.
-
-
+          After years of experiencing political corruption, human rights
+          violation, and extortion within the SARS [Special Anti Robbery Squad]
+          unit of the police force, young Nigerians are determined to reform the
+          policing system through a series of peaceful nationwide protests until
+          their demands are met.
         </div>
         <div className="mt-4">
-          The #EndSARS protest which started as a peaceful demonstration by thousands of youths quickly degenerated into chaos as security forces, mostly police began to use live ammunition and tear gas on protesters leading to an estimated death of at least 100 individuals. 48 of whom were killed on October 20, 2020, alone.
-
+          The #EndSARS protest which started as a peaceful demonstration by
+          thousands of youths quickly degenerated into chaos as security forces,
+          mostly police began to use live ammunition and tear gas on protesters
+          leading to an estimated death of at least 100 individuals. 48 of whom
+          were killed on October 20, 2020, alone.
         </div>
         <div className="mt-4">
-          Despite a system that has been unresponsive to their need, the youth of Nigeria have spoken up. There is poetry to the fact that the protest erupted in October 2020. Oct. 1, 1960, marked the official date of Nigeria’s independence from British rule. Sixty years later, Nigerians are still demanding freedom from repression.
-
+          Despite a system that has been unresponsive to their need, the youth
+          of Nigeria have spoken up. There is poetry to the fact that the
+          protest erupted in October 2020. Oct. 1, 1960, marked the official
+          date of Nigeria’s independence from British rule. Sixty years later,
+          Nigerians are still demanding freedom from repression.
         </div>
 
         <div className="mt-4 mb-4">"2020"</div>
@@ -752,8 +774,28 @@ export const projectsPage = [
 
 export const tearsheetPage = [
   {
-    id: "tearsheet",
+    id: "1",
     text: "Tear Sheet",
     src: ts_one,
+  },
+  {
+    id: "2",
+    text: "Tear Sheet",
+    src: ts_two,
+  },
+  {
+    id: "3",
+    text: "Tear Sheet",
+    src: ts_three,
+  },
+  {
+    id: "4",
+    text: "Tear Sheet",
+    src: ts_four,
+  },
+  {
+    id: "5",
+    text: "Tear Sheet",
+    src: ts_five,
   },
 ];
