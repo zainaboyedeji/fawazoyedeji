@@ -2,12 +2,13 @@
   margin-left: 70px;
   padding: 36px;
   width: 100%;
+  
   .line {
     margin-bottom: 60px;
     border-bottom: 2px solid;
-    margin: 1.5em 0px 2em;
     color: #777777;
   }
+  
   .arr {
     padding-top: 36px;
     padding-bottom: 36px;
@@ -15,18 +16,13 @@
       text-align: center;
       a {
         color: #aaaaaa;
-        font-style: normal;
-        font-weight: normal;
         text-decoration: underline;
       }
     }
   }
-  .arr {
-    padding-top: 36px;
-    padding-bottom: 36px;
-    h1 {
-      text-align: center;
-    }
+
+  h1 {
+    text-align: center;
   }
 }
 
@@ -34,14 +30,6 @@
   .contact {
     margin-left: 0 !important;
     padding: 0 !important;
-  }
-  .contactFooter {
-    .footer {
-      left: 0px;
-
-      p {
-        text-align: center;
-      }
-    }
+    overflow-y: auto !important; /* Enable vertical scrolling */
   }
 }

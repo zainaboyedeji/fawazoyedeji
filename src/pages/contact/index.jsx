@@ -1,4 +1,4 @@
-import React, {  useState } from "react";
+import React, { useState } from "react";
 import "./contact.scss";
 import MobileHead from "../../components/mobile_head";
 import Footer from "../../components/footer";
