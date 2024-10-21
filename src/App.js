@@ -13,7 +13,6 @@ function App() {
   }, []); 
 
   useEffect(() => {
-    // Disable click, right-click, and drag for all images in the app
     const images = document.querySelectorAll('img');
 
     images.forEach((img) => {

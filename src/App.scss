@@ -11,6 +11,7 @@ body {
   overscroll-behavior: none;
   cursor: pointer;
 }
+
 ::-webkit-scrollbar {
   width: 0; /* Remove scrollbar space */
   background: transparent; /* Optional: just make scrollbar invisible */
@@ -23,18 +24,21 @@ body {
 .overflow-hidden {
   overflow: hidden;
 }
+
 a {
   color: #0000ff;
 }
 a:hover {
   color: grey;
 }
+
 .footerParagraph {
   color: #777777;
   font-size: 11px;
   font-style: normal;
   font-weight: normal;
 }
+
 .bold-text {
   font-weight: bold;
 }
@@ -58,16 +62,13 @@ img {
 
 @media only screen and (max-width: 768px) {
   .apps {
-    overflow: hidden;
+    overflow-y: auto; /* Enable vertical scrolling */
     margin-left: 0 !important;
     padding: 0 !important;
     .next {
       display: block;
-      overflow: scroll;
       height: 100vh;
-     
-        margin-bottom: 10rem;
-      
+      margin-bottom: 10rem;
     }
   }
   .appFooter {

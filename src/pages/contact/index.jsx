@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, {  useState } from "react";
 import "./contact.scss";
 import MobileHead from "../../components/mobile_head";
 import Footer from "../../components/footer";
@@ -6,16 +6,8 @@ import Footer from "../../components/footer";
 function Contact() {
   const [formStatus, setFormStatus] = useState("");
 
-  useEffect(() => {
-    document.body.classList.toggle("overflow-hidden", true);
-    return () => {
-      document.body.classList.toggle("overflow-hidden", false);
-    };
-  }, []);
-
   const handleSubmit = async (e) => {
     e.preventDefault(); 
-
     const form = e.target;
     const formData = new FormData(form);
     
@@ -55,7 +47,7 @@ function Contact() {
                 <strong>Email:</strong> contactfawazoyedeji@gmail.com
               </p>
               <p className="mb-5">
-                <strong>Location:</strong> Lagos,Nigeria.
+                <strong>Location:</strong> Lagos, Nigeria.
               </p>
               <p>
                 <strong>Phone:</strong> +234-90-93173219.
@@ -91,10 +83,7 @@ function Contact() {
                 </div>
 
                 <div>
-                  <label
-                    htmlFor="message"
-                    className="block text-sm font-medium"
-                  >
+                  <label htmlFor="message" className="block text-sm font-medium">
                     Message
                   </label>
                   <textarea
@@ -118,7 +107,7 @@ function Contact() {
           </div>
         </div>
       </div>
-      <div className="contactFooter">
+      <div className="hidden lg:block contactFooter">
         <Footer />
       </div>
     </>
