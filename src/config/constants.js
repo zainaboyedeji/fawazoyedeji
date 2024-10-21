@@ -775,27 +775,27 @@ export const projectsPage = [
 export const tearsheetPage = [
   {
     id: "1",
-    text: "Tear Sheet",
+    text: "July 15, 2024, Les Echos",
     src: ts_one,
   },
   {
     id: "2",
-    text: "Tear Sheet",
+    text: "",
     src: ts_two,
   },
   {
     id: "3",
-    text: "Tear Sheet",
+    text: "",
     src: ts_three,
   },
   {
     id: "4",
-    text: "Tear Sheet",
+    text: "",
     src: ts_four,
   },
   {
     id: "5",
-    text: "Tear Sheet",
+    text: "",
     src: ts_five,
   },
 ];
