@@ -15,9 +15,7 @@ function Multimedia() {
           allowFullScreen
         ></iframe>
       </div>
-      <div className="relative z-10">
-        <Footer />
-      </div>
+      <Footer/>
     </>
   );
 }

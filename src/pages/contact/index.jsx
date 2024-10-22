@@ -107,9 +107,7 @@ function Contact() {
           </div>
         </div>
       </div>
-      <div className="hidden lg:block contactFooter">
-        <Footer />
-      </div>
+      <Footer/>
     </>
   );
 }

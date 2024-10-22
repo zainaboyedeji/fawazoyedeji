@@ -25,9 +25,7 @@ function ProjectsDetails() {
           ))}
         </div>
       </div>
-      <div className="projectD">
-        <Footer />
-      </div>
+      <Footer />
     </>
   );
 }

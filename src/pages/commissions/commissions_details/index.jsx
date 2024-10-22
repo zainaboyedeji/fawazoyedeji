@@ -27,9 +27,7 @@ function CommissionsDetails() {
           ))}
         </div>
       </div>
-      <div className="commissionD">
-        <Footer />
-      </div>
+      <Footer/>
     </>
   );
 }

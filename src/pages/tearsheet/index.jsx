@@ -22,9 +22,7 @@ function TearSheet() {
           </>
         </div>
       </div>
-      <div className="appFooter">
-        <Footer />
-      </div>
+     <Footer/>
     </>
   );
 }

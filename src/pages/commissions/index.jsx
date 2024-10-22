@@ -5,7 +5,7 @@ import { commissionsPage } from "../../config/constants";
 import "./commissions.scss";
 import Footer from "../../components/footer";
 
-function Projects() {
+function Commissions() {
     useEffect(() => {
         document.body.classList.toggle('overflow-hidden', true);
         return () => { document.body.classList.toggle('overflow-hidden', false); }
@@ -25,11 +25,9 @@ function Projects() {
                     ))}
                 </div>
             </div>
-            <div className="commissionsFooter">
-                <Footer />
-            </div>
+            <Footer />
         </>
     );
 }
 
-export default Projects;
+export default Commissions;
