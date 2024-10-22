@@ -780,22 +780,22 @@ export const tearsheetPage = [
   },
   {
     id: "2",
-    text: "",
+    text: "Sep 17, 2024, Al Jazeera",
     src: ts_two,
   },
   {
     id: "3",
-    text: "",
+    text: "June 21, 2024, Prince Claus Fund - 2023 Annual Report",
     src: ts_three,
   },
   {
     id: "4",
-    text: "",
+    text: "Feb 2024, The Architectural Review",
     src: ts_four,
   },
   {
     id: "5",
-    text: "",
+    text: "Oct 26, 2021, Financial Times",
     src: ts_five,
   },
 ];
