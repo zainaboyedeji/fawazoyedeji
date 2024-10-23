@@ -22,10 +22,8 @@ function LandingPage() {
     };
   }, []);
   return (
-    <>
       <div className="land">
         <MobileHead />
-
         <div className="allImg">
           <img src={one} alt="One" />
         </div>
@@ -62,15 +60,8 @@ function LandingPage() {
         <div className="allImg">
           <img src={twelve} alt="Twelve" />
         </div>
-        <div className="allImg flex justify-end">
-        <p className="footerParagraph">
-          &copy; 2024 Fawaz Oyedeji. All rights reserved.
-        </p>
+        <div className="allImg flex justify-end"></div>
       </div>
-      </div>
-
-     
-    </>
   );
 }
 

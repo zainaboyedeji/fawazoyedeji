@@ -3,7 +3,6 @@ import MobileHead from "../../../components/mobile_head";
 import { useParams } from "react-router-dom";
 import { projectsPage } from "../../../config/constants";
 import "./project_details.scss";
-import Footer from "../../../components/footer";
 
 function ProjectsDetails() {
   let { id } = useParams();
@@ -15,7 +14,6 @@ function ProjectsDetails() {
     return () => {document.body.classList.toggle('overflow-hidden', false);}
   },[]);
   return (
-    <>
       <div>
         <MobileHead />
         <div className="projectDetails mt-3 ml-20">
@@ -25,10 +23,6 @@ function ProjectsDetails() {
           ))}
         </div>
       </div>
-      <div className="projectD">
-        <Footer />
-      </div>
-    </>
   );
 }
 

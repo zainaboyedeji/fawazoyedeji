@@ -3,15 +3,13 @@ import MobileHead from "../../components/mobile_head";
 import { Link } from "react-router-dom";
 import { commissionsPage } from "../../config/constants";
 import "./commissions.scss";
-import Footer from "../../components/footer";
 
-function Projects() {
+function Commissions() {
     useEffect(() => {
         document.body.classList.toggle('overflow-hidden', true);
         return () => { document.body.classList.toggle('overflow-hidden', false); }
     }, []);
     return (
-        <>
             <div className="commissions">
                 <MobileHead />
                 <div className="flex flex-wrap w-full next">
@@ -25,11 +23,7 @@ function Projects() {
                     ))}
                 </div>
             </div>
-            <div className="commissionsFooter">
-                <Footer />
-            </div>
-        </>
     );
 }
 
-export default Projects;
+export default Commissions;

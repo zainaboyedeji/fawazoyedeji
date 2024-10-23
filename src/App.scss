@@ -27,12 +27,6 @@ a:hover {
   color: grey;
 }
 
-.footerParagraph {
-  color: #777777;
-  font-size: 11px;
-  font-weight: normal;
-}
-
 .bold-text {
   font-weight: bold;
 }
@@ -63,16 +57,6 @@ img {
       display: block;
       height: 100vh;
       margin-bottom: 10rem;
-    }
-  }
-  .appFooter {
-    .footer {
-      left: 0px;
-      bottom: -200px;
-
-      p {
-        text-align: center;
-      }
     }
   }
 }

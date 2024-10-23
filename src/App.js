@@ -1,6 +1,7 @@
-import {useEffect} from "react";
+import { useEffect } from "react";
 import './App.scss';
 import MainView from './pages/index';
+import Footer from '../src/components/footer'; 
 import ReactGA from 'react-ga4';
 import { BrowserRouter } from "react-router-dom";
 
@@ -10,7 +11,7 @@ ReactGA.initialize(TRACKING_ID);
 function App() {
   useEffect(() => {
     ReactGA.send(window.location.pathname + window.location.search);
-  }, []); 
+  }, []);
 
   useEffect(() => {
     const images = document.querySelectorAll('img');
@@ -30,7 +31,6 @@ function App() {
       });
     });
 
-    // Clean up event listeners when component unmounts
     return () => {
       images.forEach((img) => {
         img.removeEventListener('click', (e) => {
@@ -49,21 +49,14 @@ function App() {
     };
   }, []);
 
-//   useEffect(() => {
-//     const handleContextmenu = e => {
-//         e.preventDefault()
-//     }
-//     document.addEventListener('contextmenu', handleContextmenu)
-//     return function cleanup() {
-//         document.removeEventListener('contextmenu', handleContextmenu)
-//     }
-// }, [])
-
   return (
-    <div className="App">
+    <div className="App min-h-screen flex flex-col">
       <BrowserRouter>
-       <MainView/>
-     </BrowserRouter>
+        <div className="flex-grow">
+          <MainView />
+        </div>
+        <Footer /> 
+      </BrowserRouter>
     </div>
   );
 }

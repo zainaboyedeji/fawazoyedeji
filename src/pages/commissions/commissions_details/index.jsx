@@ -3,7 +3,6 @@ import MobileHead from "../../../components/mobile_head";
 import { useParams } from "react-router-dom";
 import { commissionsPage } from "../../../config/constants";
 import "./commissions_details.scss";
-import Footer from "../../../components/footer";
 
 function CommissionsDetails() {
   let { id } = useParams();
@@ -17,7 +16,6 @@ function CommissionsDetails() {
     };
   }, []);
   return (
-    <>
       <div>
         <MobileHead />
         <div className="commissionDetails mt-3 ml-20">
@@ -27,10 +25,6 @@ function CommissionsDetails() {
           ))}
         </div>
       </div>
-      <div className="commissionD">
-        <Footer />
-      </div>
-    </>
   );
 }
 
