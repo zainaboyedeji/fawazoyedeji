@@ -1,11 +1,9 @@
 import React from "react";
 import MobileHead from "../../components/mobile_head";
 import "./cv_page.scss";
-import Footer from "../../components/footer";
 
 function CVPage() {
   return (
-    <>
       <div className="grants">
         <MobileHead />
         <div>
@@ -103,8 +101,7 @@ function CVPage() {
           </p>
         </div>
       </div>
-      <Footer />
-    </>
+
   );
 }
 

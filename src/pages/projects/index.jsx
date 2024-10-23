@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import MobileHead from "../../components/mobile_head";
 import { Link } from "react-router-dom";
 import { projectsPage } from "../../config/constants";
-import Footer from "../../components/footer";
 
 function Projects() {
   useEffect(() => {
@@ -12,7 +11,6 @@ function Projects() {
     };
   }, []);
   return (
-    <>
       <div className="apps">
         <MobileHead />
         <div className="flex flex-wrap w-full next">
@@ -26,8 +24,6 @@ function Projects() {
           ))}
         </div>
       </div>
-      <Footer />
-    </>
   );
 }
 

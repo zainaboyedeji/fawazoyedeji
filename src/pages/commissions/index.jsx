@@ -3,7 +3,6 @@ import MobileHead from "../../components/mobile_head";
 import { Link } from "react-router-dom";
 import { commissionsPage } from "../../config/constants";
 import "./commissions.scss";
-import Footer from "../../components/footer";
 
 function Commissions() {
     useEffect(() => {
@@ -11,7 +10,6 @@ function Commissions() {
         return () => { document.body.classList.toggle('overflow-hidden', false); }
     }, []);
     return (
-        <>
             <div className="commissions">
                 <MobileHead />
                 <div className="flex flex-wrap w-full next">
@@ -25,8 +23,6 @@ function Commissions() {
                     ))}
                 </div>
             </div>
-            <Footer />
-        </>
     );
 }
 

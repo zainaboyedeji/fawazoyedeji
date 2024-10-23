@@ -1,10 +1,9 @@
 import React from "react";
 import MobileHead from "../../components/mobile_head";
-import Footer from "../../components/footer";
 
 function Multimedia() {
   return (
-    <>
+    <div className="apps">
       <MobileHead />
       <div className="flex  h-screen">
         <iframe
@@ -15,8 +14,7 @@ function Multimedia() {
           allowFullScreen
         ></iframe>
       </div>
-      <Footer/>
-    </>
+    </div>
   );
 }
 
