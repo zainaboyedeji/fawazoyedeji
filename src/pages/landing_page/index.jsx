@@ -24,7 +24,7 @@ function LandingPage() {
   return (
       <div className="land">
         <MobileHead />
-        <div className="allImg">
+        <div className="allFirstImg">
           <img src={one} alt="One" />
         </div>
         <div className="allImg">
