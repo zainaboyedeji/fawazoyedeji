@@ -1,33 +1,35 @@
 .land {
-	.allImg {
-		margin-left: 70px;
-		padding: 36px;
-		width: 100%;
-		img {
-			width: 100%;
-		}
-	}
-	.allFirstImg {
-		margin-left: 70px;
-		padding: 12px 36px 36px 36px;
-		width: 100%;
-		img {
-			width: 100%;
-		}
-	}
+  .allImg {
+    margin-left: 70px;
+    padding: 36px;
+    width: 100%;
+    img {
+      width: 100%;
+    }
+  }
+  .allFirstImg {
+    margin-left: 70px;
+    padding: 12px 36px 36px 36px;
+    width: 100%;
+    img {
+      width: 100%;
+    }
+  }
 }
 @media only screen and (max-width: 768px) {
-	.land {
-		
-		.min-land {
-			display: block;
-			
-
-		}
-		.allImg {
-			margin-left: 0 !important;
-			margin-bottom: 20px !important;
-			padding: 0 !important;
-		}
-	}
+  .land {
+    .min-land {
+      display: block;
+    }
+    .allImg {
+      margin-left: 0 !important;
+      margin-bottom: 20px !important;
+      padding: 0 !important;
+    }
+    .allFirstImg {
+      margin-left: 0 !important;
+      margin-bottom: 20px !important;
+      padding: 0 !important;
+    }
+  }
 }
