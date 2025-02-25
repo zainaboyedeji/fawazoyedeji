@@ -32,10 +32,10 @@ He has received grants, awards, and commissions from prestigious institutions in
 - **Agence France-Presse (AFP)**
 
 ## How to View & Connect
-- 📸 Portfolio: [Visit Portfolio](https://fawazoyedeji.com/)
-- 📄 CV: [View Here](https://fawazoyedeji.com/cv)
-- 📩 Contact: [Email](mailto:contactfawazoyedeji@gmail.com)
-- 🔗 Social Media: [Instagram](https://www.instagram.com/fawaz.oyedeji/) | [Twitter](https://twitter.com/fawazoyedeji)
+- 📸 Portfolio: [Visit Portfolio](https://fawazoyedeji.com/){:target="_blank"}
+- 📄 CV: [View Here](https://fawazoyedeji.com/cv){:target="_blank"}
+- 📩 Contact: [Email](mailto:contactfawazoyedeji@gmail.com){:target="_blank"}
+- 🔗 Social Media: [Instagram](https://www.instagram.com/fawaz.oyedeji/){:target="_blank"} | [Twitter](https://twitter.com/fawazoyedeji){:target="_blank"}
 
 ## License
 This project and all associated media are protected under copyright. Unauthorized reproduction or use without permission is prohibited.
