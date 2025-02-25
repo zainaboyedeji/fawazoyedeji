@@ -426,7 +426,7 @@ export const projectsPage = [
           The #EndSARS protest which started as a peaceful demonstration by
           thousands of youths quickly degenerated into chaos as security forces,
           mostly police began to use live ammunition and tear gas on protesters
-          leading to an estimated death of at least 100 individuals. 48 of whom
+          leading to an estimated death of at least 100 individuals. 12 of whom
           were killed on October 20, 2020, alone.
         </div>
         <div className="mt-4">
@@ -437,7 +437,7 @@ export const projectsPage = [
           Nigerians are still demanding freedom from repression.
         </div>
 
-        <div className="mt-4 mb-4">"2020"</div>
+        <div className="mt-4 mb-4 font-bold">"2020"</div>
       </div>
     ),
     items: [
@@ -503,7 +503,7 @@ export const projectsPage = [
           decisionand chose to combine this extracurricular activity with school
           work and personal life.
         </div>
-        <div className="mt-4 mb-4">"2018"</div>
+        <div className="mt-4 mb-4 font-bold">"2018"</div>
       </div>
     ),
     items: [
@@ -708,8 +708,9 @@ export const projectsPage = [
           of origin that has been kept alive till today. Although mainly
           occupied by Yorubas, their customs and traditions have been redefined
           with distinct customsthrough the influx of people from neighboring
-          states and the Nigerian hinterland.<div className="mt-4">"2018"</div>
-        </div>
+          states and the Nigerian hinterland.
+          <div className="mt-4 mb-4 font-bold">"2018"</div>
+          </div>
       </div>
     ),
     items: [

@@ -7,14 +7,14 @@ function TearSheet() {
       <div className="apps">
         <MobileHead />
         <div className="flex flex-wrap w-full next">
-          <p className="w-full text-center pt-2 font-bold text-2xl mb-5">
+          <p className="w-full text-center pt-2 font-bold text-4xl mb-5">
           Press news, articles, and client’s work.
           </p>
           <>
             {tearsheetPage.map((page, index) => (
               <div className="bottomLil mb-5">
                 <img src={page.src} alt="GF1" />
-                <p className="flex justify-center">{page.text}</p>
+                <p className="flex justify-center font-bold text-xl">{page.text}</p>
               </div>
             ))}
           </>
