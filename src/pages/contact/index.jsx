@@ -48,7 +48,7 @@ function Contact() {
               <strong>Location:</strong> Lagos, Nigeria.
             </p>
             <p>
-              <strong>Phone:</strong> +234-90-93173219.
+              <strong>Phone:</strong> +234-906-5286612
             </p>
           </div>
 
